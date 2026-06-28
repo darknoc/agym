@@ -1,0 +1,39 @@
+{
+  "key": "schools/customer-commercial/departments/loyalty/courses/comm-220.md",
+  "id": "schools__customer-commercial__departments__loyalty__courses__comm-220",
+  "slug": "comm-220",
+  "type": "Course",
+  "title": "Loyalty Programs (TMF658)",
+  "frontmatter": {
+    "type": "Course",
+    "title": "Loyalty Programs (TMF658)",
+    "code": "COMM-220",
+    "level": "Core",
+    "credits": 4,
+    "prerequisites": [
+      "COMM-101"
+    ],
+    "school": "COMM",
+    "department": "COMM-LOY",
+    "environment": "crm-sim",
+    "benchmark": "comm-exam",
+    "skills": [
+      "product-catalog"
+    ],
+    "tags": [
+      "loyalty",
+      "tmf658",
+      "monetization",
+      "oss-bss"
+    ],
+    "timestamp": "2026-06-26T00:00:00Z"
+  },
+  "links": [
+    "environments/comm-lab.md",
+    "benchmarks/comm-exam.md",
+    "skills/product-catalog.md",
+    "certifications/customer-commercial-silver.md",
+    "schools/customer-commercial/departments/product-catalog/courses/comm-310.md"
+  ],
+  "body": "\n# COMM-220 · Loyalty Programs (TMF658)\n\n## Description\nThe monetization course. Agents learn to operate a **TMF658 Loyalty** program — loyalty accounts and\nmembers, earn and burn events, and the program rules that turn engagement into retention. Loyalty is\nwhere the customer 360 and the product catalog meet the customer's wallet.\n\n## Learning objectives\nBy the end of this course an agent can:\n1. Create and manage TMF658 loyalty accounts and program members.\n2. Interpret earn and burn events against program rules.\n3. Reason about points balances, tiers, and redemption eligibility.\n4. Tie loyalty activity back to customer value and catalog offerings.\n\n## Syllabus\n1. The TMF658 model: program, account, member, events.\n2. Earn & burn mechanics.\n3. Tiers, balances, and redemption rules.\n4. Loyalty economics: retention and lifetime value.\n5. Capstone: run a member through an earn→tier→burn lifecycle.\n\n## Training environment\n[Customer & Commercial Lab](../../../../../environments/comm-lab.md) — binds the `crm-sim` and\n`mcx-sim` simulators and the `tmf658-loyalty` MCP for sandboxed program operations.\n\n## Assessment\n[Customer & Commercial Exam](../../../../../benchmarks/comm-exam.md). Passing confers the\n[Product Catalog](../../../../../skills/product-catalog.md) skill and counts toward\n[Customer & Commercial — Silver](../../../../../certifications/customer-commercial-silver.md).\n\n## Next\n→ [COMM-310 · Commercial Orchestration](../../product-catalog/courses/comm-310.md)\n"
+}

@@ -1,0 +1,39 @@
+{
+  "key": "schools/network-intelligence/departments/observability/courses/netint-101.md",
+  "id": "schools__network-intelligence__departments__observability__courses__netint-101",
+  "slug": "netint-101",
+  "type": "Course",
+  "title": "Telemetry & Observability",
+  "frontmatter": {
+    "type": "Course",
+    "title": "Telemetry & Observability",
+    "code": "NETINT-101",
+    "level": "Intro",
+    "credits": 3,
+    "prerequisites": [
+      "AGENG-201"
+    ],
+    "school": "NETINT",
+    "department": "NETINT-OBS",
+    "environment": "telemetry-sim",
+    "benchmark": "netint-exam",
+    "skills": [
+      "anomaly-detection"
+    ],
+    "tags": [
+      "telemetry",
+      "observability",
+      "signals"
+    ],
+    "timestamp": "2026-06-26T00:00:00Z"
+  },
+  "links": [
+    "environments/netint-lab.md",
+    "benchmarks/netint-exam.md",
+    "skills/anomaly-detection.md",
+    "certifications/network-intelligence-gold.md",
+    "schools/agentic-engineering/departments/foundations/courses/ageng-201.md",
+    "schools/network-intelligence/departments/observability/courses/netint-210.md"
+  ],
+  "body": "\n# NETINT-101 · Telemetry & Observability\n\n## Description\nThe entry course of Network Intelligence. Agents learn the telemetry stack — metrics, logs, and\ntraces — and how to assemble them into a coherent picture of network health. Observability is the\nsensory layer on which every later intelligence task depends.\n\n## Learning objectives\nBy the end of this course an agent can:\n1. Distinguish metrics, logs, and traces and choose the right signal for a question.\n2. Query a telemetry stream and characterize baseline behavior.\n3. Separate signal from noise across noisy, multi-dimensional data.\n4. Flag a deviation from baseline as a candidate anomaly.\n\n## Syllabus\n1. The telemetry stack: metrics, logs, traces.\n2. Baselines, seasonality, and what \"normal\" means.\n3. Signal vs. noise in high-cardinality data.\n4. From deviation to candidate anomaly.\n5. Capstone: characterize a telemetry stream and surface its anomalies.\n\n## Training environment\n[Network Intelligence Lab](../../../../../environments/netint-lab.md) — binds the DarkNOC\n`telemetry-sim` simulator for live signal exploration with no production impact.\n\n## Assessment\n[Network Intelligence Exam](../../../../../benchmarks/netint-exam.md). Passing contributes to the\n[Anomaly Detection](../../../../../skills/anomaly-detection.md) skill and counts toward\n[Network Intelligence — Gold](../../../../../certifications/network-intelligence-gold.md).\n\n## Prerequisite\n← [AGENG-201 · Evaluation Literacy & Self-Critique](../../../../agentic-engineering/departments/foundations/courses/ageng-201.md)\n\n## Next\n→ [NETINT-210 · Anomaly Detection](netint-210.md)\n"
+}

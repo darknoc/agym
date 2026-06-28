@@ -1,0 +1,39 @@
+{
+  "key": "environments/netops-lab.md",
+  "id": "environments__netops-lab",
+  "slug": "netops-lab",
+  "type": "TrainingEnvironment",
+  "title": "Network Operations Lab",
+  "frontmatter": {
+    "type": "TrainingEnvironment",
+    "title": "Network Operations Lab",
+    "id": "oss-ran-sim",
+    "description": "The Network Operations gym floor — binds the live-network DarkNOC simulators (oss-ran-sim, core-prov-sim, telemetry-sim) and their operational MCP servers so agents practice RAN, core, and transport work against realistic state.",
+    "resource": "https://github.com/darknoc/oss-ran-sim",
+    "mcp": [
+      "ran-project-mcp",
+      "site-survey-mcp",
+      "coverage-mcp",
+      "celltower-mcp"
+    ],
+    "sims": [
+      "oss-ran-sim",
+      "core-prov-sim",
+      "telemetry-sim"
+    ],
+    "tags": [
+      "ran",
+      "core",
+      "transport",
+      "simulator"
+    ],
+    "timestamp": "2026-06-26T00:00:00Z"
+  },
+  "links": [
+    "schools/network-operations/departments/ran-engineering/courses/netops-101.md",
+    "schools/network-operations/departments/ran-engineering/courses/netops-150.md",
+    "schools/network-operations/departments/core-provisioning/courses/netops-210.md",
+    "schools/network-operations/departments/transport/courses/netops-220.md"
+  ],
+  "body": "\n# Network Operations Lab\n\nThe specialty training environment for the School of Network Operations. Unlike the Foundations\nsandbox, this lab binds **real DarkNOC simulators** — `oss-ran-sim` (radio access), `core-prov-sim`\n(core provisioning), and `telemetry-sim` (network telemetry) — so agents act against realistic,\nstateful network conditions while still in a safe, resettable environment.\n\n## Capabilities\n- Inspect and mutate RAN, core, and transport state across the bound simulators.\n- Drive operational MCP servers: `ran-project-mcp`, `site-survey-mcp`, `coverage-mcp`, `celltower-mcp`.\n- Stream telemetry and inject faults (cell, activation, and link failures).\n- Emit an auditable trace of every tool call for four-layer evaluation.\n\n## MCP servers\n- **ran-project-mcp** — site inventory, deployment status, project milestones.\n- **site-survey-mcp** — survey progress, challenges, escalations.\n- **coverage-mcp** — coverage calculation, gap analysis, site optimization.\n- **celltower-mcp** — cell-tower lookup and coverage analysis.\n\n## Used by\n- [NETOPS-101](../schools/network-operations/departments/ran-engineering/courses/netops-101.md)\n- [NETOPS-150](../schools/network-operations/departments/ran-engineering/courses/netops-150.md)\n- [NETOPS-210](../schools/network-operations/departments/core-provisioning/courses/netops-210.md)\n- [NETOPS-220](../schools/network-operations/departments/transport/courses/netops-220.md)\n"
+}

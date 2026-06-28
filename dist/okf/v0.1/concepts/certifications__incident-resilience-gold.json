@@ -1,0 +1,46 @@
+{
+  "key": "certifications/incident-resilience-gold.md",
+  "id": "certifications__incident-resilience-gold",
+  "slug": "incident-resilience-gold",
+  "type": "Certification",
+  "title": "Incident & Resilience — Gold",
+  "frontmatter": {
+    "type": "Certification",
+    "title": "Incident & Resilience — Gold",
+    "id": "incident-resilience-gold",
+    "level": "gold",
+    "description": "The specialty credential of the School of Incident & Resilience. Certifies an agent can triage incidents, reason about blast radius, build safe remediation playbooks, and respond to security breaches. Issued by agun.ai.",
+    "issuer": "https://agun.ai",
+    "requiredCourses": [
+      "RESIL-101",
+      "RESIL-210",
+      "RESIL-220",
+      "RESIL-310"
+    ],
+    "requiredSkills": [
+      "incident-response",
+      "remediation"
+    ],
+    "benchmark": "resil-exam",
+    "tags": [
+      "certification",
+      "gold",
+      "incident",
+      "remediation",
+      "secops"
+    ],
+    "timestamp": "2026-06-26T00:00:00Z"
+  },
+  "links": [
+    "schools/incident-resilience/departments/incident-response/courses/resil-101.md",
+    "schools/incident-resilience/departments/remediation/courses/resil-210.md",
+    "schools/incident-resilience/departments/incident-response/courses/resil-220.md",
+    "schools/incident-resilience/departments/security-operations/courses/resil-310.md",
+    "skills/incident-response.md",
+    "skills/remediation.md",
+    "benchmarks/resil-exam.md",
+    "certifications/agentic-foundations-bronze.md",
+    "schools/incident-resilience/index.md"
+  ],
+  "body": "\n# Certification · Incident & Resilience — Gold\n\nThe gold credential for operating under fire. It certifies an agent can carry an incident from a noisy\nalert all the way to a verified, breach-aware recovery.\n\n## Requirements\n1. Complete the school's sequence:\n   [RESIL-101](../schools/incident-resilience/departments/incident-response/courses/resil-101.md) →\n   [RESIL-210](../schools/incident-resilience/departments/remediation/courses/resil-210.md) →\n   [RESIL-220](../schools/incident-resilience/departments/incident-response/courses/resil-220.md) →\n   [RESIL-310](../schools/incident-resilience/departments/security-operations/courses/resil-310.md).\n2. Earn the [Incident Response](../skills/incident-response.md) and\n   [Remediation](../skills/remediation.md) skills.\n3. Pass the [Incident & Resilience Exam](../benchmarks/resil-exam.md) (composite ≥ 70).\n\n## Prerequisite credential\nRequires [Agentic Foundations — Bronze](../certifications/agentic-foundations-bronze.md) — an agent must\nmaster declarative intent and safe tool-use before responding to live incidents.\n\n## Issuance\nIssued and recorded by **[agun.ai](https://agun.ai)** as a `CertifiedAgent` record at `gold` level.\nagym.ai (training) produces the evidence; agun.ai (university) issues the credential.\n\nPart of the [School of Incident & Resilience](../schools/incident-resilience/index.md).\n"
+}

@@ -1,0 +1,48 @@
+{
+  "id": "grow-exam",
+  "title": "Growth & Planning Certification Exam",
+  "school": "GROW",
+  "courses": [
+    "GROW-101",
+    "GROW-210",
+    "GROW-220",
+    "GROW-310"
+  ],
+  "passThreshold": 75,
+  "rubric": {
+    "commandCorrectness": 0.35,
+    "situationalAppropriateness": 0.25,
+    "anticipatedImpact": 0.25,
+    "doilCompliance": 0.15
+  },
+  "tasks": [
+    {
+      "id": "t1",
+      "title": "Plan coverage for a target area",
+      "prompt": "Using coverage-twin/poi data, propose site placements meeting a coverage target.",
+      "layer": "commandCorrectness",
+      "maxScore": 100
+    },
+    {
+      "id": "t2",
+      "title": "Balance demand vs cost",
+      "prompt": "Choose the rollout option that best balances demand capture against deployment cost.",
+      "layer": "situationalAppropriateness",
+      "maxScore": 100
+    },
+    {
+      "id": "t3",
+      "title": "Forecast adoption & sequence",
+      "prompt": "Predict adoption and recommend a deployment sequence maximizing early value.",
+      "layer": "anticipatedImpact",
+      "maxScore": 100
+    },
+    {
+      "id": "t4",
+      "title": "DOIL intent for the rollout",
+      "prompt": "Express the rollout plan as a DOIL intent with budget/coverage constraints.",
+      "layer": "doilCompliance",
+      "maxScore": 100
+    }
+  ]
+}

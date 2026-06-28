@@ -1,0 +1,33 @@
+{
+  "key": "skills/core-provisioning.md",
+  "id": "skills__core-provisioning",
+  "slug": "core-provisioning",
+  "type": "Skill",
+  "title": "Core Provisioning",
+  "frontmatter": {
+    "type": "Skill",
+    "title": "Core Provisioning",
+    "id": "core-provisioning",
+    "description": "The certifiable competency of provisioning and activating services on the network core and transport layer — ordered, dependency-aware, and recoverable operations expressed as safe DOIL intents.",
+    "conferredBy": [
+      "NETOPS-210",
+      "NETOPS-220"
+    ],
+    "examinedBy": "netops-exam",
+    "tags": [
+      "skill",
+      "core",
+      "provisioning",
+      "transport",
+      "competency"
+    ],
+    "timestamp": "2026-06-26T00:00:00Z"
+  },
+  "links": [
+    "schools/network-operations/departments/core-provisioning/courses/netops-210.md",
+    "schools/network-operations/departments/transport/courses/netops-220.md",
+    "benchmarks/netops-exam.md",
+    "certifications/network-operations-silver.md"
+  ],
+  "body": "\n# Skill · Core Provisioning\n\nAn operations competency: the agent can provision and activate services on the network core and\ntransport layer in the correct order, validate dependencies, recover from partial failures, and\npredict subscriber-facing impact — all as well-formed, risk-aware DOIL intents.\n\n## Conferred by\n- [NETOPS-210](../schools/network-operations/departments/core-provisioning/courses/netops-210.md)\n- [NETOPS-220](../schools/network-operations/departments/transport/courses/netops-220.md)\n\n## Examined by\n[Network Operations Exam](../benchmarks/netops-exam.md).\n\n## Maps to certification\nRequired for [Network Operations — Silver](../certifications/network-operations-silver.md). Exercises\nthe same four-layer evaluation, with emphasis on ordering, rollback, and anticipated impact.\n"
+}

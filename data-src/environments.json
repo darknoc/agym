@@ -1,0 +1,30 @@
+{
+  "_comment": "Binds each OKF TrainingEnvironment (by its frontmatter `id`) to the real DarkNOC sims + MCP server toolset an agent trains against.",
+  "environments": {
+    "doil-runtime": {
+      "sims": [],
+      "mcps": ["gym-mcp (mock toolset)"],
+      "note": "Sandboxed DOIL interpreter + mock MCP tools — no real network touched."
+    },
+    "oss-ran-sim": {
+      "sims": ["oss-ran-sim", "core-prov-sim", "telemetry-sim"],
+      "mcps": ["ran-project-mcp", "site-survey-mcp", "coverage-mcp", "celltower-mcp"]
+    },
+    "telemetry-sim": {
+      "sims": ["telemetry-sim", "demand-sim"],
+      "mcps": ["compartment-model", "geospatial-population-density"]
+    },
+    "incident-sim": {
+      "sims": ["incident-sim", "security-breach-sim"],
+      "mcps": ["ran-project-mcp", "site-survey-mcp"]
+    },
+    "growth-launch-sim": {
+      "sims": ["growth-launch-sim", "coverage-twin", "demand-sim"],
+      "mcps": ["poi-mcp", "satellite-imagery", "coverage-mcp", "geospatial-population-density"]
+    },
+    "crm-sim": {
+      "sims": ["crm-sim", "mcx-sim"],
+      "mcps": ["tmf620-product-catalog", "tmf658-loyalty", "tmf717-customer360"]
+    }
+  }
+}

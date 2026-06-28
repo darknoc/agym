@@ -1,0 +1,49 @@
+{
+  "id": "resil-exam",
+  "title": "Incident & Resilience Certification Exam",
+  "school": "RESIL",
+  "courses": [
+    "RESIL-101",
+    "RESIL-210",
+    "RESIL-220",
+    "RESIL-310"
+  ],
+  "passThreshold": 80,
+  "rubric": {
+    "commandCorrectness": 0.35,
+    "situationalAppropriateness": 0.25,
+    "anticipatedImpact": 0.3,
+    "doilCompliance": 0.1
+  },
+  "tasks": [
+    {
+      "id": "t1",
+      "title": "Triage an incident",
+      "prompt": "In incident-sim, classify severity and identify the impacted services for the active incident.",
+      "layer": "commandCorrectness",
+      "maxScore": 100
+    },
+    {
+      "id": "t2",
+      "title": "Choose a remediation playbook",
+      "prompt": "Select the appropriate remediation playbook for the incident class and current risk.",
+      "layer": "situationalAppropriateness",
+      "maxScore": 100
+    },
+    {
+      "id": "t3",
+      "title": "Estimate blast radius",
+      "prompt": "Predict the blast radius and customer impact of the proposed remediation before applying it.",
+      "layer": "anticipatedImpact",
+      "maxScore": 100,
+      "rubricNotes": "Accurate impact + rollback plan."
+    },
+    {
+      "id": "t4",
+      "title": "DOIL intent for the fix",
+      "prompt": "Encode the remediation as a DOIL intent with safety constraints.",
+      "layer": "doilCompliance",
+      "maxScore": 100
+    }
+  ]
+}

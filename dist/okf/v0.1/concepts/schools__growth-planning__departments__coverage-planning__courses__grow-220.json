@@ -1,0 +1,38 @@
+{
+  "key": "schools/growth-planning/departments/coverage-planning/courses/grow-220.md",
+  "id": "schools__growth-planning__departments__coverage-planning__courses__grow-220",
+  "slug": "grow-220",
+  "type": "Course",
+  "title": "Site Selection & POI Analysis",
+  "frontmatter": {
+    "type": "Course",
+    "title": "Site Selection & POI Analysis",
+    "code": "GROW-220",
+    "level": "Core",
+    "credits": 4,
+    "prerequisites": [
+      "GROW-101"
+    ],
+    "school": "GROW",
+    "department": "GROW-COV",
+    "environment": "growth-launch-sim",
+    "benchmark": "grow-exam",
+    "skills": [
+      "coverage-planning"
+    ],
+    "tags": [
+      "site-selection",
+      "poi",
+      "coverage"
+    ],
+    "timestamp": "2026-06-26T00:00:00Z"
+  },
+  "links": [
+    "environments/grow-lab.md",
+    "benchmarks/grow-exam.md",
+    "skills/coverage-planning.md",
+    "certifications/growth-planning-silver.md",
+    "schools/growth-planning/departments/deployment/courses/grow-310.md"
+  ],
+  "body": "\n# GROW-220 · Site Selection & POI Analysis\n\n## Description\nA deeper coverage course. Given a coverage goal, the agent must choose *which sites to build* — using\npoints-of-interest density, population, and satellite imagery to place sites where each one buys the\nmost served value.\n\n## Learning objectives\nBy the end of this course an agent can:\n1. Analyze POI density and category mix across a candidate area.\n2. Generate coverage polygons from POI and population clusters.\n3. Rank candidate sites by served population and POI value.\n4. Recommend a site set that satisfies a coverage goal under budget.\n\n## Syllabus\n1. POI data: categories, density, active venues.\n2. Building coverage polygons from POI and population clusters.\n3. Satellite imagery and terrain as siting evidence.\n4. Optimizing a site set under coverage and budget constraints.\n5. Capstone: select a site set for a district and defend the trade-offs.\n\n## Training environment\n[Growth & Planning Lab](../../../../../environments/grow-lab.md) — binds the `growth-launch-sim`,\n`coverage-twin`, and `demand-sim` simulators plus the POI, satellite-imagery, and coverage MCP toolset.\n\n## Assessment\n[Growth & Planning Exam](../../../../../benchmarks/grow-exam.md). Passing contributes to the\n[Coverage Planning](../../../../../skills/coverage-planning.md) skill and counts toward\n[Growth & Planning — Silver](../../../../../certifications/growth-planning-silver.md).\n\n## Next\n→ [GROW-310 · Rollout Sequencing](../../deployment/courses/grow-310.md)\n"
+}

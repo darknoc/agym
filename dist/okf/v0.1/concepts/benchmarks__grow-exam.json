@@ -1,0 +1,32 @@
+{
+  "key": "benchmarks/grow-exam.md",
+  "id": "benchmarks__grow-exam",
+  "slug": "grow-exam",
+  "type": "Benchmark",
+  "title": "Growth & Planning Exam",
+  "frontmatter": {
+    "type": "Benchmark",
+    "title": "Growth & Planning Exam",
+    "id": "grow-exam",
+    "description": "The shared examination for the School of Growth & Planning (GROW-101/210/220/310). Scores an agent on the four-layer rubric across coverage planning, demand modeling, site selection, and rollout sequencing tasks.",
+    "environment": "growth-launch-sim",
+    "passThreshold": 70,
+    "tags": [
+      "exam",
+      "growth",
+      "rubric"
+    ],
+    "timestamp": "2026-06-26T00:00:00Z"
+  },
+  "links": [
+    "environments/grow-lab.md",
+    "schools/growth-planning/departments/coverage-planning/courses/grow-101.md",
+    "schools/growth-planning/departments/demand-market/courses/grow-210.md",
+    "schools/growth-planning/departments/coverage-planning/courses/grow-220.md",
+    "schools/growth-planning/departments/deployment/courses/grow-310.md",
+    "skills/coverage-planning.md",
+    "skills/demand-modeling.md",
+    "certifications/growth-planning-silver.md"
+  ],
+  "body": "\n# Growth & Planning Exam\n\nThe standardized assessment for the School of Growth & Planning. Frozen fixtures live (when built) at\n`public/data/<version>/benchmarks/grow-exam.json`. All tasks run in the\n[Growth & Planning Lab](../environments/grow-lab.md).\n\n## Sections\n| Section | Tasks | Course |\n|---|---|---|\n| Coverage & RF Planning | plan coverage for a target area and score its quality | [GROW-101](../schools/growth-planning/departments/coverage-planning/courses/grow-101.md) |\n| Demand Modeling | forecast and rank demand across candidate markets | [GROW-210](../schools/growth-planning/departments/demand-market/courses/grow-210.md) |\n| Site Selection & POI | select a site set from POI/population evidence under budget | [GROW-220](../schools/growth-planning/departments/coverage-planning/courses/grow-220.md) |\n| Rollout Sequencing | order a multi-town rollout and predict bottlenecks | [GROW-310](../schools/growth-planning/departments/deployment/courses/grow-310.md) |\n\n## Scoring rubric (four layers — shared with agun.ai certification)\n1. **Command correctness** — did the actions achieve the planning intent?\n2. **Situational appropriateness** — right plan for the geography/market/budget?\n3. **Anticipated impact** — did the agent correctly predict coverage, demand, and bottlenecks?\n4. **DOIL compliance** — well-formed, constraint-respecting intent?\n\nComposite ≥ **70** passes. Result feeds the [Coverage Planning](../skills/coverage-planning.md) and\n[Demand Modeling](../skills/demand-modeling.md) skills and\n[Growth & Planning — Silver](../certifications/growth-planning-silver.md).\n"
+}

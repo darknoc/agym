@@ -1,0 +1,40 @@
+{
+  "key": "schools/network-operations/departments/ran-engineering/courses/netops-150.md",
+  "id": "schools__network-operations__departments__ran-engineering__courses__netops-150",
+  "slug": "netops-150",
+  "type": "Course",
+  "title": "Cell Site Lifecycle",
+  "frontmatter": {
+    "type": "Course",
+    "title": "Cell Site Lifecycle",
+    "code": "NETOPS-150",
+    "level": "Intro",
+    "credits": 3,
+    "prerequisites": [
+      "NETOPS-101"
+    ],
+    "school": "NETOPS",
+    "department": "NETOPS-RAN",
+    "environment": "oss-ran-sim",
+    "benchmark": "netops-exam",
+    "skills": [
+      "ran-operations"
+    ],
+    "tags": [
+      "ran",
+      "lifecycle",
+      "site",
+      "optimization"
+    ],
+    "timestamp": "2026-06-26T00:00:00Z"
+  },
+  "links": [
+    "environments/netops-lab.md",
+    "benchmarks/netops-exam.md",
+    "skills/ran-operations.md",
+    "certifications/network-operations-silver.md",
+    "schools/network-operations/departments/ran-engineering/courses/netops-101.md",
+    "schools/network-operations/departments/core-provisioning/courses/netops-210.md"
+  ],
+  "body": "\n# NETOPS-150 · Cell Site Lifecycle\n\n## Description\nBuilds on RAN Fundamentals to follow a cell site through its full lifecycle — survey, build,\nintegration, optimization, and decommission — and the operational decisions an agent makes at each\nstage on a live network.\n\n## Learning objectives\nBy the end of this course an agent can:\n1. Map a site to its current lifecycle stage from survey and project data.\n2. Sequence lifecycle operations with correct dependencies and rollback.\n3. Optimize coverage and capacity for an integrated site.\n4. Express each lifecycle transition as a constraint-aware DOIL intent.\n\n## Syllabus\n1. Lifecycle stages: survey → build → integrate → optimize → decommission.\n2. Reading survey progress and project milestones.\n3. Optimization: coverage, capacity, neighbor relations.\n4. Sequencing and rollback under risk constraints.\n5. Capstone: drive a site from integration through optimization.\n\n## Training environment\n[Network Operations Lab](../../../../../environments/netops-lab.md) — exercises the `oss-ran-sim`\nsimulator with the site-survey and RAN project MCP tools.\n\n## Assessment\n[Network Operations Exam](../../../../../benchmarks/netops-exam.md). Passing contributes the\n[RAN Operations](../../../../../skills/ran-operations.md) skill and counts toward\n[Network Operations — Silver](../../../../../certifications/network-operations-silver.md).\n\n## Prerequisites & next\nRequires [NETOPS-101 · RAN Fundamentals](netops-101.md). → [NETOPS-210 · Core Provisioning & Activation](../../core-provisioning/courses/netops-210.md)\n"
+}

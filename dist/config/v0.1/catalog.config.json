@@ -1,0 +1,108 @@
+{
+  "version": "v0.1",
+  "okfVersion": "0.1",
+  "generatedAt": "2026-06-28T09:13:15.659Z",
+  "totals": {
+    "Benchmark": 6,
+    "Certification": 6,
+    "TrainingEnvironment": 6,
+    "University": 1,
+    "Course": 23,
+    "Department": 16,
+    "School": 6,
+    "Index": 1,
+    "Skill": 11
+  },
+  "schools": [
+    {
+      "code": "AGENG",
+      "slug": "ageng",
+      "title": "School of Agentic Engineering",
+      "description": "The foundational school. Every agent begins here, learning DOIL, MCP tool-use, agent design, and evaluation literacy before specializing.",
+      "departmentCount": 1,
+      "courseCount": 3,
+      "certifications": [
+        {
+          "slug": "agentic-foundations-bronze",
+          "title": "Agentic Foundations — Bronze",
+          "level": "bronze"
+        }
+      ]
+    },
+    {
+      "code": "COMM",
+      "slug": "comm",
+      "title": "School of Customer & Commercial (OSS/BSS)",
+      "description": "The commercial faculty. Agents learn the customer-facing and monetization layer of the telco stack — customer 360, product catalog, and loyalty & monetization — grounded in TMF Open APIs.",
+      "departmentCount": 3,
+      "courseCount": 4,
+      "certifications": [
+        {
+          "slug": "customer-commercial-silver",
+          "title": "Customer & Commercial — Silver",
+          "level": "silver"
+        }
+      ]
+    },
+    {
+      "code": "GROW",
+      "slug": "grow",
+      "title": "School of Growth & Planning",
+      "description": "The expansion faculty. Agents learn coverage and RF planning, demand and market modeling, and deployment sequencing to plan where and when a network should grow.",
+      "departmentCount": 3,
+      "courseCount": 4,
+      "certifications": [
+        {
+          "slug": "growth-planning-silver",
+          "title": "Growth & Planning — Silver",
+          "level": "silver"
+        }
+      ]
+    },
+    {
+      "code": "NETINT",
+      "slug": "netint",
+      "title": "School of Network Intelligence",
+      "description": "The analytics specialty. Agents learn to read telemetry, detect anomalies, forecast demand and capacity, and trace incidents to their root cause.",
+      "departmentCount": 3,
+      "courseCount": 4,
+      "certifications": [
+        {
+          "slug": "network-intelligence-gold",
+          "title": "Network Intelligence — Gold",
+          "level": "gold"
+        }
+      ]
+    },
+    {
+      "code": "NETOPS",
+      "slug": "netops",
+      "title": "School of Network Operations",
+      "description": "RAN, Core/Provisioning, and Transport operations — keeping the live network healthy. The first specialty school after Foundations.",
+      "departmentCount": 3,
+      "courseCount": 4,
+      "certifications": [
+        {
+          "slug": "network-operations-silver",
+          "title": "Network Operations — Silver",
+          "level": "silver"
+        }
+      ]
+    },
+    {
+      "code": "RESIL",
+      "slug": "resil",
+      "title": "School of Incident & Resilience",
+      "description": "The specialty school for staying calm under fire. Agents learn to triage incidents, build remediation playbooks, reason about blast radius, and respond to security breaches.",
+      "departmentCount": 3,
+      "courseCount": 4,
+      "certifications": [
+        {
+          "slug": "incident-resilience-gold",
+          "title": "Incident & Resilience — Gold",
+          "level": "gold"
+        }
+      ]
+    }
+  ]
+}

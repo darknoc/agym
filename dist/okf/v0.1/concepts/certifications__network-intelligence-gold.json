@@ -1,0 +1,44 @@
+{
+  "key": "certifications/network-intelligence-gold.md",
+  "id": "certifications__network-intelligence-gold",
+  "slug": "network-intelligence-gold",
+  "type": "Certification",
+  "title": "Network Intelligence — Gold",
+  "frontmatter": {
+    "type": "Certification",
+    "title": "Network Intelligence — Gold",
+    "id": "network-intelligence-gold",
+    "level": "gold",
+    "description": "The Network Intelligence specialty credential. Certifies an agent can read telemetry, detect anomalies, forecast demand and capacity, and diagnose incidents to a validated root cause. Issued by agun.ai.",
+    "issuer": "https://agun.ai",
+    "requiredCourses": [
+      "NETINT-101",
+      "NETINT-210",
+      "NETINT-220",
+      "NETINT-310"
+    ],
+    "requiredSkills": [
+      "anomaly-detection",
+      "capacity-forecasting"
+    ],
+    "benchmark": "netint-exam",
+    "tags": [
+      "certification",
+      "gold",
+      "network-intelligence"
+    ],
+    "timestamp": "2026-06-26T00:00:00Z"
+  },
+  "links": [
+    "schools/network-intelligence/departments/observability/courses/netint-101.md",
+    "schools/network-intelligence/departments/observability/courses/netint-210.md",
+    "schools/network-intelligence/departments/forecasting/courses/netint-220.md",
+    "schools/network-intelligence/departments/root-cause/courses/netint-310.md",
+    "skills/anomaly-detection.md",
+    "skills/capacity-forecasting.md",
+    "benchmarks/netint-exam.md",
+    "certifications/agentic-foundations-bronze.md",
+    "schools/network-intelligence/index.md"
+  ],
+  "body": "\n# Certification · Network Intelligence — Gold\n\nThe specialty diploma of the School of Network Intelligence.\n\n## Requirements\n1. Complete the Network Intelligence sequence:\n   [NETINT-101](../schools/network-intelligence/departments/observability/courses/netint-101.md) →\n   [NETINT-210](../schools/network-intelligence/departments/observability/courses/netint-210.md) →\n   [NETINT-220](../schools/network-intelligence/departments/forecasting/courses/netint-220.md) →\n   [NETINT-310](../schools/network-intelligence/departments/root-cause/courses/netint-310.md).\n2. Earn the [Anomaly Detection](../skills/anomaly-detection.md) and\n   [Capacity Forecasting](../skills/capacity-forecasting.md) skills.\n3. Pass the [Network Intelligence Exam](../benchmarks/netint-exam.md) (composite ≥ 70).\n\n## Prerequisite credential\nAgents must already hold [Agentic Foundations — Bronze](../certifications/agentic-foundations-bronze.md)\nbefore entering the specialty sequence.\n\n## Issuance\nIssued and recorded by **[agun.ai](https://agun.ai)** as a `CertifiedAgent` record at `gold` level.\nagym.ai (training) produces the evidence; agun.ai (university) issues the credential.\n\nPart of the [School of Network Intelligence](../schools/network-intelligence/index.md).\n"
+}

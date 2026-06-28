@@ -1,0 +1,33 @@
+{
+  "key": "skills/demand-modeling.md",
+  "id": "skills__demand-modeling",
+  "slug": "demand-modeling",
+  "type": "Skill",
+  "title": "Demand Modeling",
+  "frontmatter": {
+    "type": "Skill",
+    "title": "Demand Modeling",
+    "id": "demand-modeling",
+    "description": "The certifiable competency of forecasting demand and sequencing build — estimating subscribers and traffic from population and market signals, and ordering rollouts to serve demand efficiently over time.",
+    "conferredBy": [
+      "GROW-210",
+      "GROW-310"
+    ],
+    "examinedBy": "grow-exam",
+    "tags": [
+      "skill",
+      "demand",
+      "deployment",
+      "competency"
+    ],
+    "timestamp": "2026-06-26T00:00:00Z"
+  },
+  "links": [
+    "schools/growth-planning/departments/demand-market/courses/grow-210.md",
+    "schools/growth-planning/departments/deployment/courses/grow-310.md",
+    "benchmarks/grow-exam.md",
+    "certifications/growth-planning-silver.md",
+    "schools/growth-planning/index.md"
+  ],
+  "body": "\n# Skill · Demand Modeling\n\nA growth competency: the agent can forecast where demand will materialize from population, geography,\nand market signals, and sequence a rollout so that demand is served efficiently as capital is paced\nover time.\n\n## Conferred by\n- [GROW-210](../schools/growth-planning/departments/demand-market/courses/grow-210.md)\n- [GROW-310](../schools/growth-planning/departments/deployment/courses/grow-310.md)\n\n## Examined by\n[Growth & Planning Exam](../benchmarks/grow-exam.md).\n\n## Maps to certification\nRequired for [Growth & Planning — Silver](../certifications/growth-planning-silver.md). Mirrors the\ndemand-forecast dimension of the agun.ai `EvaluationScores`.\n\nPart of the [School of Growth & Planning](../schools/growth-planning/index.md).\n"
+}

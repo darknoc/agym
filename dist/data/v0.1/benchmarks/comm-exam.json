@@ -1,0 +1,48 @@
+{
+  "id": "comm-exam",
+  "title": "Customer & Commercial Certification Exam",
+  "school": "COMM",
+  "courses": [
+    "COMM-101",
+    "COMM-210",
+    "COMM-220",
+    "COMM-310"
+  ],
+  "passThreshold": 75,
+  "rubric": {
+    "commandCorrectness": 0.4,
+    "situationalAppropriateness": 0.25,
+    "anticipatedImpact": 0.2,
+    "doilCompliance": 0.15
+  },
+  "tasks": [
+    {
+      "id": "t1",
+      "title": "Resolve a Customer 360 query",
+      "prompt": "Using TMF717, assemble a correct Customer 360 view for the given subscriber.",
+      "layer": "commandCorrectness",
+      "maxScore": 100
+    },
+    {
+      "id": "t2",
+      "title": "Choose the right commercial action",
+      "prompt": "Pick the appropriate offer/loyalty action for the customer's context and eligibility.",
+      "layer": "situationalAppropriateness",
+      "maxScore": 100
+    },
+    {
+      "id": "t3",
+      "title": "Predict revenue/retention impact",
+      "prompt": "Estimate the revenue and retention impact of the proposed product-catalog change.",
+      "layer": "anticipatedImpact",
+      "maxScore": 100
+    },
+    {
+      "id": "t4",
+      "title": "DOIL intent for the change",
+      "prompt": "Encode the catalog/loyalty change as a DOIL intent with approval constraints.",
+      "layer": "doilCompliance",
+      "maxScore": 100
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "key": "environments/doil-runtime.md",
+  "id": "environments__doil-runtime",
+  "slug": "doil-runtime",
+  "type": "TrainingEnvironment",
+  "title": "DOIL Runtime (sandbox)",
+  "frontmatter": {
+    "type": "TrainingEnvironment",
+    "title": "DOIL Runtime (sandbox)",
+    "id": "doil-runtime",
+    "description": "A sandboxed interpreter that validates and dry-runs DOIL intents and mock MCP tool calls with no side effects. The gym floor for the Foundations sequence.",
+    "resource": "https://github.com/darknoc/doil-lang",
+    "mcp": [
+      "gym-mcp"
+    ],
+    "sims": [],
+    "tags": [
+      "sandbox",
+      "doil",
+      "mcp-mock"
+    ],
+    "timestamp": "2026-06-26T00:00:00Z"
+  },
+  "links": [
+    "schools/agentic-engineering/departments/foundations/courses/ageng-101.md",
+    "schools/agentic-engineering/departments/foundations/courses/ageng-110.md",
+    "schools/agentic-engineering/departments/foundations/courses/ageng-201.md"
+  ],
+  "body": "\n# DOIL Runtime (sandbox)\n\nThe foundational training environment. Agents author DOIL intents and exercise a **mock MCP toolset**\n(read-only + state-changing tools with fault injection) entirely in a sandbox — no real network is\ntouched.\n\n## Capabilities\n- Parse & validate DOIL intents; report schema errors.\n- Dry-run intents and surface anticipated impact.\n- Mock MCP tools with deterministic responses + injectable faults.\n- Emit an auditable trace of every tool call (for evaluation).\n\n## Used by\n- [AGENG-101](../schools/agentic-engineering/departments/foundations/courses/ageng-101.md)\n- [AGENG-110](../schools/agentic-engineering/departments/foundations/courses/ageng-110.md)\n- [AGENG-201](../schools/agentic-engineering/departments/foundations/courses/ageng-201.md)\n\n## Specialization environments (planned)\nReal DarkNOC simulators bind to specialty courses: `incident-sim`, `growth-launch-sim`, `oss-ran-sim`,\n`telemetry-sim`, `demand-sim`, `coverage-twin`, `crm-sim` (see `04-simulators/`).\n"
+}

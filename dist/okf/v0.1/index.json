@@ -1,0 +1,2179 @@
+[
+  {
+    "key": "benchmarks/ageng-101-exam.md",
+    "id": "benchmarks__ageng-101-exam",
+    "slug": "ageng-101-exam",
+    "type": "Benchmark",
+    "title": "Agentic Foundations Exam",
+    "description": "The shared examination for the Foundations sequence (AGENG-101/110/201). Scores an agent on the four-layer rubric across DOIL authoring, tool-use, and self-evaluation tasks.",
+    "links": [
+      "schools/agentic-engineering/departments/foundations/courses/ageng-101.md",
+      "schools/agentic-engineering/departments/foundations/courses/ageng-110.md",
+      "schools/agentic-engineering/departments/foundations/courses/ageng-201.md",
+      "skills/doil-authoring.md",
+      "certifications/agentic-foundations-bronze.md"
+    ],
+    "fm": {
+      "id": "ageng-101-exam",
+      "passThreshold": 70,
+      "environment": "doil-runtime",
+      "tags": [
+        "exam",
+        "foundations",
+        "rubric"
+      ]
+    }
+  },
+  {
+    "key": "benchmarks/comm-exam.md",
+    "id": "benchmarks__comm-exam",
+    "slug": "comm-exam",
+    "type": "Benchmark",
+    "title": "Customer & Commercial Exam",
+    "description": "The standardized examination for the Customer & Commercial school. Scores an agent on the four-layer rubric across customer 360, product catalog, loyalty, and end-to-end orchestration tasks.",
+    "links": [
+      "environments/comm-lab.md",
+      "schools/customer-commercial/departments/customer-360/courses/comm-101.md",
+      "schools/customer-commercial/departments/product-catalog/courses/comm-210.md",
+      "schools/customer-commercial/departments/loyalty/courses/comm-220.md",
+      "schools/customer-commercial/departments/product-catalog/courses/comm-310.md",
+      "skills/customer-360.md",
+      "skills/product-catalog.md",
+      "certifications/customer-commercial-silver.md"
+    ],
+    "fm": {
+      "id": "comm-exam",
+      "passThreshold": 70,
+      "environment": "crm-sim",
+      "tags": [
+        "exam",
+        "commercial",
+        "oss-bss",
+        "rubric"
+      ]
+    }
+  },
+  {
+    "key": "benchmarks/grow-exam.md",
+    "id": "benchmarks__grow-exam",
+    "slug": "grow-exam",
+    "type": "Benchmark",
+    "title": "Growth & Planning Exam",
+    "description": "The shared examination for the School of Growth & Planning (GROW-101/210/220/310). Scores an agent on the four-layer rubric across coverage planning, demand modeling, site selection, and rollout sequencing tasks.",
+    "links": [
+      "environments/grow-lab.md",
+      "schools/growth-planning/departments/coverage-planning/courses/grow-101.md",
+      "schools/growth-planning/departments/demand-market/courses/grow-210.md",
+      "schools/growth-planning/departments/coverage-planning/courses/grow-220.md",
+      "schools/growth-planning/departments/deployment/courses/grow-310.md",
+      "skills/coverage-planning.md",
+      "skills/demand-modeling.md",
+      "certifications/growth-planning-silver.md"
+    ],
+    "fm": {
+      "id": "grow-exam",
+      "passThreshold": 70,
+      "environment": "growth-launch-sim",
+      "tags": [
+        "exam",
+        "growth",
+        "rubric"
+      ]
+    }
+  },
+  {
+    "key": "benchmarks/netint-exam.md",
+    "id": "benchmarks__netint-exam",
+    "slug": "netint-exam",
+    "type": "Benchmark",
+    "title": "Network Intelligence Exam",
+    "description": "The shared examination for the Network Intelligence sequence (NETINT-101/210/220/310). Scores an agent on the four-layer rubric across telemetry, anomaly detection, forecasting, and root-cause tasks.",
+    "links": [
+      "schools/network-intelligence/departments/observability/courses/netint-101.md",
+      "schools/network-intelligence/departments/observability/courses/netint-210.md",
+      "schools/network-intelligence/departments/forecasting/courses/netint-220.md",
+      "schools/network-intelligence/departments/root-cause/courses/netint-310.md",
+      "skills/anomaly-detection.md",
+      "skills/capacity-forecasting.md",
+      "certifications/network-intelligence-gold.md"
+    ],
+    "fm": {
+      "id": "netint-exam",
+      "passThreshold": 70,
+      "environment": "telemetry-sim",
+      "tags": [
+        "exam",
+        "network-intelligence",
+        "rubric"
+      ]
+    }
+  },
+  {
+    "key": "benchmarks/netops-exam.md",
+    "id": "benchmarks__netops-exam",
+    "slug": "netops-exam",
+    "type": "Benchmark",
+    "title": "Network Operations Exam",
+    "description": "The shared examination for the School of Network Operations (NETOPS-101/150/210/220). Scores an agent on the four-layer rubric across RAN, core-provisioning, and transport tasks against the live-network simulators.",
+    "links": [
+      "environments/netops-lab.md",
+      "schools/network-operations/departments/ran-engineering/courses/netops-101.md",
+      "schools/network-operations/departments/ran-engineering/courses/netops-150.md",
+      "schools/network-operations/departments/core-provisioning/courses/netops-210.md",
+      "schools/network-operations/departments/transport/courses/netops-220.md",
+      "skills/ran-operations.md",
+      "skills/core-provisioning.md",
+      "certifications/network-operations-silver.md"
+    ],
+    "fm": {
+      "id": "netops-exam",
+      "passThreshold": 70,
+      "environment": "oss-ran-sim",
+      "tags": [
+        "exam",
+        "network-operations",
+        "rubric"
+      ]
+    }
+  },
+  {
+    "key": "benchmarks/resil-exam.md",
+    "id": "benchmarks__resil-exam",
+    "slug": "resil-exam",
+    "type": "Benchmark",
+    "title": "Incident & Resilience Exam",
+    "description": "The standardized examination for the School of Incident & Resilience (RESIL-101/210/220/310). Scores an agent on the four-layer rubric across triage, blast-radius, remediation, and breach-response tasks.",
+    "links": [
+      "schools/incident-resilience/departments/incident-response/courses/resil-101.md",
+      "schools/incident-resilience/departments/incident-response/courses/resil-220.md",
+      "schools/incident-resilience/departments/remediation/courses/resil-210.md",
+      "schools/incident-resilience/departments/security-operations/courses/resil-310.md",
+      "skills/incident-response.md",
+      "skills/remediation.md",
+      "certifications/incident-resilience-gold.md"
+    ],
+    "fm": {
+      "id": "resil-exam",
+      "passThreshold": 70,
+      "environment": "incident-sim",
+      "tags": [
+        "exam",
+        "incident",
+        "remediation",
+        "secops",
+        "rubric"
+      ]
+    }
+  },
+  {
+    "key": "certifications/agentic-foundations-bronze.md",
+    "id": "certifications__agentic-foundations-bronze",
+    "slug": "agentic-foundations-bronze",
+    "type": "Certification",
+    "title": "Agentic Foundations — Bronze",
+    "description": "The entry credential of Agentic Gym University. Certifies an agent has mastered declarative intent, safe MCP tool-use, and evaluation literacy. Issued by agun.ai.",
+    "links": [
+      "schools/agentic-engineering/departments/foundations/courses/ageng-101.md",
+      "schools/agentic-engineering/departments/foundations/courses/ageng-110.md",
+      "schools/agentic-engineering/departments/foundations/courses/ageng-201.md",
+      "skills/doil-authoring.md",
+      "benchmarks/ageng-101-exam.md",
+      "schools/agentic-engineering/index.md"
+    ],
+    "fm": {
+      "level": "bronze",
+      "id": "agentic-foundations-bronze",
+      "benchmark": "ageng-101-exam",
+      "requiredCourses": [
+        "AGENG-101",
+        "AGENG-110",
+        "AGENG-201"
+      ],
+      "requiredSkills": [
+        "doil-authoring"
+      ],
+      "tags": [
+        "certification",
+        "bronze",
+        "foundational"
+      ]
+    }
+  },
+  {
+    "key": "certifications/customer-commercial-silver.md",
+    "id": "certifications__customer-commercial-silver",
+    "slug": "customer-commercial-silver",
+    "type": "Certification",
+    "title": "Customer & Commercial — Silver",
+    "description": "The commercial specialty credential. Certifies an agent can run the OSS/BSS commercial layer — customer 360, product catalog, loyalty, and end-to-end orchestration — across TMF Open APIs. Issued by agun.ai.",
+    "links": [
+      "certifications/agentic-foundations-bronze.md",
+      "schools/customer-commercial/departments/customer-360/courses/comm-101.md",
+      "schools/customer-commercial/departments/product-catalog/courses/comm-210.md",
+      "schools/customer-commercial/departments/loyalty/courses/comm-220.md",
+      "schools/customer-commercial/departments/product-catalog/courses/comm-310.md",
+      "skills/customer-360.md",
+      "skills/product-catalog.md",
+      "benchmarks/comm-exam.md",
+      "schools/customer-commercial/index.md"
+    ],
+    "fm": {
+      "level": "silver",
+      "id": "customer-commercial-silver",
+      "benchmark": "comm-exam",
+      "requiredCourses": [
+        "COMM-101",
+        "COMM-210",
+        "COMM-220",
+        "COMM-310"
+      ],
+      "requiredSkills": [
+        "customer-360",
+        "product-catalog"
+      ],
+      "tags": [
+        "certification",
+        "silver",
+        "commercial",
+        "oss-bss"
+      ]
+    }
+  },
+  {
+    "key": "certifications/growth-planning-silver.md",
+    "id": "certifications__growth-planning-silver",
+    "slug": "growth-planning-silver",
+    "type": "Certification",
+    "title": "Growth & Planning — Silver",
+    "description": "The specialty credential of the School of Growth & Planning. Certifies an agent can plan coverage, model demand, select sites, and sequence rollouts against real-world data. Issued by agun.ai.",
+    "links": [
+      "certifications/agentic-foundations-bronze.md",
+      "schools/growth-planning/departments/coverage-planning/courses/grow-101.md",
+      "schools/growth-planning/departments/demand-market/courses/grow-210.md",
+      "schools/growth-planning/departments/coverage-planning/courses/grow-220.md",
+      "schools/growth-planning/departments/deployment/courses/grow-310.md",
+      "skills/coverage-planning.md",
+      "skills/demand-modeling.md",
+      "benchmarks/grow-exam.md",
+      "schools/growth-planning/index.md"
+    ],
+    "fm": {
+      "level": "silver",
+      "id": "growth-planning-silver",
+      "benchmark": "grow-exam",
+      "requiredCourses": [
+        "GROW-101",
+        "GROW-210",
+        "GROW-220",
+        "GROW-310"
+      ],
+      "requiredSkills": [
+        "coverage-planning",
+        "demand-modeling"
+      ],
+      "tags": [
+        "certification",
+        "silver",
+        "growth"
+      ]
+    }
+  },
+  {
+    "key": "certifications/incident-resilience-gold.md",
+    "id": "certifications__incident-resilience-gold",
+    "slug": "incident-resilience-gold",
+    "type": "Certification",
+    "title": "Incident & Resilience — Gold",
+    "description": "The specialty credential of the School of Incident & Resilience. Certifies an agent can triage incidents, reason about blast radius, build safe remediation playbooks, and respond to security breaches. Issued by agun.ai.",
+    "links": [
+      "schools/incident-resilience/departments/incident-response/courses/resil-101.md",
+      "schools/incident-resilience/departments/remediation/courses/resil-210.md",
+      "schools/incident-resilience/departments/incident-response/courses/resil-220.md",
+      "schools/incident-resilience/departments/security-operations/courses/resil-310.md",
+      "skills/incident-response.md",
+      "skills/remediation.md",
+      "benchmarks/resil-exam.md",
+      "certifications/agentic-foundations-bronze.md",
+      "schools/incident-resilience/index.md"
+    ],
+    "fm": {
+      "level": "gold",
+      "id": "incident-resilience-gold",
+      "benchmark": "resil-exam",
+      "requiredCourses": [
+        "RESIL-101",
+        "RESIL-210",
+        "RESIL-220",
+        "RESIL-310"
+      ],
+      "requiredSkills": [
+        "incident-response",
+        "remediation"
+      ],
+      "tags": [
+        "certification",
+        "gold",
+        "incident",
+        "remediation",
+        "secops"
+      ]
+    }
+  },
+  {
+    "key": "certifications/network-intelligence-gold.md",
+    "id": "certifications__network-intelligence-gold",
+    "slug": "network-intelligence-gold",
+    "type": "Certification",
+    "title": "Network Intelligence — Gold",
+    "description": "The Network Intelligence specialty credential. Certifies an agent can read telemetry, detect anomalies, forecast demand and capacity, and diagnose incidents to a validated root cause. Issued by agun.ai.",
+    "links": [
+      "schools/network-intelligence/departments/observability/courses/netint-101.md",
+      "schools/network-intelligence/departments/observability/courses/netint-210.md",
+      "schools/network-intelligence/departments/forecasting/courses/netint-220.md",
+      "schools/network-intelligence/departments/root-cause/courses/netint-310.md",
+      "skills/anomaly-detection.md",
+      "skills/capacity-forecasting.md",
+      "benchmarks/netint-exam.md",
+      "certifications/agentic-foundations-bronze.md",
+      "schools/network-intelligence/index.md"
+    ],
+    "fm": {
+      "level": "gold",
+      "id": "network-intelligence-gold",
+      "benchmark": "netint-exam",
+      "requiredCourses": [
+        "NETINT-101",
+        "NETINT-210",
+        "NETINT-220",
+        "NETINT-310"
+      ],
+      "requiredSkills": [
+        "anomaly-detection",
+        "capacity-forecasting"
+      ],
+      "tags": [
+        "certification",
+        "gold",
+        "network-intelligence"
+      ]
+    }
+  },
+  {
+    "key": "certifications/network-operations-silver.md",
+    "id": "certifications__network-operations-silver",
+    "slug": "network-operations-silver",
+    "type": "Certification",
+    "title": "Network Operations — Silver",
+    "description": "The Network Operations specialty credential. Certifies an agent can operate a live network — RAN, core provisioning, and transport — safely through DOIL. Issued by agun.ai.",
+    "links": [
+      "schools/network-operations/departments/ran-engineering/courses/netops-101.md",
+      "schools/network-operations/departments/ran-engineering/courses/netops-150.md",
+      "schools/network-operations/departments/core-provisioning/courses/netops-210.md",
+      "schools/network-operations/departments/transport/courses/netops-220.md",
+      "skills/ran-operations.md",
+      "skills/core-provisioning.md",
+      "benchmarks/netops-exam.md",
+      "certifications/agentic-foundations-bronze.md",
+      "schools/network-operations/index.md"
+    ],
+    "fm": {
+      "level": "silver",
+      "id": "network-operations-silver",
+      "benchmark": "netops-exam",
+      "requiredCourses": [
+        "NETOPS-101",
+        "NETOPS-150",
+        "NETOPS-210",
+        "NETOPS-220"
+      ],
+      "requiredSkills": [
+        "ran-operations",
+        "core-provisioning"
+      ],
+      "tags": [
+        "certification",
+        "silver",
+        "network-operations"
+      ]
+    }
+  },
+  {
+    "key": "environments/comm-lab.md",
+    "id": "environments__comm-lab",
+    "slug": "comm-lab",
+    "type": "TrainingEnvironment",
+    "title": "Customer & Commercial Lab",
+    "description": "The commercial gym floor. Binds the DarkNOC crm-sim and mcx-sim simulators and the TMF Open API MCPs (product catalog, loyalty, customer 360) for safe, sandboxed OSS/BSS training.",
+    "links": [
+      "schools/customer-commercial/departments/customer-360/courses/comm-101.md",
+      "schools/customer-commercial/departments/product-catalog/courses/comm-210.md",
+      "schools/customer-commercial/departments/loyalty/courses/comm-220.md",
+      "schools/customer-commercial/departments/product-catalog/courses/comm-310.md"
+    ],
+    "fm": {
+      "id": "crm-sim",
+      "tags": [
+        "sandbox",
+        "oss-bss",
+        "tmforum",
+        "crm-sim"
+      ]
+    }
+  },
+  {
+    "key": "environments/doil-runtime.md",
+    "id": "environments__doil-runtime",
+    "slug": "doil-runtime",
+    "type": "TrainingEnvironment",
+    "title": "DOIL Runtime (sandbox)",
+    "description": "A sandboxed interpreter that validates and dry-runs DOIL intents and mock MCP tool calls with no side effects. The gym floor for the Foundations sequence.",
+    "links": [
+      "schools/agentic-engineering/departments/foundations/courses/ageng-101.md",
+      "schools/agentic-engineering/departments/foundations/courses/ageng-110.md",
+      "schools/agentic-engineering/departments/foundations/courses/ageng-201.md"
+    ],
+    "fm": {
+      "id": "doil-runtime",
+      "tags": [
+        "sandbox",
+        "doil",
+        "mcp-mock"
+      ]
+    }
+  },
+  {
+    "key": "environments/grow-lab.md",
+    "id": "environments__grow-lab",
+    "slug": "grow-lab",
+    "type": "TrainingEnvironment",
+    "title": "Growth & Planning Lab",
+    "description": "The gym floor for the School of Growth & Planning. Binds DarkNOC growth, coverage-twin, and demand simulators with the geospatial, POI, coverage, and imagery MCP toolset to plan coverage, demand, and rollouts against real-world data.",
+    "links": [
+      "schools/growth-planning/departments/coverage-planning/courses/grow-101.md",
+      "schools/growth-planning/departments/demand-market/courses/grow-210.md",
+      "schools/growth-planning/departments/coverage-planning/courses/grow-220.md",
+      "schools/growth-planning/departments/deployment/courses/grow-310.md",
+      "schools/growth-planning/index.md"
+    ],
+    "fm": {
+      "id": "growth-launch-sim",
+      "tags": [
+        "growth",
+        "coverage",
+        "demand",
+        "geospatial"
+      ]
+    }
+  },
+  {
+    "key": "environments/netint-lab.md",
+    "id": "environments__netint-lab",
+    "slug": "netint-lab",
+    "type": "TrainingEnvironment",
+    "title": "Network Intelligence Lab",
+    "description": "The Network Intelligence gym floor. Binds the DarkNOC telemetry-sim and demand-sim simulators plus the compartment-model and geospatial-population-density MCPs for anomaly, forecasting, and root-cause training with no production impact.",
+    "links": [
+      "schools/network-intelligence/departments/observability/courses/netint-101.md",
+      "schools/network-intelligence/departments/observability/courses/netint-210.md",
+      "schools/network-intelligence/departments/forecasting/courses/netint-220.md",
+      "schools/network-intelligence/departments/root-cause/courses/netint-310.md",
+      "schools/network-intelligence/index.md"
+    ],
+    "fm": {
+      "id": "telemetry-sim",
+      "tags": [
+        "lab",
+        "telemetry",
+        "forecasting",
+        "root-cause"
+      ]
+    }
+  },
+  {
+    "key": "environments/netops-lab.md",
+    "id": "environments__netops-lab",
+    "slug": "netops-lab",
+    "type": "TrainingEnvironment",
+    "title": "Network Operations Lab",
+    "description": "The Network Operations gym floor — binds the live-network DarkNOC simulators (oss-ran-sim, core-prov-sim, telemetry-sim) and their operational MCP servers so agents practice RAN, core, and transport work against realistic state.",
+    "links": [
+      "schools/network-operations/departments/ran-engineering/courses/netops-101.md",
+      "schools/network-operations/departments/ran-engineering/courses/netops-150.md",
+      "schools/network-operations/departments/core-provisioning/courses/netops-210.md",
+      "schools/network-operations/departments/transport/courses/netops-220.md"
+    ],
+    "fm": {
+      "id": "oss-ran-sim",
+      "tags": [
+        "ran",
+        "core",
+        "transport",
+        "simulator"
+      ]
+    }
+  },
+  {
+    "key": "environments/resil-lab.md",
+    "id": "environments__resil-lab",
+    "slug": "resil-lab",
+    "type": "TrainingEnvironment",
+    "title": "Incident & Resilience Lab",
+    "description": "A sandbox that replays DarkNOC incident and security-breach scenarios with no side effects. The gym floor for the School of Incident & Resilience.",
+    "links": [
+      "schools/incident-resilience/departments/incident-response/courses/resil-101.md",
+      "schools/incident-resilience/departments/incident-response/courses/resil-220.md",
+      "schools/incident-resilience/departments/remediation/courses/resil-210.md",
+      "schools/incident-resilience/departments/security-operations/courses/resil-310.md",
+      "schools/incident-resilience/index.md"
+    ],
+    "fm": {
+      "id": "incident-sim",
+      "tags": [
+        "sandbox",
+        "incident",
+        "breach",
+        "secops"
+      ]
+    }
+  },
+  {
+    "key": "index.md",
+    "id": "index",
+    "slug": "index",
+    "type": "University",
+    "title": "Agentic Gym University",
+    "description": "The institution where AI agents train (agym.ai) and are certified (agun.ai) for autonomous telecom network operations.",
+    "links": [
+      "environments/doil-runtime.md",
+      "benchmarks/ageng-101-exam.md",
+      "skills/doil-authoring.md",
+      "certifications/agentic-foundations-bronze.md",
+      "schools/index.md",
+      "schools/agentic-engineering/index.md",
+      "schools/network-operations/index.md",
+      "schools/network-intelligence/index.md",
+      "schools/incident-resilience/index.md",
+      "schools/growth-planning/index.md",
+      "schools/customer-commercial/index.md",
+      "README.md"
+    ],
+    "fm": {
+      "tags": [
+        "university",
+        "agentic",
+        "telecom",
+        "darknoc",
+        "okf"
+      ],
+      "catalogVersion": "v0.1"
+    }
+  },
+  {
+    "key": "schools/agentic-engineering/departments/foundations/courses/ageng-101.md",
+    "id": "schools__agentic-engineering__departments__foundations__courses__ageng-101",
+    "slug": "ageng-101",
+    "type": "Course",
+    "title": "Declarative Operations with DOIL",
+    "description": "",
+    "links": [
+      "environments/doil-runtime.md",
+      "benchmarks/ageng-101-exam.md",
+      "skills/doil-authoring.md",
+      "certifications/agentic-foundations-bronze.md",
+      "schools/agentic-engineering/departments/foundations/courses/ageng-110.md"
+    ],
+    "fm": {
+      "code": "AGENG-101",
+      "level": "Intro",
+      "credits": 3,
+      "prerequisites": [],
+      "school": "AGENG",
+      "department": "AGENG-FOUND",
+      "environment": "doil-runtime",
+      "benchmark": "ageng-101-exam",
+      "skills": [
+        "doil-authoring"
+      ],
+      "tags": [
+        "doil",
+        "declarative",
+        "intent"
+      ]
+    }
+  },
+  {
+    "key": "schools/agentic-engineering/departments/foundations/courses/ageng-110.md",
+    "id": "schools__agentic-engineering__departments__foundations__courses__ageng-110",
+    "slug": "ageng-110",
+    "type": "Course",
+    "title": "MCP Tool-Use & Safety",
+    "description": "",
+    "links": [
+      "environments/doil-runtime.md",
+      "benchmarks/ageng-101-exam.md",
+      "schools/agentic-engineering/departments/foundations/courses/ageng-101.md",
+      "schools/agentic-engineering/departments/foundations/courses/ageng-201.md"
+    ],
+    "fm": {
+      "code": "AGENG-110",
+      "level": "Intro",
+      "credits": 3,
+      "prerequisites": [
+        "AGENG-101"
+      ],
+      "school": "AGENG",
+      "department": "AGENG-FOUND",
+      "environment": "doil-runtime",
+      "benchmark": "ageng-101-exam",
+      "skills": [
+        "doil-authoring"
+      ],
+      "tags": [
+        "mcp",
+        "tools",
+        "safety"
+      ]
+    }
+  },
+  {
+    "key": "schools/agentic-engineering/departments/foundations/courses/ageng-201.md",
+    "id": "schools__agentic-engineering__departments__foundations__courses__ageng-201",
+    "slug": "ageng-201",
+    "type": "Course",
+    "title": "Evaluation Literacy & Self-Critique",
+    "description": "",
+    "links": [
+      "environments/doil-runtime.md",
+      "benchmarks/ageng-101-exam.md",
+      "certifications/agentic-foundations-bronze.md",
+      "schools/agentic-engineering/departments/foundations/courses/ageng-110.md"
+    ],
+    "fm": {
+      "code": "AGENG-201",
+      "level": "Core",
+      "credits": 4,
+      "prerequisites": [
+        "AGENG-110"
+      ],
+      "school": "AGENG",
+      "department": "AGENG-FOUND",
+      "environment": "doil-runtime",
+      "benchmark": "ageng-101-exam",
+      "skills": [
+        "doil-authoring"
+      ],
+      "tags": [
+        "evaluation",
+        "rubric",
+        "self-critique"
+      ]
+    }
+  },
+  {
+    "key": "schools/agentic-engineering/departments/foundations/index.md",
+    "id": "schools__agentic-engineering__departments__foundations__index",
+    "slug": "ageng-found",
+    "type": "Department",
+    "title": "Department of Foundations",
+    "description": "The core onboarding sequence every agent completes — declarative intent (DOIL), MCP tool-use, and evaluation literacy.",
+    "links": [
+      "skills/doil-authoring.md",
+      "benchmarks/ageng-101-exam.md",
+      "schools/agentic-engineering/departments/foundations/courses/ageng-101.md",
+      "schools/agentic-engineering/departments/foundations/courses/ageng-110.md",
+      "schools/agentic-engineering/departments/foundations/courses/ageng-201.md",
+      "schools/agentic-engineering/index.md"
+    ],
+    "fm": {
+      "code": "AGENG-FOUND",
+      "school": "AGENG",
+      "tags": [
+        "foundations",
+        "core-sequence"
+      ]
+    }
+  },
+  {
+    "key": "schools/agentic-engineering/index.md",
+    "id": "schools__agentic-engineering__index",
+    "slug": "ageng",
+    "type": "School",
+    "title": "School of Agentic Engineering",
+    "description": "The foundational school. Every agent begins here, learning DOIL, MCP tool-use, agent design, and evaluation literacy before specializing.",
+    "links": [
+      "schools/agentic-engineering/departments/foundations/index.md",
+      "certifications/agentic-foundations-bronze.md",
+      "index.md",
+      "schools/index.md"
+    ],
+    "fm": {
+      "code": "AGENG",
+      "tags": [
+        "foundational",
+        "doil",
+        "mcp",
+        "evaluation"
+      ]
+    }
+  },
+  {
+    "key": "schools/customer-commercial/departments/customer-360/courses/comm-101.md",
+    "id": "schools__customer-commercial__departments__customer-360__courses__comm-101",
+    "slug": "comm-101",
+    "type": "Course",
+    "title": "Customer 360 Fundamentals (TMF717)",
+    "description": "",
+    "links": [
+      "environments/comm-lab.md",
+      "benchmarks/comm-exam.md",
+      "skills/customer-360.md",
+      "certifications/customer-commercial-silver.md",
+      "schools/customer-commercial/departments/product-catalog/courses/comm-210.md"
+    ],
+    "fm": {
+      "code": "COMM-101",
+      "level": "Intro",
+      "credits": 3,
+      "prerequisites": [
+        "AGENG-201"
+      ],
+      "school": "COMM",
+      "department": "COMM-CX",
+      "environment": "crm-sim",
+      "benchmark": "comm-exam",
+      "skills": [
+        "customer-360"
+      ],
+      "tags": [
+        "customer-360",
+        "tmf717",
+        "oss-bss"
+      ]
+    }
+  },
+  {
+    "key": "schools/customer-commercial/departments/customer-360/index.md",
+    "id": "schools__customer-commercial__departments__customer-360__index",
+    "slug": "comm-cx",
+    "type": "Department",
+    "title": "Department of Customer 360",
+    "description": "The unified-customer-view track. Agents learn to assemble and reason over a complete TMF717 customer 360 — accounts, products, interactions, and value.",
+    "links": [
+      "skills/customer-360.md",
+      "benchmarks/comm-exam.md",
+      "schools/customer-commercial/departments/customer-360/courses/comm-101.md",
+      "schools/customer-commercial/index.md"
+    ],
+    "fm": {
+      "code": "COMM-CX",
+      "school": "COMM",
+      "tags": [
+        "customer-360",
+        "tmf717",
+        "oss-bss"
+      ]
+    }
+  },
+  {
+    "key": "schools/customer-commercial/departments/loyalty/courses/comm-220.md",
+    "id": "schools__customer-commercial__departments__loyalty__courses__comm-220",
+    "slug": "comm-220",
+    "type": "Course",
+    "title": "Loyalty Programs (TMF658)",
+    "description": "",
+    "links": [
+      "environments/comm-lab.md",
+      "benchmarks/comm-exam.md",
+      "skills/product-catalog.md",
+      "certifications/customer-commercial-silver.md",
+      "schools/customer-commercial/departments/product-catalog/courses/comm-310.md"
+    ],
+    "fm": {
+      "code": "COMM-220",
+      "level": "Core",
+      "credits": 4,
+      "prerequisites": [
+        "COMM-101"
+      ],
+      "school": "COMM",
+      "department": "COMM-LOY",
+      "environment": "crm-sim",
+      "benchmark": "comm-exam",
+      "skills": [
+        "product-catalog"
+      ],
+      "tags": [
+        "loyalty",
+        "tmf658",
+        "monetization",
+        "oss-bss"
+      ]
+    }
+  },
+  {
+    "key": "schools/customer-commercial/departments/loyalty/index.md",
+    "id": "schools__customer-commercial__departments__loyalty__index",
+    "slug": "comm-loy",
+    "type": "Department",
+    "title": "Department of Loyalty",
+    "description": "The monetization track. Agents learn to run a TMF658 loyalty program — accounts, members, earn/burn events, and the economics of retention.",
+    "links": [
+      "skills/product-catalog.md",
+      "benchmarks/comm-exam.md",
+      "schools/customer-commercial/departments/loyalty/courses/comm-220.md",
+      "schools/customer-commercial/index.md"
+    ],
+    "fm": {
+      "code": "COMM-LOY",
+      "school": "COMM",
+      "tags": [
+        "loyalty",
+        "tmf658",
+        "monetization",
+        "oss-bss"
+      ]
+    }
+  },
+  {
+    "key": "schools/customer-commercial/departments/product-catalog/courses/comm-210.md",
+    "id": "schools__customer-commercial__departments__product-catalog__courses__comm-210",
+    "slug": "comm-210",
+    "type": "Course",
+    "title": "Product Catalog Management (TMF620)",
+    "description": "",
+    "links": [
+      "environments/comm-lab.md",
+      "benchmarks/comm-exam.md",
+      "skills/product-catalog.md",
+      "certifications/customer-commercial-silver.md",
+      "schools/customer-commercial/departments/product-catalog/courses/comm-310.md"
+    ],
+    "fm": {
+      "code": "COMM-210",
+      "level": "Core",
+      "credits": 4,
+      "prerequisites": [
+        "COMM-101"
+      ],
+      "school": "COMM",
+      "department": "COMM-CAT",
+      "environment": "crm-sim",
+      "benchmark": "comm-exam",
+      "skills": [
+        "product-catalog"
+      ],
+      "tags": [
+        "product-catalog",
+        "tmf620",
+        "oss-bss"
+      ]
+    }
+  },
+  {
+    "key": "schools/customer-commercial/departments/product-catalog/courses/comm-310.md",
+    "id": "schools__customer-commercial__departments__product-catalog__courses__comm-310",
+    "slug": "comm-310",
+    "type": "Course",
+    "title": "Commercial Orchestration",
+    "description": "",
+    "links": [
+      "environments/comm-lab.md",
+      "benchmarks/comm-exam.md",
+      "skills/customer-360.md",
+      "certifications/customer-commercial-silver.md",
+      "schools/customer-commercial/index.md"
+    ],
+    "fm": {
+      "code": "COMM-310",
+      "level": "Advanced",
+      "credits": 4,
+      "prerequisites": [
+        "COMM-210"
+      ],
+      "school": "COMM",
+      "department": "COMM-CAT",
+      "environment": "crm-sim",
+      "benchmark": "comm-exam",
+      "skills": [
+        "customer-360"
+      ],
+      "tags": [
+        "orchestration",
+        "tmf620",
+        "tmf717",
+        "tmf658",
+        "oss-bss"
+      ]
+    }
+  },
+  {
+    "key": "schools/customer-commercial/departments/product-catalog/index.md",
+    "id": "schools__customer-commercial__departments__product-catalog__index",
+    "slug": "comm-cat",
+    "type": "Department",
+    "title": "Department of Product Catalog",
+    "description": "The offering-management track. Agents learn to author and orchestrate a TMF620 product catalog — specifications, offerings, prices, and commercial bundles.",
+    "links": [
+      "skills/product-catalog.md",
+      "benchmarks/comm-exam.md",
+      "schools/customer-commercial/departments/product-catalog/courses/comm-210.md",
+      "schools/customer-commercial/departments/product-catalog/courses/comm-310.md",
+      "schools/customer-commercial/index.md"
+    ],
+    "fm": {
+      "code": "COMM-CAT",
+      "school": "COMM",
+      "tags": [
+        "product-catalog",
+        "tmf620",
+        "oss-bss"
+      ]
+    }
+  },
+  {
+    "key": "schools/customer-commercial/index.md",
+    "id": "schools__customer-commercial__index",
+    "slug": "comm",
+    "type": "School",
+    "title": "School of Customer & Commercial (OSS/BSS)",
+    "description": "The commercial faculty. Agents learn the customer-facing and monetization layer of the telco stack — customer 360, product catalog, and loyalty & monetization — grounded in TMF Open APIs.",
+    "links": [
+      "schools/customer-commercial/departments/customer-360/index.md",
+      "schools/customer-commercial/departments/product-catalog/index.md",
+      "schools/customer-commercial/departments/loyalty/index.md",
+      "certifications/customer-commercial-silver.md",
+      "index.md",
+      "schools/index.md"
+    ],
+    "fm": {
+      "code": "COMM",
+      "tags": [
+        "customer",
+        "commercial",
+        "oss-bss",
+        "tmforum",
+        "monetization"
+      ]
+    }
+  },
+  {
+    "key": "schools/growth-planning/departments/coverage-planning/courses/grow-101.md",
+    "id": "schools__growth-planning__departments__coverage-planning__courses__grow-101",
+    "slug": "grow-101",
+    "type": "Course",
+    "title": "Coverage & RF Planning",
+    "description": "",
+    "links": [
+      "environments/grow-lab.md",
+      "benchmarks/grow-exam.md",
+      "skills/coverage-planning.md",
+      "certifications/growth-planning-silver.md",
+      "schools/growth-planning/departments/demand-market/courses/grow-210.md",
+      "schools/growth-planning/departments/coverage-planning/courses/grow-220.md"
+    ],
+    "fm": {
+      "code": "GROW-101",
+      "level": "Intro",
+      "credits": 3,
+      "prerequisites": [
+        "AGENG-201"
+      ],
+      "school": "GROW",
+      "department": "GROW-COV",
+      "environment": "growth-launch-sim",
+      "benchmark": "grow-exam",
+      "skills": [
+        "coverage-planning"
+      ],
+      "tags": [
+        "coverage",
+        "rf-planning",
+        "propagation"
+      ]
+    }
+  },
+  {
+    "key": "schools/growth-planning/departments/coverage-planning/courses/grow-220.md",
+    "id": "schools__growth-planning__departments__coverage-planning__courses__grow-220",
+    "slug": "grow-220",
+    "type": "Course",
+    "title": "Site Selection & POI Analysis",
+    "description": "",
+    "links": [
+      "environments/grow-lab.md",
+      "benchmarks/grow-exam.md",
+      "skills/coverage-planning.md",
+      "certifications/growth-planning-silver.md",
+      "schools/growth-planning/departments/deployment/courses/grow-310.md"
+    ],
+    "fm": {
+      "code": "GROW-220",
+      "level": "Core",
+      "credits": 4,
+      "prerequisites": [
+        "GROW-101"
+      ],
+      "school": "GROW",
+      "department": "GROW-COV",
+      "environment": "growth-launch-sim",
+      "benchmark": "grow-exam",
+      "skills": [
+        "coverage-planning"
+      ],
+      "tags": [
+        "site-selection",
+        "poi",
+        "coverage"
+      ]
+    }
+  },
+  {
+    "key": "schools/growth-planning/departments/coverage-planning/index.md",
+    "id": "schools__growth-planning__departments__coverage-planning__index",
+    "slug": "grow-cov",
+    "type": "Department",
+    "title": "Department of Coverage Planning",
+    "description": "Coverage and RF planning — modeling propagation, selecting sites, and analyzing points of interest to maximize served population per build.",
+    "links": [
+      "schools/growth-planning/departments/coverage-planning/courses/grow-101.md",
+      "schools/growth-planning/departments/coverage-planning/courses/grow-220.md",
+      "schools/growth-planning/index.md"
+    ],
+    "fm": {
+      "code": "GROW-COV",
+      "school": "GROW",
+      "tags": [
+        "coverage",
+        "rf-planning",
+        "site-selection"
+      ]
+    }
+  },
+  {
+    "key": "schools/growth-planning/departments/demand-market/courses/grow-210.md",
+    "id": "schools__growth-planning__departments__demand-market__courses__grow-210",
+    "slug": "grow-210",
+    "type": "Course",
+    "title": "Demand Modeling",
+    "description": "",
+    "links": [
+      "environments/grow-lab.md",
+      "benchmarks/grow-exam.md",
+      "skills/demand-modeling.md",
+      "certifications/growth-planning-silver.md",
+      "schools/growth-planning/departments/deployment/courses/grow-310.md"
+    ],
+    "fm": {
+      "code": "GROW-210",
+      "level": "Core",
+      "credits": 4,
+      "prerequisites": [
+        "GROW-101"
+      ],
+      "school": "GROW",
+      "department": "GROW-DMD",
+      "environment": "growth-launch-sim",
+      "benchmark": "grow-exam",
+      "skills": [
+        "demand-modeling"
+      ],
+      "tags": [
+        "demand",
+        "market",
+        "forecasting"
+      ]
+    }
+  },
+  {
+    "key": "schools/growth-planning/departments/demand-market/index.md",
+    "id": "schools__growth-planning__departments__demand-market__index",
+    "slug": "grow-dmd",
+    "type": "Department",
+    "title": "Department of Demand & Market",
+    "description": "Demand and market modeling — forecasting where traffic and subscribers will materialize so the network grows toward real demand.",
+    "links": [
+      "schools/growth-planning/departments/demand-market/courses/grow-210.md",
+      "schools/growth-planning/index.md"
+    ],
+    "fm": {
+      "code": "GROW-DMD",
+      "school": "GROW",
+      "tags": [
+        "demand",
+        "market",
+        "forecasting"
+      ]
+    }
+  },
+  {
+    "key": "schools/growth-planning/departments/deployment/courses/grow-310.md",
+    "id": "schools__growth-planning__departments__deployment__courses__grow-310",
+    "slug": "grow-310",
+    "type": "Course",
+    "title": "Rollout Sequencing",
+    "description": "",
+    "links": [
+      "environments/grow-lab.md",
+      "benchmarks/grow-exam.md",
+      "skills/demand-modeling.md",
+      "certifications/growth-planning-silver.md",
+      "certifications/growth-planning-silver.md",
+      "schools/growth-planning/index.md"
+    ],
+    "fm": {
+      "code": "GROW-310",
+      "level": "Advanced",
+      "credits": 4,
+      "prerequisites": [
+        "GROW-210"
+      ],
+      "school": "GROW",
+      "department": "GROW-DEPLOY",
+      "environment": "growth-launch-sim",
+      "benchmark": "grow-exam",
+      "skills": [
+        "demand-modeling"
+      ],
+      "tags": [
+        "deployment",
+        "rollout",
+        "sequencing"
+      ]
+    }
+  },
+  {
+    "key": "schools/growth-planning/departments/deployment/index.md",
+    "id": "schools__growth-planning__departments__deployment__index",
+    "slug": "grow-deploy",
+    "type": "Department",
+    "title": "Department of Deployment",
+    "description": "Deployment sequencing — ordering the rollout so capital, coverage, and demand are balanced across the build program.",
+    "links": [
+      "schools/growth-planning/departments/deployment/courses/grow-310.md",
+      "schools/growth-planning/index.md"
+    ],
+    "fm": {
+      "code": "GROW-DEPLOY",
+      "school": "GROW",
+      "tags": [
+        "deployment",
+        "rollout",
+        "sequencing"
+      ]
+    }
+  },
+  {
+    "key": "schools/growth-planning/index.md",
+    "id": "schools__growth-planning__index",
+    "slug": "grow",
+    "type": "School",
+    "title": "School of Growth & Planning",
+    "description": "The expansion faculty. Agents learn coverage and RF planning, demand and market modeling, and deployment sequencing to plan where and when a network should grow.",
+    "links": [
+      "schools/growth-planning/departments/coverage-planning/index.md",
+      "schools/growth-planning/departments/demand-market/index.md",
+      "schools/growth-planning/departments/deployment/index.md",
+      "certifications/growth-planning-silver.md",
+      "index.md",
+      "schools/index.md"
+    ],
+    "fm": {
+      "code": "GROW",
+      "tags": [
+        "coverage",
+        "rf-planning",
+        "demand",
+        "deployment"
+      ]
+    }
+  },
+  {
+    "key": "schools/incident-resilience/departments/incident-response/courses/resil-101.md",
+    "id": "schools__incident-resilience__departments__incident-response__courses__resil-101",
+    "slug": "resil-101",
+    "type": "Course",
+    "title": "Incident Triage",
+    "description": "",
+    "links": [
+      "environments/resil-lab.md",
+      "benchmarks/resil-exam.md",
+      "skills/incident-response.md",
+      "certifications/incident-resilience-gold.md",
+      "schools/incident-resilience/departments/incident-response/courses/resil-220.md"
+    ],
+    "fm": {
+      "code": "RESIL-101",
+      "level": "Intro",
+      "credits": 3,
+      "prerequisites": [
+        "AGENG-201"
+      ],
+      "school": "RESIL",
+      "department": "RESIL-IR",
+      "environment": "incident-sim",
+      "benchmark": "resil-exam",
+      "skills": [
+        "incident-response"
+      ],
+      "tags": [
+        "incident-response",
+        "triage",
+        "severity"
+      ]
+    }
+  },
+  {
+    "key": "schools/incident-resilience/departments/incident-response/courses/resil-220.md",
+    "id": "schools__incident-resilience__departments__incident-response__courses__resil-220",
+    "slug": "resil-220",
+    "type": "Course",
+    "title": "Blast-Radius & Impact Analysis",
+    "description": "",
+    "links": [
+      "environments/resil-lab.md",
+      "benchmarks/resil-exam.md",
+      "skills/incident-response.md",
+      "certifications/incident-resilience-gold.md",
+      "schools/incident-resilience/departments/incident-response/courses/resil-101.md",
+      "schools/incident-resilience/departments/security-operations/courses/resil-310.md"
+    ],
+    "fm": {
+      "code": "RESIL-220",
+      "level": "Core",
+      "credits": 4,
+      "prerequisites": [
+        "RESIL-101"
+      ],
+      "school": "RESIL",
+      "department": "RESIL-IR",
+      "environment": "incident-sim",
+      "benchmark": "resil-exam",
+      "skills": [
+        "incident-response"
+      ],
+      "tags": [
+        "incident-response",
+        "blast-radius",
+        "impact-analysis"
+      ]
+    }
+  },
+  {
+    "key": "schools/incident-resilience/departments/incident-response/index.md",
+    "id": "schools__incident-resilience__departments__incident-response__index",
+    "slug": "resil-ir",
+    "type": "Department",
+    "title": "Department of Incident Response",
+    "description": "The triage core. Agents learn to detect, triage, and reason about the blast radius and impact of network incidents.",
+    "links": [
+      "skills/incident-response.md",
+      "benchmarks/resil-exam.md",
+      "schools/incident-resilience/departments/incident-response/courses/resil-101.md",
+      "schools/incident-resilience/departments/incident-response/courses/resil-220.md",
+      "schools/incident-resilience/index.md"
+    ],
+    "fm": {
+      "code": "RESIL-IR",
+      "school": "RESIL",
+      "tags": [
+        "incident-response",
+        "triage",
+        "blast-radius"
+      ]
+    }
+  },
+  {
+    "key": "schools/incident-resilience/departments/remediation/courses/resil-210.md",
+    "id": "schools__incident-resilience__departments__remediation__courses__resil-210",
+    "slug": "resil-210",
+    "type": "Course",
+    "title": "Remediation Playbooks",
+    "description": "",
+    "links": [
+      "environments/resil-lab.md",
+      "benchmarks/resil-exam.md",
+      "skills/remediation.md",
+      "certifications/incident-resilience-gold.md",
+      "schools/incident-resilience/departments/incident-response/courses/resil-101.md",
+      "schools/incident-resilience/departments/security-operations/courses/resil-310.md"
+    ],
+    "fm": {
+      "code": "RESIL-210",
+      "level": "Core",
+      "credits": 4,
+      "prerequisites": [
+        "RESIL-101"
+      ],
+      "school": "RESIL",
+      "department": "RESIL-REM",
+      "environment": "incident-sim",
+      "benchmark": "resil-exam",
+      "skills": [
+        "remediation"
+      ],
+      "tags": [
+        "remediation",
+        "playbooks",
+        "rollback"
+      ]
+    }
+  },
+  {
+    "key": "schools/incident-resilience/departments/remediation/index.md",
+    "id": "schools__incident-resilience__departments__remediation__index",
+    "slug": "resil-rem",
+    "type": "Department",
+    "title": "Department of Remediation",
+    "description": "The fix-it department. Agents learn to author and execute safe, reversible remediation playbooks that resolve incidents without widening the blast radius.",
+    "links": [
+      "skills/remediation.md",
+      "benchmarks/resil-exam.md",
+      "schools/incident-resilience/departments/remediation/courses/resil-210.md",
+      "schools/incident-resilience/index.md"
+    ],
+    "fm": {
+      "code": "RESIL-REM",
+      "school": "RESIL",
+      "tags": [
+        "remediation",
+        "playbooks",
+        "recovery"
+      ]
+    }
+  },
+  {
+    "key": "schools/incident-resilience/departments/security-operations/courses/resil-310.md",
+    "id": "schools__incident-resilience__departments__security-operations__courses__resil-310",
+    "slug": "resil-310",
+    "type": "Course",
+    "title": "SecOps & Breach Response",
+    "description": "",
+    "links": [
+      "environments/resil-lab.md",
+      "benchmarks/resil-exam.md",
+      "skills/remediation.md",
+      "certifications/incident-resilience-gold.md",
+      "schools/incident-resilience/departments/remediation/courses/resil-210.md",
+      "certifications/incident-resilience-gold.md"
+    ],
+    "fm": {
+      "code": "RESIL-310",
+      "level": "Advanced",
+      "credits": 4,
+      "prerequisites": [
+        "RESIL-210"
+      ],
+      "school": "RESIL",
+      "department": "RESIL-SEC",
+      "environment": "incident-sim",
+      "benchmark": "resil-exam",
+      "skills": [
+        "remediation"
+      ],
+      "tags": [
+        "secops",
+        "breach-response",
+        "containment"
+      ]
+    }
+  },
+  {
+    "key": "schools/incident-resilience/departments/security-operations/index.md",
+    "id": "schools__incident-resilience__departments__security-operations__index",
+    "slug": "resil-sec",
+    "type": "Department",
+    "title": "Department of Security Operations",
+    "description": "The SecOps department. Agents learn to detect, contain, and respond to security breaches while coordinating remediation under adversarial conditions.",
+    "links": [
+      "skills/remediation.md",
+      "benchmarks/resil-exam.md",
+      "schools/incident-resilience/departments/security-operations/courses/resil-310.md",
+      "schools/incident-resilience/index.md"
+    ],
+    "fm": {
+      "code": "RESIL-SEC",
+      "school": "RESIL",
+      "tags": [
+        "secops",
+        "security",
+        "breach-response"
+      ]
+    }
+  },
+  {
+    "key": "schools/incident-resilience/index.md",
+    "id": "schools__incident-resilience__index",
+    "slug": "resil",
+    "type": "School",
+    "title": "School of Incident & Resilience",
+    "description": "The specialty school for staying calm under fire. Agents learn to triage incidents, build remediation playbooks, reason about blast radius, and respond to security breaches.",
+    "links": [
+      "schools/incident-resilience/departments/incident-response/index.md",
+      "schools/incident-resilience/departments/remediation/index.md",
+      "schools/incident-resilience/departments/security-operations/index.md",
+      "certifications/incident-resilience-gold.md",
+      "index.md",
+      "schools/index.md"
+    ],
+    "fm": {
+      "code": "RESIL",
+      "tags": [
+        "incident-response",
+        "remediation",
+        "secops",
+        "resilience"
+      ]
+    }
+  },
+  {
+    "key": "schools/index.md",
+    "id": "schools__index",
+    "slug": "index",
+    "type": "Index",
+    "title": "Schools",
+    "description": "The six schools of Agentic Gym University.",
+    "links": [
+      "schools/agentic-engineering/index.md",
+      "schools/network-operations/index.md",
+      "schools/network-intelligence/index.md",
+      "schools/incident-resilience/index.md",
+      "schools/growth-planning/index.md",
+      "schools/customer-commercial/index.md",
+      "schools/agentic-engineering/index.md",
+      "index.md"
+    ],
+    "fm": {
+      "tags": [
+        "schools",
+        "catalog"
+      ]
+    }
+  },
+  {
+    "key": "schools/network-intelligence/departments/forecasting/courses/netint-220.md",
+    "id": "schools__network-intelligence__departments__forecasting__courses__netint-220",
+    "slug": "netint-220",
+    "type": "Course",
+    "title": "Demand Forecasting",
+    "description": "",
+    "links": [
+      "environments/netint-lab.md",
+      "benchmarks/netint-exam.md",
+      "skills/capacity-forecasting.md",
+      "certifications/network-intelligence-gold.md",
+      "schools/network-intelligence/departments/observability/courses/netint-101.md",
+      "schools/network-intelligence/departments/root-cause/courses/netint-310.md"
+    ],
+    "fm": {
+      "code": "NETINT-220",
+      "level": "Core",
+      "credits": 4,
+      "prerequisites": [
+        "NETINT-101"
+      ],
+      "school": "NETINT",
+      "department": "NETINT-FCAST",
+      "environment": "telemetry-sim",
+      "benchmark": "netint-exam",
+      "skills": [
+        "capacity-forecasting"
+      ],
+      "tags": [
+        "forecasting",
+        "demand",
+        "capacity"
+      ]
+    }
+  },
+  {
+    "key": "schools/network-intelligence/departments/forecasting/index.md",
+    "id": "schools__network-intelligence__departments__forecasting__index",
+    "slug": "netint-fcast",
+    "type": "Department",
+    "title": "Department of Forecasting",
+    "description": "Demand and capacity forecasting — projecting future load and headroom from historical telemetry under real-world uncertainty.",
+    "links": [
+      "schools/network-intelligence/departments/forecasting/courses/netint-220.md",
+      "schools/network-intelligence/index.md"
+    ],
+    "fm": {
+      "code": "NETINT-FCAST",
+      "school": "NETINT",
+      "tags": [
+        "forecasting",
+        "demand",
+        "capacity"
+      ]
+    }
+  },
+  {
+    "key": "schools/network-intelligence/departments/observability/courses/netint-101.md",
+    "id": "schools__network-intelligence__departments__observability__courses__netint-101",
+    "slug": "netint-101",
+    "type": "Course",
+    "title": "Telemetry & Observability",
+    "description": "",
+    "links": [
+      "environments/netint-lab.md",
+      "benchmarks/netint-exam.md",
+      "skills/anomaly-detection.md",
+      "certifications/network-intelligence-gold.md",
+      "schools/agentic-engineering/departments/foundations/courses/ageng-201.md",
+      "schools/network-intelligence/departments/observability/courses/netint-210.md"
+    ],
+    "fm": {
+      "code": "NETINT-101",
+      "level": "Intro",
+      "credits": 3,
+      "prerequisites": [
+        "AGENG-201"
+      ],
+      "school": "NETINT",
+      "department": "NETINT-OBS",
+      "environment": "telemetry-sim",
+      "benchmark": "netint-exam",
+      "skills": [
+        "anomaly-detection"
+      ],
+      "tags": [
+        "telemetry",
+        "observability",
+        "signals"
+      ]
+    }
+  },
+  {
+    "key": "schools/network-intelligence/departments/observability/courses/netint-210.md",
+    "id": "schools__network-intelligence__departments__observability__courses__netint-210",
+    "slug": "netint-210",
+    "type": "Course",
+    "title": "Anomaly Detection",
+    "description": "",
+    "links": [
+      "environments/netint-lab.md",
+      "benchmarks/netint-exam.md",
+      "skills/anomaly-detection.md",
+      "certifications/network-intelligence-gold.md",
+      "schools/network-intelligence/departments/observability/courses/netint-101.md",
+      "schools/network-intelligence/departments/root-cause/courses/netint-310.md"
+    ],
+    "fm": {
+      "code": "NETINT-210",
+      "level": "Core",
+      "credits": 4,
+      "prerequisites": [
+        "NETINT-101"
+      ],
+      "school": "NETINT",
+      "department": "NETINT-OBS",
+      "environment": "telemetry-sim",
+      "benchmark": "netint-exam",
+      "skills": [
+        "anomaly-detection"
+      ],
+      "tags": [
+        "anomaly-detection",
+        "statistics",
+        "signals"
+      ]
+    }
+  },
+  {
+    "key": "schools/network-intelligence/departments/observability/index.md",
+    "id": "schools__network-intelligence__departments__observability__index",
+    "slug": "netint-obs",
+    "type": "Department",
+    "title": "Department of Observability",
+    "description": "Telemetry and observability — how an agent ingests signals, separates noise from signal, and detects anomalies in network behavior.",
+    "links": [
+      "schools/network-intelligence/departments/observability/courses/netint-101.md",
+      "schools/network-intelligence/departments/observability/courses/netint-210.md",
+      "schools/network-intelligence/index.md"
+    ],
+    "fm": {
+      "code": "NETINT-OBS",
+      "school": "NETINT",
+      "tags": [
+        "observability",
+        "telemetry",
+        "anomaly-detection"
+      ]
+    }
+  },
+  {
+    "key": "schools/network-intelligence/departments/root-cause/courses/netint-310.md",
+    "id": "schools__network-intelligence__departments__root-cause__courses__netint-310",
+    "slug": "netint-310",
+    "type": "Course",
+    "title": "Automated Root-Cause Analysis",
+    "description": "",
+    "links": [
+      "environments/netint-lab.md",
+      "benchmarks/netint-exam.md",
+      "skills/anomaly-detection.md",
+      "certifications/network-intelligence-gold.md",
+      "schools/network-intelligence/departments/observability/courses/netint-210.md"
+    ],
+    "fm": {
+      "code": "NETINT-310",
+      "level": "Advanced",
+      "credits": 4,
+      "prerequisites": [
+        "NETINT-210"
+      ],
+      "school": "NETINT",
+      "department": "NETINT-RCA",
+      "environment": "telemetry-sim",
+      "benchmark": "netint-exam",
+      "skills": [
+        "anomaly-detection"
+      ],
+      "tags": [
+        "root-cause",
+        "correlation",
+        "diagnosis"
+      ]
+    }
+  },
+  {
+    "key": "schools/network-intelligence/departments/root-cause/index.md",
+    "id": "schools__network-intelligence__departments__root-cause__index",
+    "slug": "netint-rca",
+    "type": "Department",
+    "title": "Department of Root-Cause",
+    "description": "Automated root-cause analysis — correlating anomalies across signals to isolate and validate the underlying cause of an incident.",
+    "links": [
+      "schools/network-intelligence/departments/root-cause/courses/netint-310.md",
+      "schools/network-intelligence/index.md"
+    ],
+    "fm": {
+      "code": "NETINT-RCA",
+      "school": "NETINT",
+      "tags": [
+        "root-cause",
+        "correlation",
+        "diagnosis"
+      ]
+    }
+  },
+  {
+    "key": "schools/network-intelligence/index.md",
+    "id": "schools__network-intelligence__index",
+    "slug": "netint",
+    "type": "School",
+    "title": "School of Network Intelligence",
+    "description": "The analytics specialty. Agents learn to read telemetry, detect anomalies, forecast demand and capacity, and trace incidents to their root cause.",
+    "links": [
+      "schools/network-intelligence/departments/observability/index.md",
+      "schools/network-intelligence/departments/forecasting/index.md",
+      "schools/network-intelligence/departments/root-cause/index.md",
+      "certifications/network-intelligence-gold.md",
+      "index.md",
+      "schools/index.md"
+    ],
+    "fm": {
+      "code": "NETINT",
+      "tags": [
+        "analytics",
+        "anomaly-detection",
+        "forecasting",
+        "root-cause"
+      ]
+    }
+  },
+  {
+    "key": "schools/network-operations/departments/core-provisioning/courses/netops-210.md",
+    "id": "schools__network-operations__departments__core-provisioning__courses__netops-210",
+    "slug": "netops-210",
+    "type": "Course",
+    "title": "Core Provisioning & Activation",
+    "description": "",
+    "links": [
+      "environments/netops-lab.md",
+      "benchmarks/netops-exam.md",
+      "skills/core-provisioning.md",
+      "certifications/network-operations-silver.md",
+      "schools/network-operations/departments/ran-engineering/courses/netops-101.md",
+      "schools/network-operations/departments/transport/courses/netops-220.md"
+    ],
+    "fm": {
+      "code": "NETOPS-210",
+      "level": "Core",
+      "credits": 4,
+      "prerequisites": [
+        "NETOPS-101"
+      ],
+      "school": "NETOPS",
+      "department": "NETOPS-CORE",
+      "environment": "oss-ran-sim",
+      "benchmark": "netops-exam",
+      "skills": [
+        "core-provisioning"
+      ],
+      "tags": [
+        "core",
+        "provisioning",
+        "activation"
+      ]
+    }
+  },
+  {
+    "key": "schools/network-operations/departments/core-provisioning/index.md",
+    "id": "schools__network-operations__departments__core-provisioning__index",
+    "slug": "netops-core",
+    "type": "Department",
+    "title": "Department of Core Provisioning",
+    "description": "Core network provisioning & activation — turning subscribers and services up safely on the core.",
+    "links": [
+      "skills/core-provisioning.md",
+      "benchmarks/netops-exam.md",
+      "schools/network-operations/departments/core-provisioning/courses/netops-210.md",
+      "schools/network-operations/index.md"
+    ],
+    "fm": {
+      "code": "NETOPS-CORE",
+      "school": "NETOPS",
+      "tags": [
+        "core",
+        "provisioning",
+        "activation"
+      ]
+    }
+  },
+  {
+    "key": "schools/network-operations/departments/ran-engineering/courses/netops-101.md",
+    "id": "schools__network-operations__departments__ran-engineering__courses__netops-101",
+    "slug": "netops-101",
+    "type": "Course",
+    "title": "RAN Fundamentals",
+    "description": "",
+    "links": [
+      "environments/netops-lab.md",
+      "benchmarks/netops-exam.md",
+      "skills/ran-operations.md",
+      "certifications/network-operations-silver.md",
+      "schools/network-operations/departments/ran-engineering/courses/netops-150.md"
+    ],
+    "fm": {
+      "code": "NETOPS-101",
+      "level": "Intro",
+      "credits": 3,
+      "prerequisites": [
+        "AGENG-201"
+      ],
+      "school": "NETOPS",
+      "department": "NETOPS-RAN",
+      "environment": "oss-ran-sim",
+      "benchmark": "netops-exam",
+      "skills": [
+        "ran-operations"
+      ],
+      "tags": [
+        "ran",
+        "fundamentals",
+        "radio-access"
+      ]
+    }
+  },
+  {
+    "key": "schools/network-operations/departments/ran-engineering/courses/netops-150.md",
+    "id": "schools__network-operations__departments__ran-engineering__courses__netops-150",
+    "slug": "netops-150",
+    "type": "Course",
+    "title": "Cell Site Lifecycle",
+    "description": "",
+    "links": [
+      "environments/netops-lab.md",
+      "benchmarks/netops-exam.md",
+      "skills/ran-operations.md",
+      "certifications/network-operations-silver.md",
+      "schools/network-operations/departments/ran-engineering/courses/netops-101.md",
+      "schools/network-operations/departments/core-provisioning/courses/netops-210.md"
+    ],
+    "fm": {
+      "code": "NETOPS-150",
+      "level": "Intro",
+      "credits": 3,
+      "prerequisites": [
+        "NETOPS-101"
+      ],
+      "school": "NETOPS",
+      "department": "NETOPS-RAN",
+      "environment": "oss-ran-sim",
+      "benchmark": "netops-exam",
+      "skills": [
+        "ran-operations"
+      ],
+      "tags": [
+        "ran",
+        "lifecycle",
+        "site",
+        "optimization"
+      ]
+    }
+  },
+  {
+    "key": "schools/network-operations/departments/ran-engineering/index.md",
+    "id": "schools__network-operations__departments__ran-engineering__index",
+    "slug": "netops-ran",
+    "type": "Department",
+    "title": "Department of RAN Engineering",
+    "description": "The radio access network lifecycle — from cell fundamentals through site lifecycle and optimization.",
+    "links": [
+      "skills/ran-operations.md",
+      "benchmarks/netops-exam.md",
+      "schools/network-operations/departments/ran-engineering/courses/netops-101.md",
+      "schools/network-operations/departments/ran-engineering/courses/netops-150.md",
+      "schools/network-operations/index.md"
+    ],
+    "fm": {
+      "code": "NETOPS-RAN",
+      "school": "NETOPS",
+      "tags": [
+        "ran",
+        "radio-access",
+        "optimization"
+      ]
+    }
+  },
+  {
+    "key": "schools/network-operations/departments/transport/courses/netops-220.md",
+    "id": "schools__network-operations__departments__transport__courses__netops-220",
+    "slug": "netops-220",
+    "type": "Course",
+    "title": "Transport & Backhaul",
+    "description": "",
+    "links": [
+      "environments/netops-lab.md",
+      "benchmarks/netops-exam.md",
+      "skills/core-provisioning.md",
+      "certifications/network-operations-silver.md",
+      "schools/network-operations/departments/ran-engineering/courses/netops-101.md",
+      "certifications/network-operations-silver.md"
+    ],
+    "fm": {
+      "code": "NETOPS-220",
+      "level": "Core",
+      "credits": 4,
+      "prerequisites": [
+        "NETOPS-101"
+      ],
+      "school": "NETOPS",
+      "department": "NETOPS-XPORT",
+      "environment": "oss-ran-sim",
+      "benchmark": "netops-exam",
+      "skills": [
+        "core-provisioning"
+      ],
+      "tags": [
+        "transport",
+        "backhaul",
+        "capacity"
+      ]
+    }
+  },
+  {
+    "key": "schools/network-operations/departments/transport/index.md",
+    "id": "schools__network-operations__departments__transport__index",
+    "slug": "netops-xport",
+    "type": "Department",
+    "title": "Department of Transport",
+    "description": "Transport & backhaul operations — the links that carry traffic between sites and the core.",
+    "links": [
+      "skills/core-provisioning.md",
+      "benchmarks/netops-exam.md",
+      "schools/network-operations/departments/transport/courses/netops-220.md",
+      "schools/network-operations/index.md"
+    ],
+    "fm": {
+      "code": "NETOPS-XPORT",
+      "school": "NETOPS",
+      "tags": [
+        "transport",
+        "backhaul"
+      ]
+    }
+  },
+  {
+    "key": "schools/network-operations/index.md",
+    "id": "schools__network-operations__index",
+    "slug": "netops",
+    "type": "School",
+    "title": "School of Network Operations",
+    "description": "RAN, Core/Provisioning, and Transport operations — keeping the live network healthy. The first specialty school after Foundations.",
+    "links": [
+      "schools/network-operations/departments/ran-engineering/index.md",
+      "schools/network-operations/departments/core-provisioning/index.md",
+      "schools/network-operations/departments/transport/index.md",
+      "certifications/network-operations-silver.md",
+      "index.md",
+      "schools/index.md"
+    ],
+    "fm": {
+      "code": "NETOPS",
+      "tags": [
+        "network-operations",
+        "ran",
+        "core",
+        "transport"
+      ]
+    }
+  },
+  {
+    "key": "skills/anomaly-detection.md",
+    "id": "skills__anomaly-detection",
+    "slug": "anomaly-detection",
+    "type": "Skill",
+    "title": "Anomaly Detection",
+    "description": "The certifiable competency of reading telemetry, separating signal from noise, and isolating real anomalies — then correlating them toward a validated root cause.",
+    "links": [
+      "schools/network-intelligence/departments/observability/courses/netint-101.md",
+      "schools/network-intelligence/departments/observability/courses/netint-210.md",
+      "schools/network-intelligence/departments/root-cause/courses/netint-310.md",
+      "benchmarks/netint-exam.md",
+      "certifications/network-intelligence-gold.md"
+    ],
+    "fm": {
+      "id": "anomaly-detection",
+      "tags": [
+        "skill",
+        "anomaly-detection",
+        "competency"
+      ]
+    }
+  },
+  {
+    "key": "skills/capacity-forecasting.md",
+    "id": "skills__capacity-forecasting",
+    "slug": "capacity-forecasting",
+    "type": "Skill",
+    "title": "Capacity Forecasting",
+    "description": "The certifiable competency of projecting future demand and capacity headroom from telemetry history, with honest uncertainty, and turning forecasts into planning recommendations.",
+    "links": [
+      "schools/network-intelligence/departments/forecasting/courses/netint-220.md",
+      "benchmarks/netint-exam.md",
+      "certifications/network-intelligence-gold.md"
+    ],
+    "fm": {
+      "id": "capacity-forecasting",
+      "tags": [
+        "skill",
+        "forecasting",
+        "competency"
+      ]
+    }
+  },
+  {
+    "key": "skills/core-provisioning.md",
+    "id": "skills__core-provisioning",
+    "slug": "core-provisioning",
+    "type": "Skill",
+    "title": "Core Provisioning",
+    "description": "The certifiable competency of provisioning and activating services on the network core and transport layer — ordered, dependency-aware, and recoverable operations expressed as safe DOIL intents.",
+    "links": [
+      "schools/network-operations/departments/core-provisioning/courses/netops-210.md",
+      "schools/network-operations/departments/transport/courses/netops-220.md",
+      "benchmarks/netops-exam.md",
+      "certifications/network-operations-silver.md"
+    ],
+    "fm": {
+      "id": "core-provisioning",
+      "tags": [
+        "skill",
+        "core",
+        "provisioning",
+        "transport",
+        "competency"
+      ]
+    }
+  },
+  {
+    "key": "skills/coverage-planning.md",
+    "id": "skills__coverage-planning",
+    "slug": "coverage-planning",
+    "type": "Skill",
+    "title": "Coverage Planning",
+    "description": "The certifiable competency of planning network coverage — selecting bands and propagation models, computing footprints, and choosing sites that maximize served population and POI value under budget.",
+    "links": [
+      "schools/growth-planning/departments/coverage-planning/courses/grow-101.md",
+      "schools/growth-planning/departments/coverage-planning/courses/grow-220.md",
+      "benchmarks/grow-exam.md",
+      "certifications/growth-planning-silver.md",
+      "schools/growth-planning/index.md"
+    ],
+    "fm": {
+      "id": "coverage-planning",
+      "tags": [
+        "skill",
+        "coverage",
+        "rf-planning",
+        "competency"
+      ]
+    }
+  },
+  {
+    "key": "skills/customer-360.md",
+    "id": "skills__customer-360",
+    "slug": "customer-360",
+    "type": "Skill",
+    "title": "Customer 360",
+    "description": "The certifiable competency of assembling, reconciling, and reasoning over a unified TMF717 customer 360 — and orchestrating commercial actions grounded in it.",
+    "links": [
+      "schools/customer-commercial/departments/customer-360/courses/comm-101.md",
+      "schools/customer-commercial/departments/product-catalog/courses/comm-310.md",
+      "benchmarks/comm-exam.md",
+      "certifications/customer-commercial-silver.md"
+    ],
+    "fm": {
+      "id": "customer-360",
+      "tags": [
+        "skill",
+        "customer-360",
+        "tmf717",
+        "competency"
+      ]
+    }
+  },
+  {
+    "key": "skills/demand-modeling.md",
+    "id": "skills__demand-modeling",
+    "slug": "demand-modeling",
+    "type": "Skill",
+    "title": "Demand Modeling",
+    "description": "The certifiable competency of forecasting demand and sequencing build — estimating subscribers and traffic from population and market signals, and ordering rollouts to serve demand efficiently over time.",
+    "links": [
+      "schools/growth-planning/departments/demand-market/courses/grow-210.md",
+      "schools/growth-planning/departments/deployment/courses/grow-310.md",
+      "benchmarks/grow-exam.md",
+      "certifications/growth-planning-silver.md",
+      "schools/growth-planning/index.md"
+    ],
+    "fm": {
+      "id": "demand-modeling",
+      "tags": [
+        "skill",
+        "demand",
+        "deployment",
+        "competency"
+      ]
+    }
+  },
+  {
+    "key": "skills/doil-authoring.md",
+    "id": "skills__doil-authoring",
+    "slug": "doil-authoring",
+    "type": "Skill",
+    "title": "DOIL Authoring",
+    "description": "The certifiable competency of expressing correct, safe, constraint-aware operational intent in DOIL and acting on it through MCP tools.",
+    "links": [
+      "schools/agentic-engineering/departments/foundations/courses/ageng-101.md",
+      "schools/agentic-engineering/departments/foundations/courses/ageng-110.md",
+      "schools/agentic-engineering/departments/foundations/courses/ageng-201.md",
+      "benchmarks/ageng-101-exam.md",
+      "certifications/agentic-foundations-bronze.md"
+    ],
+    "fm": {
+      "id": "doil-authoring",
+      "tags": [
+        "skill",
+        "doil",
+        "competency"
+      ]
+    }
+  },
+  {
+    "key": "skills/incident-response.md",
+    "id": "skills__incident-response",
+    "slug": "incident-response",
+    "type": "Skill",
+    "title": "Incident Response",
+    "description": "The certifiable competency of triaging a live incident, reasoning about its blast radius, and driving a sound first response under uncertainty.",
+    "links": [
+      "schools/incident-resilience/departments/incident-response/courses/resil-101.md",
+      "schools/incident-resilience/departments/incident-response/courses/resil-220.md",
+      "benchmarks/resil-exam.md",
+      "certifications/incident-resilience-gold.md"
+    ],
+    "fm": {
+      "id": "incident-response",
+      "tags": [
+        "skill",
+        "incident-response",
+        "triage",
+        "competency"
+      ]
+    }
+  },
+  {
+    "key": "skills/product-catalog.md",
+    "id": "skills__product-catalog",
+    "slug": "product-catalog",
+    "type": "Skill",
+    "title": "Product Catalog",
+    "description": "The certifiable competency of authoring, validating, and operating commercial offerings — TMF620 product catalog and TMF658 loyalty — as the monetization layer of the telco stack.",
+    "links": [
+      "schools/customer-commercial/departments/product-catalog/courses/comm-210.md",
+      "schools/customer-commercial/departments/loyalty/courses/comm-220.md",
+      "benchmarks/comm-exam.md",
+      "certifications/customer-commercial-silver.md"
+    ],
+    "fm": {
+      "id": "product-catalog",
+      "tags": [
+        "skill",
+        "product-catalog",
+        "tmf620",
+        "tmf658",
+        "competency"
+      ]
+    }
+  },
+  {
+    "key": "skills/ran-operations.md",
+    "id": "skills__ran-operations",
+    "slug": "ran-operations",
+    "type": "Skill",
+    "title": "RAN Operations",
+    "description": "The certifiable competency of operating a live radio access network — reading telemetry, driving a cell site through its lifecycle, and optimizing coverage and capacity through safe, constraint-aware DOIL intents.",
+    "links": [
+      "schools/network-operations/departments/ran-engineering/courses/netops-101.md",
+      "schools/network-operations/departments/ran-engineering/courses/netops-150.md",
+      "benchmarks/netops-exam.md",
+      "certifications/network-operations-silver.md"
+    ],
+    "fm": {
+      "id": "ran-operations",
+      "tags": [
+        "skill",
+        "ran",
+        "radio-access",
+        "competency"
+      ]
+    }
+  },
+  {
+    "key": "skills/remediation.md",
+    "id": "skills__remediation",
+    "slug": "remediation",
+    "type": "Skill",
+    "title": "Remediation",
+    "description": "The certifiable competency of authoring and executing safe, reversible remediation playbooks — including breach response — that resolve incidents without widening the blast radius.",
+    "links": [
+      "schools/incident-resilience/departments/remediation/courses/resil-210.md",
+      "schools/incident-resilience/departments/security-operations/courses/resil-310.md",
+      "benchmarks/resil-exam.md",
+      "certifications/incident-resilience-gold.md",
+      "skills/incident-response.md"
+    ],
+    "fm": {
+      "id": "remediation",
+      "tags": [
+        "skill",
+        "remediation",
+        "playbooks",
+        "secops",
+        "competency"
+      ]
+    }
+  }
+]

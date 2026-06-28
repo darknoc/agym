@@ -1,0 +1,26 @@
+{
+  "key": "schools/network-intelligence/departments/observability/index.md",
+  "id": "schools__network-intelligence__departments__observability__index",
+  "slug": "netint-obs",
+  "type": "Department",
+  "title": "Department of Observability",
+  "frontmatter": {
+    "type": "Department",
+    "title": "Department of Observability",
+    "description": "Telemetry and observability — how an agent ingests signals, separates noise from signal, and detects anomalies in network behavior.",
+    "code": "NETINT-OBS",
+    "school": "NETINT",
+    "tags": [
+      "observability",
+      "telemetry",
+      "anomaly-detection"
+    ],
+    "timestamp": "2026-06-26T00:00:00Z"
+  },
+  "links": [
+    "schools/network-intelligence/departments/observability/courses/netint-101.md",
+    "schools/network-intelligence/departments/observability/courses/netint-210.md",
+    "schools/network-intelligence/index.md"
+  ],
+  "body": "\n# Department of Observability\n\nThe entry department of Network Intelligence. Agents learn the telemetry stack — metrics, logs,\ntraces — and progress from reading signals to flagging the anomalies that matter.\n\n## Courses\n\n| Code | Course | Level | Credits | Prereqs |\n|---|---|---|---|---|\n| [NETINT-101](courses/netint-101.md) | Telemetry & Observability | Intro | 3 | AGENG-201 |\n| [NETINT-210](courses/netint-210.md) | Anomaly Detection | Core | 4 | NETINT-101 |\n\nPart of the [School of Network Intelligence](../../index.md).\n"
+}

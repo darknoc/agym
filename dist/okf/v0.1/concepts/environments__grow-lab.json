@@ -1,0 +1,40 @@
+{
+  "key": "environments/grow-lab.md",
+  "id": "environments__grow-lab",
+  "slug": "grow-lab",
+  "type": "TrainingEnvironment",
+  "title": "Growth & Planning Lab",
+  "frontmatter": {
+    "type": "TrainingEnvironment",
+    "title": "Growth & Planning Lab",
+    "id": "growth-launch-sim",
+    "description": "The gym floor for the School of Growth & Planning. Binds DarkNOC growth, coverage-twin, and demand simulators with the geospatial, POI, coverage, and imagery MCP toolset to plan coverage, demand, and rollouts against real-world data.",
+    "resource": "https://github.com/darknoc/growth-launch-sim",
+    "mcp": [
+      "poi-mcp",
+      "satellite-imagery",
+      "coverage-mcp",
+      "geospatial-population-density"
+    ],
+    "sims": [
+      "growth-launch-sim",
+      "coverage-twin",
+      "demand-sim"
+    ],
+    "tags": [
+      "growth",
+      "coverage",
+      "demand",
+      "geospatial"
+    ],
+    "timestamp": "2026-06-26T00:00:00Z"
+  },
+  "links": [
+    "schools/growth-planning/departments/coverage-planning/courses/grow-101.md",
+    "schools/growth-planning/departments/demand-market/courses/grow-210.md",
+    "schools/growth-planning/departments/coverage-planning/courses/grow-220.md",
+    "schools/growth-planning/departments/deployment/courses/grow-310.md",
+    "schools/growth-planning/index.md"
+  ],
+  "body": "\n# Growth & Planning Lab\n\nThe specialization environment for the School of Growth & Planning. Agents plan coverage, forecast\ndemand, and sequence rollouts against realistic geospatial, population, and points-of-interest data —\nwithout committing a single real build.\n\n## Capabilities\n- Drive the `growth-launch-sim`, `coverage-twin`, and `demand-sim` simulators.\n- Compute coverage footprints and quality over real terrain via `coverage-mcp`.\n- Query population density and gradients via `geospatial-population-density`.\n- Analyze POI density and venues via `poi-mcp`; pull terrain evidence via `satellite-imagery`.\n- Emit an auditable trace of every tool call for evaluation.\n\n## Used by\n- [GROW-101](../schools/growth-planning/departments/coverage-planning/courses/grow-101.md)\n- [GROW-210](../schools/growth-planning/departments/demand-market/courses/grow-210.md)\n- [GROW-220](../schools/growth-planning/departments/coverage-planning/courses/grow-220.md)\n- [GROW-310](../schools/growth-planning/departments/deployment/courses/grow-310.md)\n\nPart of the [School of Growth & Planning](../schools/growth-planning/index.md).\n"
+}

@@ -1,0 +1,28 @@
+{
+  "key": "schools/agentic-engineering/departments/foundations/index.md",
+  "id": "schools__agentic-engineering__departments__foundations__index",
+  "slug": "ageng-found",
+  "type": "Department",
+  "title": "Department of Foundations",
+  "frontmatter": {
+    "type": "Department",
+    "title": "Department of Foundations",
+    "description": "The core onboarding sequence every agent completes — declarative intent (DOIL), MCP tool-use, and evaluation literacy.",
+    "code": "AGENG-FOUND",
+    "school": "AGENG",
+    "tags": [
+      "foundations",
+      "core-sequence"
+    ],
+    "timestamp": "2026-06-26T00:00:00Z"
+  },
+  "links": [
+    "skills/doil-authoring.md",
+    "benchmarks/ageng-101-exam.md",
+    "schools/agentic-engineering/departments/foundations/courses/ageng-101.md",
+    "schools/agentic-engineering/departments/foundations/courses/ageng-110.md",
+    "schools/agentic-engineering/departments/foundations/courses/ageng-201.md",
+    "schools/agentic-engineering/index.md"
+  ],
+  "body": "\n# Department of Foundations\n\nThe required core sequence. Courses are taken in order; each confers a [Skill](../../../../skills/doil-authoring.md)\nand is examined by a [Benchmark](../../../../benchmarks/ageng-101-exam.md).\n\n## Courses\n\n| Code | Course | Level | Credits | Prereqs |\n|---|---|---|---|---|\n| [AGENG-101](courses/ageng-101.md) | Declarative Operations with DOIL | Intro | 3 | — |\n| [AGENG-110](courses/ageng-110.md) | MCP Tool-Use & Safety | Intro | 3 | AGENG-101 |\n| [AGENG-201](courses/ageng-201.md) | Evaluation Literacy & Self-Critique | Core | 4 | AGENG-110 |\n\nPart of the [School of Agentic Engineering](../../index.md).\n"
+}

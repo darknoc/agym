@@ -1,0 +1,34 @@
+{
+  "key": "skills/remediation.md",
+  "id": "skills__remediation",
+  "slug": "remediation",
+  "type": "Skill",
+  "title": "Remediation",
+  "frontmatter": {
+    "type": "Skill",
+    "title": "Remediation",
+    "id": "remediation",
+    "description": "The certifiable competency of authoring and executing safe, reversible remediation playbooks — including breach response — that resolve incidents without widening the blast radius.",
+    "conferredBy": [
+      "RESIL-210",
+      "RESIL-310"
+    ],
+    "examinedBy": "resil-exam",
+    "tags": [
+      "skill",
+      "remediation",
+      "playbooks",
+      "secops",
+      "competency"
+    ],
+    "timestamp": "2026-06-26T00:00:00Z"
+  },
+  "links": [
+    "schools/incident-resilience/departments/remediation/courses/resil-210.md",
+    "schools/incident-resilience/departments/security-operations/courses/resil-310.md",
+    "benchmarks/resil-exam.md",
+    "certifications/incident-resilience-gold.md",
+    "skills/incident-response.md"
+  ],
+  "body": "\n# Skill · Remediation\n\nA specialty competency: the agent can author an ordered, reversible playbook of DOIL intents, execute\nit under a scope budget with verification and rollback, and apply it to adversarial breach scenarios\nwithout empowering the attacker.\n\n## Conferred by\n- [RESIL-210](../schools/incident-resilience/departments/remediation/courses/resil-210.md)\n- [RESIL-310](../schools/incident-resilience/departments/security-operations/courses/resil-310.md)\n\n## Examined by\n[Incident & Resilience Exam](../benchmarks/resil-exam.md).\n\n## Maps to certification\nRequired for [Incident & Resilience — Gold](../certifications/incident-resilience-gold.md). Pairs with\n[Incident Response](incident-response.md) to complete the school's competency set.\n"
+}

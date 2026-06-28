@@ -1,0 +1,129 @@
+{
+  "version": "v0.1",
+  "certifications": [
+    {
+      "id": "agentic-foundations-bronze",
+      "slug": "agentic-foundations-bronze",
+      "title": "Agentic Foundations — Bronze",
+      "level": "bronze",
+      "school": "AGENG",
+      "agunDepartment": "foundations",
+      "agunLabel": "Foundations",
+      "requiredCourses": [
+        "AGENG-101",
+        "AGENG-110",
+        "AGENG-201"
+      ],
+      "requiredSkills": [
+        "doil-authoring"
+      ],
+      "benchmark": "ageng-101-exam",
+      "description": "The entry credential of Agentic Gym University. Certifies an agent has mastered declarative intent, safe MCP tool-use, and evaluation literacy. Issued by agun.ai."
+    },
+    {
+      "id": "customer-commercial-silver",
+      "slug": "customer-commercial-silver",
+      "title": "Customer & Commercial — Silver",
+      "level": "silver",
+      "school": "COMM",
+      "agunDepartment": "customer-commercial",
+      "agunLabel": "Customer & Commercial",
+      "requiredCourses": [
+        "COMM-101",
+        "COMM-210",
+        "COMM-220",
+        "COMM-310"
+      ],
+      "requiredSkills": [
+        "customer-360",
+        "product-catalog"
+      ],
+      "benchmark": "comm-exam",
+      "description": "The commercial specialty credential. Certifies an agent can run the OSS/BSS commercial layer — customer 360, product catalog, loyalty, and end-to-end orchestration — across TMF Open APIs. Issued by agun.ai."
+    },
+    {
+      "id": "growth-planning-silver",
+      "slug": "growth-planning-silver",
+      "title": "Growth & Planning — Silver",
+      "level": "silver",
+      "school": "GROW",
+      "agunDepartment": "energy-management",
+      "agunLabel": "Energy & Growth",
+      "requiredCourses": [
+        "GROW-101",
+        "GROW-210",
+        "GROW-220",
+        "GROW-310"
+      ],
+      "requiredSkills": [
+        "coverage-planning",
+        "demand-modeling"
+      ],
+      "benchmark": "grow-exam",
+      "description": "The specialty credential of the School of Growth & Planning. Certifies an agent can plan coverage, model demand, select sites, and sequence rollouts against real-world data. Issued by agun.ai."
+    },
+    {
+      "id": "incident-resilience-gold",
+      "slug": "incident-resilience-gold",
+      "title": "Incident & Resilience — Gold",
+      "level": "gold",
+      "school": "RESIL",
+      "agunDepartment": "security-operations",
+      "agunLabel": "Security Operations",
+      "requiredCourses": [
+        "RESIL-101",
+        "RESIL-210",
+        "RESIL-220",
+        "RESIL-310"
+      ],
+      "requiredSkills": [
+        "incident-response",
+        "remediation"
+      ],
+      "benchmark": "resil-exam",
+      "description": "The specialty credential of the School of Incident & Resilience. Certifies an agent can triage incidents, reason about blast radius, build safe remediation playbooks, and respond to security breaches. Issued by agun.ai."
+    },
+    {
+      "id": "network-intelligence-gold",
+      "slug": "network-intelligence-gold",
+      "title": "Network Intelligence — Gold",
+      "level": "gold",
+      "school": "NETINT",
+      "agunDepartment": "ran-optimization",
+      "agunLabel": "RAN Optimization",
+      "requiredCourses": [
+        "NETINT-101",
+        "NETINT-210",
+        "NETINT-220",
+        "NETINT-310"
+      ],
+      "requiredSkills": [
+        "anomaly-detection",
+        "capacity-forecasting"
+      ],
+      "benchmark": "netint-exam",
+      "description": "The Network Intelligence specialty credential. Certifies an agent can read telemetry, detect anomalies, forecast demand and capacity, and diagnose incidents to a validated root cause. Issued by agun.ai."
+    },
+    {
+      "id": "network-operations-silver",
+      "slug": "network-operations-silver",
+      "title": "Network Operations — Silver",
+      "level": "silver",
+      "school": "NETOPS",
+      "agunDepartment": "ran-optimization",
+      "agunLabel": "RAN Optimization",
+      "requiredCourses": [
+        "NETOPS-101",
+        "NETOPS-150",
+        "NETOPS-210",
+        "NETOPS-220"
+      ],
+      "requiredSkills": [
+        "ran-operations",
+        "core-provisioning"
+      ],
+      "benchmark": "netops-exam",
+      "description": "The Network Operations specialty credential. Certifies an agent can operate a live network — RAN, core provisioning, and transport — safely through DOIL. Issued by agun.ai."
+    }
+  ]
+}

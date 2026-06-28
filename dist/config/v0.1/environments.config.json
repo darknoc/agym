@@ -1,0 +1,297 @@
+{
+  "version": "v0.1",
+  "environments": [
+    {
+      "id": "doil-runtime",
+      "title": "DOIL Runtime (sandbox)",
+      "slug": "doil-runtime",
+      "description": "A sandboxed interpreter that validates and dry-runs DOIL intents and mock MCP tool calls with no side effects. The gym floor for the Foundations sequence.",
+      "note": "Sandboxed DOIL interpreter + mock MCP tools — no real network touched.",
+      "sims": [],
+      "mcps": [
+        "gym-mcp (mock toolset)"
+      ],
+      "courses": [
+        {
+          "code": "AGENG-101",
+          "slug": "ageng-101",
+          "title": "Declarative Operations with DOIL"
+        },
+        {
+          "code": "AGENG-110",
+          "slug": "ageng-110",
+          "title": "MCP Tool-Use & Safety"
+        },
+        {
+          "code": "AGENG-201",
+          "slug": "ageng-201",
+          "title": "Evaluation Literacy & Self-Critique"
+        }
+      ]
+    },
+    {
+      "id": "oss-ran-sim",
+      "title": "Network Operations Lab",
+      "slug": "netops-lab",
+      "description": "The Network Operations gym floor — binds the live-network DarkNOC simulators (oss-ran-sim, core-prov-sim, telemetry-sim) and their operational MCP servers so agents practice RAN, core, and transport work against realistic state.",
+      "note": null,
+      "sims": [
+        {
+          "id": "oss-ran-sim",
+          "name": "OSS / RAN Simulator",
+          "blurb": "RAN configuration, optimization and KPI behavior.",
+          "repo": "04-simulators/oss-ran-sim",
+          "url": null
+        },
+        {
+          "id": "core-prov-sim",
+          "name": "Core Provisioning Simulator",
+          "blurb": "Core network provisioning & service activation.",
+          "repo": "04-simulators/core-prov-sim",
+          "url": null
+        },
+        {
+          "id": "telemetry-sim",
+          "name": "Telemetry Simulator",
+          "blurb": "Streaming KPI/alarm telemetry & anomaly injection.",
+          "repo": "04-simulators/telemetry-sim",
+          "url": null
+        }
+      ],
+      "mcps": [
+        "ran-project-mcp",
+        "site-survey-mcp",
+        "coverage-mcp",
+        "celltower-mcp"
+      ],
+      "courses": [
+        {
+          "code": "NETOPS-210",
+          "slug": "netops-210",
+          "title": "Core Provisioning & Activation"
+        },
+        {
+          "code": "NETOPS-101",
+          "slug": "netops-101",
+          "title": "RAN Fundamentals"
+        },
+        {
+          "code": "NETOPS-150",
+          "slug": "netops-150",
+          "title": "Cell Site Lifecycle"
+        },
+        {
+          "code": "NETOPS-220",
+          "slug": "netops-220",
+          "title": "Transport & Backhaul"
+        }
+      ]
+    },
+    {
+      "id": "telemetry-sim",
+      "title": "Network Intelligence Lab",
+      "slug": "netint-lab",
+      "description": "The Network Intelligence gym floor. Binds the DarkNOC telemetry-sim and demand-sim simulators plus the compartment-model and geospatial-population-density MCPs for anomaly, forecasting, and root-cause training with no production impact.",
+      "note": null,
+      "sims": [
+        {
+          "id": "telemetry-sim",
+          "name": "Telemetry Simulator",
+          "blurb": "Streaming KPI/alarm telemetry & anomaly injection.",
+          "repo": "04-simulators/telemetry-sim",
+          "url": null
+        },
+        {
+          "id": "demand-sim",
+          "name": "Demand Simulator",
+          "blurb": "Traffic demand & capacity modeling.",
+          "repo": "04-simulators/demand-sim",
+          "url": null
+        }
+      ],
+      "mcps": [
+        "compartment-model",
+        "geospatial-population-density"
+      ],
+      "courses": [
+        {
+          "code": "NETINT-220",
+          "slug": "netint-220",
+          "title": "Demand Forecasting"
+        },
+        {
+          "code": "NETINT-101",
+          "slug": "netint-101",
+          "title": "Telemetry & Observability"
+        },
+        {
+          "code": "NETINT-210",
+          "slug": "netint-210",
+          "title": "Anomaly Detection"
+        },
+        {
+          "code": "NETINT-310",
+          "slug": "netint-310",
+          "title": "Automated Root-Cause Analysis"
+        }
+      ]
+    },
+    {
+      "id": "incident-sim",
+      "title": "Incident & Resilience Lab",
+      "slug": "resil-lab",
+      "description": "A sandbox that replays DarkNOC incident and security-breach scenarios with no side effects. The gym floor for the School of Incident & Resilience.",
+      "note": null,
+      "sims": [
+        {
+          "id": "incident-sim",
+          "name": "Incident Simulator",
+          "blurb": "Network incident impact & remediation.",
+          "repo": "04-simulators/incident-sim",
+          "url": null
+        },
+        {
+          "id": "security-breach-sim",
+          "name": "Security Breach Simulator",
+          "blurb": "SecOps breach scenarios & response.",
+          "repo": "04-simulators/security-breach-sim",
+          "url": null
+        }
+      ],
+      "mcps": [
+        "ran-project-mcp",
+        "site-survey-mcp"
+      ],
+      "courses": [
+        {
+          "code": "RESIL-101",
+          "slug": "resil-101",
+          "title": "Incident Triage"
+        },
+        {
+          "code": "RESIL-220",
+          "slug": "resil-220",
+          "title": "Blast-Radius & Impact Analysis"
+        },
+        {
+          "code": "RESIL-210",
+          "slug": "resil-210",
+          "title": "Remediation Playbooks"
+        },
+        {
+          "code": "RESIL-310",
+          "slug": "resil-310",
+          "title": "SecOps & Breach Response"
+        }
+      ]
+    },
+    {
+      "id": "growth-launch-sim",
+      "title": "Growth & Planning Lab",
+      "slug": "grow-lab",
+      "description": "The gym floor for the School of Growth & Planning. Binds DarkNOC growth, coverage-twin, and demand simulators with the geospatial, POI, coverage, and imagery MCP toolset to plan coverage, demand, and rollouts against real-world data.",
+      "note": null,
+      "sims": [
+        {
+          "id": "growth-launch-sim",
+          "name": "Growth & Launch Simulator",
+          "blurb": "Market growth, site rollout & launch sequencing.",
+          "repo": "04-simulators/growth-launch-sim",
+          "url": null
+        },
+        {
+          "id": "coverage-twin",
+          "name": "Coverage Twin",
+          "blurb": "RF coverage digital twin & planning.",
+          "repo": "04-simulators/coverage-twin",
+          "url": null
+        },
+        {
+          "id": "demand-sim",
+          "name": "Demand Simulator",
+          "blurb": "Traffic demand & capacity modeling.",
+          "repo": "04-simulators/demand-sim",
+          "url": null
+        }
+      ],
+      "mcps": [
+        "poi-mcp",
+        "satellite-imagery",
+        "coverage-mcp",
+        "geospatial-population-density"
+      ],
+      "courses": [
+        {
+          "code": "GROW-101",
+          "slug": "grow-101",
+          "title": "Coverage & RF Planning"
+        },
+        {
+          "code": "GROW-220",
+          "slug": "grow-220",
+          "title": "Site Selection & POI Analysis"
+        },
+        {
+          "code": "GROW-210",
+          "slug": "grow-210",
+          "title": "Demand Modeling"
+        },
+        {
+          "code": "GROW-310",
+          "slug": "grow-310",
+          "title": "Rollout Sequencing"
+        }
+      ]
+    },
+    {
+      "id": "crm-sim",
+      "title": "Customer & Commercial Lab",
+      "slug": "comm-lab",
+      "description": "The commercial gym floor. Binds the DarkNOC crm-sim and mcx-sim simulators and the TMF Open API MCPs (product catalog, loyalty, customer 360) for safe, sandboxed OSS/BSS training.",
+      "note": null,
+      "sims": [
+        {
+          "id": "crm-sim",
+          "name": "CRM Simulator",
+          "blurb": "Customer relationship & care workflows.",
+          "repo": "04-simulators/crm-sim",
+          "url": null
+        },
+        {
+          "id": "mcx-sim",
+          "name": "MCX Simulator",
+          "blurb": "Monetization & commercial experience.",
+          "repo": "04-simulators/mcx-sim",
+          "url": null
+        }
+      ],
+      "mcps": [
+        "tmf620-product-catalog",
+        "tmf658-loyalty",
+        "tmf717-customer360"
+      ],
+      "courses": [
+        {
+          "code": "COMM-101",
+          "slug": "comm-101",
+          "title": "Customer 360 Fundamentals (TMF717)"
+        },
+        {
+          "code": "COMM-220",
+          "slug": "comm-220",
+          "title": "Loyalty Programs (TMF658)"
+        },
+        {
+          "code": "COMM-210",
+          "slug": "comm-210",
+          "title": "Product Catalog Management (TMF620)"
+        },
+        {
+          "code": "COMM-310",
+          "slug": "comm-310",
+          "title": "Commercial Orchestration"
+        }
+      ]
+    }
+  ]
+}

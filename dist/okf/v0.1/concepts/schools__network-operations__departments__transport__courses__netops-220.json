@@ -1,0 +1,39 @@
+{
+  "key": "schools/network-operations/departments/transport/courses/netops-220.md",
+  "id": "schools__network-operations__departments__transport__courses__netops-220",
+  "slug": "netops-220",
+  "type": "Course",
+  "title": "Transport & Backhaul",
+  "frontmatter": {
+    "type": "Course",
+    "title": "Transport & Backhaul",
+    "code": "NETOPS-220",
+    "level": "Core",
+    "credits": 4,
+    "prerequisites": [
+      "NETOPS-101"
+    ],
+    "school": "NETOPS",
+    "department": "NETOPS-XPORT",
+    "environment": "oss-ran-sim",
+    "benchmark": "netops-exam",
+    "skills": [
+      "core-provisioning"
+    ],
+    "tags": [
+      "transport",
+      "backhaul",
+      "capacity"
+    ],
+    "timestamp": "2026-06-26T00:00:00Z"
+  },
+  "links": [
+    "environments/netops-lab.md",
+    "benchmarks/netops-exam.md",
+    "skills/core-provisioning.md",
+    "certifications/network-operations-silver.md",
+    "schools/network-operations/departments/ran-engineering/courses/netops-101.md",
+    "certifications/network-operations-silver.md"
+  ],
+  "body": "\n# NETOPS-220 · Transport & Backhaul\n\n## Description\nThe transport operations course. Agents learn to operate the backhaul that carries traffic between\nradio sites and the core — provisioning links, managing capacity and redundancy, and responding to\ntransport faults without disrupting the services riding on top.\n\n## Learning objectives\nBy the end of this course an agent can:\n1. Map transport topology and identify backhaul links for a site.\n2. Provision and resize transport capacity as DOIL intents.\n3. Reason about redundancy and failover during a link fault.\n4. Predict the service impact of a transport change before acting.\n\n## Syllabus\n1. Transport topology: links, capacity, redundancy.\n2. Provisioning and resizing backhaul.\n3. Fault response and failover.\n4. DOIL for transport operations under risk constraints.\n5. Capstone: restore service after a backhaul failure.\n\n## Training environment\n[Network Operations Lab](../../../../../environments/netops-lab.md) — exercises the transport paths of\nthe `oss-ran-sim` and `telemetry-sim` simulators with injectable link faults.\n\n## Assessment\n[Network Operations Exam](../../../../../benchmarks/netops-exam.md). Passing contributes the\n[Core Provisioning](../../../../../skills/core-provisioning.md) skill and counts toward\n[Network Operations — Silver](../../../../../certifications/network-operations-silver.md).\n\n## Prerequisites & next\nRequires [NETOPS-101 · RAN Fundamentals](../../ran-engineering/courses/netops-101.md). Completes the Network Operations core sequence toward [Network Operations — Silver](../../../../../certifications/network-operations-silver.md).\n"
+}

@@ -1,0 +1,39 @@
+{
+  "key": "schools/incident-resilience/departments/remediation/courses/resil-210.md",
+  "id": "schools__incident-resilience__departments__remediation__courses__resil-210",
+  "slug": "resil-210",
+  "type": "Course",
+  "title": "Remediation Playbooks",
+  "frontmatter": {
+    "type": "Course",
+    "title": "Remediation Playbooks",
+    "code": "RESIL-210",
+    "level": "Core",
+    "credits": 4,
+    "prerequisites": [
+      "RESIL-101"
+    ],
+    "school": "RESIL",
+    "department": "RESIL-REM",
+    "environment": "incident-sim",
+    "benchmark": "resil-exam",
+    "skills": [
+      "remediation"
+    ],
+    "tags": [
+      "remediation",
+      "playbooks",
+      "rollback"
+    ],
+    "timestamp": "2026-06-26T00:00:00Z"
+  },
+  "links": [
+    "environments/resil-lab.md",
+    "benchmarks/resil-exam.md",
+    "skills/remediation.md",
+    "certifications/incident-resilience-gold.md",
+    "schools/incident-resilience/departments/incident-response/courses/resil-101.md",
+    "schools/incident-resilience/departments/security-operations/courses/resil-310.md"
+  ],
+  "body": "\n# RESIL-210 · Remediation Playbooks\n\n## Description\nThe core remediation course. Agents learn to author and execute playbooks — ordered, reversible\nsequences of DOIL intents that resolve an incident safely. Emphasis is on rollback design, change\nwindows, and never widening the blast radius while fixing a fault.\n\n## Learning objectives\nBy the end of this course an agent can:\n1. Author a remediation playbook as a sequence of DOIL intents.\n2. Design rollback and verification steps for every action.\n3. Choose the least-blast-radius remediation that resolves the fault.\n4. Execute a playbook under a scope budget with safe checkpoints.\n\n## Syllabus\n1. Anatomy of a remediation playbook.\n2. Reversibility, rollback, and verification gates.\n3. Change windows and staged rollout.\n4. Selecting minimal-impact remediations.\n5. Capstone: remediate a degraded service end-to-end with rollback proven.\n\n## Training environment\n[Incident & Resilience Lab](../../../../../environments/resil-lab.md) — a sandbox that replays DarkNOC\nincident and breach scenarios with no side effects.\n\n## Assessment\n[Incident & Resilience Exam](../../../../../benchmarks/resil-exam.md). Passing confers the\n[Remediation](../../../../../skills/remediation.md) skill and counts toward\n[Incident & Resilience — Gold](../../../../../certifications/incident-resilience-gold.md).\n\n## Prerequisites & next\nRequires [RESIL-101 · Incident Triage](../../incident-response/courses/resil-101.md). → [RESIL-310 · SecOps & Breach Response](../../security-operations/courses/resil-310.md)\n"
+}

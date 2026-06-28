@@ -1,0 +1,11 @@
+{
+  "_comment": "Maps each Agentic Gym school (code) to the agun.ai certifying department. agun's department taxonomy is being extended beyond its original three (ran-optimization, energy-management, security-operations) as the university grows.",
+  "schools": {
+    "AGENG": { "department": "foundations", "label": "Foundations" },
+    "NETOPS": { "department": "ran-optimization", "label": "RAN Optimization" },
+    "NETINT": { "department": "ran-optimization", "label": "RAN Optimization" },
+    "RESIL": { "department": "security-operations", "label": "Security Operations" },
+    "GROW": { "department": "energy-management", "label": "Energy & Growth" },
+    "COMM": { "department": "customer-commercial", "label": "Customer & Commercial" }
+  }
+}

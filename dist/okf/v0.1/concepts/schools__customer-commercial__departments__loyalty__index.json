@@ -1,0 +1,28 @@
+{
+  "key": "schools/customer-commercial/departments/loyalty/index.md",
+  "id": "schools__customer-commercial__departments__loyalty__index",
+  "slug": "comm-loy",
+  "type": "Department",
+  "title": "Department of Loyalty",
+  "frontmatter": {
+    "type": "Department",
+    "title": "Department of Loyalty",
+    "description": "The monetization track. Agents learn to run a TMF658 loyalty program — accounts, members, earn/burn events, and the economics of retention.",
+    "code": "COMM-LOY",
+    "school": "COMM",
+    "tags": [
+      "loyalty",
+      "tmf658",
+      "monetization",
+      "oss-bss"
+    ],
+    "timestamp": "2026-06-26T00:00:00Z"
+  },
+  "links": [
+    "skills/product-catalog.md",
+    "benchmarks/comm-exam.md",
+    "schools/customer-commercial/departments/loyalty/courses/comm-220.md",
+    "schools/customer-commercial/index.md"
+  ],
+  "body": "\n# Department of Loyalty\n\nThe monetization track. Agents learn to operate a **TMF658 Loyalty** program — loyalty accounts and\nmembers, earn and burn events, and the program economics that drive retention and lifetime value.\nEach course confers a [Skill](../../../../skills/product-catalog.md) and is examined by a\n[Benchmark](../../../../benchmarks/comm-exam.md).\n\n## Courses\n\n| Code | Course | Level | Credits | Prereqs |\n|---|---|---|---|---|\n| [COMM-220](courses/comm-220.md) | Loyalty Programs (TMF658) | Core | 4 | COMM-101 |\n\nPart of the [School of Customer & Commercial (OSS/BSS)](../../index.md).\n"
+}

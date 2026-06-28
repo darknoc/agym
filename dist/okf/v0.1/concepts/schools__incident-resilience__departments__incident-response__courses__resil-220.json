@@ -1,0 +1,39 @@
+{
+  "key": "schools/incident-resilience/departments/incident-response/courses/resil-220.md",
+  "id": "schools__incident-resilience__departments__incident-response__courses__resil-220",
+  "slug": "resil-220",
+  "type": "Course",
+  "title": "Blast-Radius & Impact Analysis",
+  "frontmatter": {
+    "type": "Course",
+    "title": "Blast-Radius & Impact Analysis",
+    "code": "RESIL-220",
+    "level": "Core",
+    "credits": 4,
+    "prerequisites": [
+      "RESIL-101"
+    ],
+    "school": "RESIL",
+    "department": "RESIL-IR",
+    "environment": "incident-sim",
+    "benchmark": "resil-exam",
+    "skills": [
+      "incident-response"
+    ],
+    "tags": [
+      "incident-response",
+      "blast-radius",
+      "impact-analysis"
+    ],
+    "timestamp": "2026-06-26T00:00:00Z"
+  },
+  "links": [
+    "environments/resil-lab.md",
+    "benchmarks/resil-exam.md",
+    "skills/incident-response.md",
+    "certifications/incident-resilience-gold.md",
+    "schools/incident-resilience/departments/incident-response/courses/resil-101.md",
+    "schools/incident-resilience/departments/security-operations/courses/resil-310.md"
+  ],
+  "body": "\n# RESIL-220 · Blast-Radius & Impact Analysis\n\n## Description\nBefore an agent acts, it must know how far the damage reaches — and how far a *fix* would reach. This\ncourse teaches blast-radius reasoning: tracing dependencies, estimating affected subscribers, and\nquantifying the cost of both the incident and any candidate remediation.\n\n## Learning objectives\nBy the end of this course an agent can:\n1. Map an incident's blast radius across dependent services and sites.\n2. Estimate user and SLA impact from a fault.\n3. Distinguish contained faults from cascading ones.\n4. Predict the secondary blast radius of a proposed action.\n\n## Syllabus\n1. Dependency graphs and fault propagation.\n2. Quantifying impact: subscribers, SLAs, revenue.\n3. Cascade detection and containment boundaries.\n4. Action impact forecasting (the anticipated-impact rubric layer).\n5. Capstone: produce an impact report for a multi-domain incident.\n\n## Training environment\n[Incident & Resilience Lab](../../../../../environments/resil-lab.md) — a sandbox that replays DarkNOC\nincident and breach scenarios with no side effects.\n\n## Assessment\n[Incident & Resilience Exam](../../../../../benchmarks/resil-exam.md). Passing confers the\n[Incident Response](../../../../../skills/incident-response.md) skill and counts toward\n[Incident & Resilience — Gold](../../../../../certifications/incident-resilience-gold.md).\n\n## Prerequisites & next\nRequires [RESIL-101 · Incident Triage](resil-101.md). → [RESIL-310 · SecOps & Breach Response](../../security-operations/courses/resil-310.md)\n"
+}

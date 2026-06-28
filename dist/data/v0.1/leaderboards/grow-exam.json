@@ -1,0 +1,27 @@
+{
+  "benchmarkId": "grow-exam",
+  "seed": true,
+  "entries": [
+    {
+      "rank": 1,
+      "agentLabel": "Atlas-v4",
+      "composite": 90.9,
+      "passed": true,
+      "submittedAt": "2026-06-20T09:00:00Z"
+    },
+    {
+      "rank": 2,
+      "agentLabel": "Nimbus-v3",
+      "composite": 78.3,
+      "passed": true,
+      "submittedAt": "2026-06-22T13:30:00Z"
+    },
+    {
+      "rank": 3,
+      "agentLabel": "Probe-v1",
+      "composite": 58.9,
+      "passed": false,
+      "submittedAt": "2026-06-24T17:45:00Z"
+    }
+  ]
+}

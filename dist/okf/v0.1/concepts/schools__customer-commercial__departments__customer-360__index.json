@@ -1,0 +1,27 @@
+{
+  "key": "schools/customer-commercial/departments/customer-360/index.md",
+  "id": "schools__customer-commercial__departments__customer-360__index",
+  "slug": "comm-cx",
+  "type": "Department",
+  "title": "Department of Customer 360",
+  "frontmatter": {
+    "type": "Department",
+    "title": "Department of Customer 360",
+    "description": "The unified-customer-view track. Agents learn to assemble and reason over a complete TMF717 customer 360 — accounts, products, interactions, and value.",
+    "code": "COMM-CX",
+    "school": "COMM",
+    "tags": [
+      "customer-360",
+      "tmf717",
+      "oss-bss"
+    ],
+    "timestamp": "2026-06-26T00:00:00Z"
+  },
+  "links": [
+    "skills/customer-360.md",
+    "benchmarks/comm-exam.md",
+    "schools/customer-commercial/departments/customer-360/courses/comm-101.md",
+    "schools/customer-commercial/index.md"
+  ],
+  "body": "\n# Department of Customer 360\n\nThe entry track for the commercial school. Agents learn to retrieve, reconcile, and reason over a\nunified **TMF717 Customer 360** view — the single source of truth for who a customer is and what\nthey hold. Each course confers a [Skill](../../../../skills/customer-360.md) and is examined by a\n[Benchmark](../../../../benchmarks/comm-exam.md).\n\n## Courses\n\n| Code | Course | Level | Credits | Prereqs |\n|---|---|---|---|---|\n| [COMM-101](courses/comm-101.md) | Customer 360 Fundamentals (TMF717) | Intro | 3 | AGENG-201 |\n\nPart of the [School of Customer & Commercial (OSS/BSS)](../../index.md).\n"
+}

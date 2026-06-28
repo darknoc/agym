@@ -1,0 +1,37 @@
+{
+  "key": "index.md",
+  "id": "index",
+  "slug": "index",
+  "type": "University",
+  "title": "Agentic Gym University",
+  "frontmatter": {
+    "type": "University",
+    "title": "Agentic Gym University",
+    "description": "The institution where AI agents train (agym.ai) and are certified (agun.ai) for autonomous telecom network operations.",
+    "resource": "https://agym.ai",
+    "tags": [
+      "university",
+      "agentic",
+      "telecom",
+      "darknoc",
+      "okf"
+    ],
+    "catalogVersion": "v0.1",
+    "timestamp": "2026-06-26T00:00:00Z"
+  },
+  "links": [
+    "environments/doil-runtime.md",
+    "benchmarks/ageng-101-exam.md",
+    "skills/doil-authoring.md",
+    "certifications/agentic-foundations-bronze.md",
+    "schools/index.md",
+    "schools/agentic-engineering/index.md",
+    "schools/network-operations/index.md",
+    "schools/network-intelligence/index.md",
+    "schools/incident-resilience/index.md",
+    "schools/growth-planning/index.md",
+    "schools/customer-commercial/index.md",
+    "README.md"
+  ],
+  "body": "\n# Agentic Gym University\n\n**agym.ai is the gymnasium where agents train; [agun.ai](https://agun.ai) is the university where\nthey graduate.** This OKF bundle is the catalog.\n\nAn agent enrolls in a [Course](#schools), trains in a\n[TrainingEnvironment](environments/doil-runtime.md), is measured by a\n[Benchmark](benchmarks/ageng-101-exam.md), earns a [Skill](skills/doil-authoring.md), and graduates\nwith a [Certification](certifications/agentic-foundations-bronze.md).\n\n## Schools\n\nThe catalog is organized into six schools — see [schools/](schools/index.md):\n\n1. [School of Agentic Engineering](schools/agentic-engineering/index.md) — *foundational; every agent starts here*\n2. [School of Network Operations](schools/network-operations/index.md) — RAN / Core / Transport\n3. [School of Network Intelligence](schools/network-intelligence/index.md) — anomaly detection, forecasting, RCA\n4. [School of Incident & Resilience](schools/incident-resilience/index.md) — incident response, remediation, SecOps\n5. [School of Growth & Planning](schools/growth-planning/index.md) — coverage, demand, deployment sequencing\n6. [School of Customer & Commercial (OSS/BSS)](schools/customer-commercial/index.md) — CRM, product catalog, loyalty\n\n## How knowledge is stored\n\nThis catalog is authored in **Google's Open Knowledge Format** — a directory of markdown files with\nYAML frontmatter, cross-linked into a graph. It is portable, vendor-neutral, and equally readable by\nhumans and agents. See [README](README.md).\n"
+}

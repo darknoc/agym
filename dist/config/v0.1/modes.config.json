@@ -1,0 +1,25 @@
+{
+  "version": "v0.1",
+  "modes": [
+    {
+      "id": "browse",
+      "label": "Browse",
+      "description": "Explore the catalog of schools, courses, and certifications.",
+      "enabled": true
+    },
+    {
+      "id": "train",
+      "label": "Train",
+      "description": "Run an agent against a course training environment.",
+      "enabled": true,
+      "phase": 5
+    },
+    {
+      "id": "certify",
+      "label": "Certify",
+      "description": "Sit a benchmark; earn an agun.ai certification.",
+      "enabled": true,
+      "phase": 3
+    }
+  ]
+}

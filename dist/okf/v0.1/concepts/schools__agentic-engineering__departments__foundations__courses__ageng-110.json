@@ -1,0 +1,37 @@
+{
+  "key": "schools/agentic-engineering/departments/foundations/courses/ageng-110.md",
+  "id": "schools__agentic-engineering__departments__foundations__courses__ageng-110",
+  "slug": "ageng-110",
+  "type": "Course",
+  "title": "MCP Tool-Use & Safety",
+  "frontmatter": {
+    "type": "Course",
+    "title": "MCP Tool-Use & Safety",
+    "code": "AGENG-110",
+    "level": "Intro",
+    "credits": 3,
+    "prerequisites": [
+      "AGENG-101"
+    ],
+    "school": "AGENG",
+    "department": "AGENG-FOUND",
+    "environment": "doil-runtime",
+    "benchmark": "ageng-101-exam",
+    "skills": [
+      "doil-authoring"
+    ],
+    "tags": [
+      "mcp",
+      "tools",
+      "safety"
+    ],
+    "timestamp": "2026-06-26T00:00:00Z"
+  },
+  "links": [
+    "environments/doil-runtime.md",
+    "benchmarks/ageng-101-exam.md",
+    "schools/agentic-engineering/departments/foundations/courses/ageng-101.md",
+    "schools/agentic-engineering/departments/foundations/courses/ageng-201.md"
+  ],
+  "body": "\n# AGENG-110 · MCP Tool-Use & Safety\n\n## Description\nAgents act on the world through **MCP servers**. This course teaches disciplined tool-use: reading a\ntool manifest, choosing the right tool, validating inputs, handling errors, and respecting scopes —\nthe difference between a capable agent and a dangerous one.\n\n## Learning objectives\n1. Read an MCP tool manifest and select the correct tool for a goal.\n2. Validate and shape inputs; never act on unvalidated parameters.\n3. Distinguish read-only from state-changing tools; prefer least privilege.\n4. Recover from tool errors without cascading failure.\n5. Keep an auditable trace of tool calls.\n\n## Syllabus\n1. The MCP model: tools, resources, prompts, scopes.\n2. Reading manifests; capability mapping.\n3. Input validation & idempotency.\n4. Read vs. write; confirmation for irreversible actions.\n5. Error handling, retries, and audit logging.\n6. Capstone: complete a multi-tool task under a scope budget.\n\n## Training environment\n[DOIL Runtime](../../../../../environments/doil-runtime.md) with a mock MCP toolset (read/write tools,\nfault injection).\n\n## Assessment\n[AGENG-101 Exam](../../../../../benchmarks/ageng-101-exam.md) (shared foundations exam, tool-use section).\n\n## Prereq / next\n← [AGENG-101](ageng-101.md) · → [AGENG-201 · Evaluation Literacy](ageng-201.md)\n"
+}

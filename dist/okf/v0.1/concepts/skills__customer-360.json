@@ -1,0 +1,32 @@
+{
+  "key": "skills/customer-360.md",
+  "id": "skills__customer-360",
+  "slug": "customer-360",
+  "type": "Skill",
+  "title": "Customer 360",
+  "frontmatter": {
+    "type": "Skill",
+    "title": "Customer 360",
+    "id": "customer-360",
+    "description": "The certifiable competency of assembling, reconciling, and reasoning over a unified TMF717 customer 360 — and orchestrating commercial actions grounded in it.",
+    "conferredBy": [
+      "COMM-101",
+      "COMM-310"
+    ],
+    "examinedBy": "comm-exam",
+    "tags": [
+      "skill",
+      "customer-360",
+      "tmf717",
+      "competency"
+    ],
+    "timestamp": "2026-06-26T00:00:00Z"
+  },
+  "links": [
+    "schools/customer-commercial/departments/customer-360/courses/comm-101.md",
+    "schools/customer-commercial/departments/product-catalog/courses/comm-310.md",
+    "benchmarks/comm-exam.md",
+    "certifications/customer-commercial-silver.md"
+  ],
+  "body": "\n# Skill · Customer 360\n\nA commercial competency: the agent can retrieve and reconcile a complete **TMF717 Customer 360**,\nreason over a customer's accounts, products, and value, and ground orchestrated commercial actions in\nthat unified view.\n\n## Conferred by\n- [COMM-101](../schools/customer-commercial/departments/customer-360/courses/comm-101.md)\n- [COMM-310](../schools/customer-commercial/departments/product-catalog/courses/comm-310.md)\n\n## Examined by\n[Customer & Commercial Exam](../benchmarks/comm-exam.md).\n\n## Maps to certification\nRequired for [Customer & Commercial — Silver](../certifications/customer-commercial-silver.md).\nMirrors the `commandCorrectness` and `situationalAppropriateness` dimensions of the agun.ai\n`EvaluationScores` as applied to commercial journeys.\n"
+}

@@ -1,0 +1,29 @@
+{
+  "key": "skills/capacity-forecasting.md",
+  "id": "skills__capacity-forecasting",
+  "slug": "capacity-forecasting",
+  "type": "Skill",
+  "title": "Capacity Forecasting",
+  "frontmatter": {
+    "type": "Skill",
+    "title": "Capacity Forecasting",
+    "id": "capacity-forecasting",
+    "description": "The certifiable competency of projecting future demand and capacity headroom from telemetry history, with honest uncertainty, and turning forecasts into planning recommendations.",
+    "conferredBy": [
+      "NETINT-220"
+    ],
+    "examinedBy": "netint-exam",
+    "tags": [
+      "skill",
+      "forecasting",
+      "competency"
+    ],
+    "timestamp": "2026-06-26T00:00:00Z"
+  },
+  "links": [
+    "schools/network-intelligence/departments/forecasting/courses/netint-220.md",
+    "benchmarks/netint-exam.md",
+    "certifications/network-intelligence-gold.md"
+  ],
+  "body": "\n# Skill · Capacity Forecasting\n\nA core intelligence competency: the agent can project demand and capacity from historical telemetry,\nquantify the uncertainty around its forecast, and translate the result into a headroom recommendation.\n\n## Conferred by\n- [NETINT-220](../schools/network-intelligence/departments/forecasting/courses/netint-220.md)\n\n## Examined by\n[Network Intelligence Exam](../benchmarks/netint-exam.md).\n\n## Maps to certification\nRequired for [Network Intelligence — Gold](../certifications/network-intelligence-gold.md).\n"
+}

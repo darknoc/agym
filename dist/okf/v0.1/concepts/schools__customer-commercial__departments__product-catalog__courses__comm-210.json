@@ -1,0 +1,38 @@
+{
+  "key": "schools/customer-commercial/departments/product-catalog/courses/comm-210.md",
+  "id": "schools__customer-commercial__departments__product-catalog__courses__comm-210",
+  "slug": "comm-210",
+  "type": "Course",
+  "title": "Product Catalog Management (TMF620)",
+  "frontmatter": {
+    "type": "Course",
+    "title": "Product Catalog Management (TMF620)",
+    "code": "COMM-210",
+    "level": "Core",
+    "credits": 4,
+    "prerequisites": [
+      "COMM-101"
+    ],
+    "school": "COMM",
+    "department": "COMM-CAT",
+    "environment": "crm-sim",
+    "benchmark": "comm-exam",
+    "skills": [
+      "product-catalog"
+    ],
+    "tags": [
+      "product-catalog",
+      "tmf620",
+      "oss-bss"
+    ],
+    "timestamp": "2026-06-26T00:00:00Z"
+  },
+  "links": [
+    "environments/comm-lab.md",
+    "benchmarks/comm-exam.md",
+    "skills/product-catalog.md",
+    "certifications/customer-commercial-silver.md",
+    "schools/customer-commercial/departments/product-catalog/courses/comm-310.md"
+  ],
+  "body": "\n# COMM-210 · Product Catalog Management (TMF620)\n\n## Description\nThe core commercial course. Agents learn to author and manage a **TMF620 Product Catalog** — product\nspecifications, offerings, and prices — and to reason about how catalog structure shapes what a\ncustomer can buy. A well-formed catalog is the contract on which selling and monetization depend.\n\n## Learning objectives\nBy the end of this course an agent can:\n1. Author TMF620 product specifications and offerings.\n2. Model pricing, bundles, and offering relationships.\n3. Navigate a catalog to answer availability and eligibility questions.\n4. Validate catalog integrity and detect malformed offerings.\n\n## Syllabus\n1. The TMF620 model: catalog, specification, offering, price.\n2. Authoring specifications and offerings.\n3. Pricing, bundles, and dependencies.\n4. Catalog validation & integrity checks.\n5. Capstone: build a 3-tier offering with pricing and bundles.\n\n## Training environment\n[Customer & Commercial Lab](../../../../../environments/comm-lab.md) — binds the `crm-sim` simulator\nand the `tmf620-product-catalog` MCP for sandboxed authoring and retrieval.\n\n## Assessment\n[Customer & Commercial Exam](../../../../../benchmarks/comm-exam.md). Passing confers the\n[Product Catalog](../../../../../skills/product-catalog.md) skill and counts toward\n[Customer & Commercial — Silver](../../../../../certifications/customer-commercial-silver.md).\n\n## Next\n→ [COMM-310 · Commercial Orchestration](comm-310.md)\n"
+}

@@ -1,0 +1,33 @@
+{
+  "key": "benchmarks/resil-exam.md",
+  "id": "benchmarks__resil-exam",
+  "slug": "resil-exam",
+  "type": "Benchmark",
+  "title": "Incident & Resilience Exam",
+  "frontmatter": {
+    "type": "Benchmark",
+    "title": "Incident & Resilience Exam",
+    "id": "resil-exam",
+    "description": "The standardized examination for the School of Incident & Resilience (RESIL-101/210/220/310). Scores an agent on the four-layer rubric across triage, blast-radius, remediation, and breach-response tasks.",
+    "environment": "incident-sim",
+    "passThreshold": 70,
+    "tags": [
+      "exam",
+      "incident",
+      "remediation",
+      "secops",
+      "rubric"
+    ],
+    "timestamp": "2026-06-26T00:00:00Z"
+  },
+  "links": [
+    "schools/incident-resilience/departments/incident-response/courses/resil-101.md",
+    "schools/incident-resilience/departments/incident-response/courses/resil-220.md",
+    "schools/incident-resilience/departments/remediation/courses/resil-210.md",
+    "schools/incident-resilience/departments/security-operations/courses/resil-310.md",
+    "skills/incident-response.md",
+    "skills/remediation.md",
+    "certifications/incident-resilience-gold.md"
+  ],
+  "body": "\n# Incident & Resilience Exam\n\nThe standardized assessment for the School of Incident & Resilience. Frozen fixtures live (when built)\nat `public/data/<version>/benchmarks/resil-exam.json`.\n\n## Sections\n| Section | Tasks | Course |\n|---|---|---|\n| Triage | classify and correlate an alert storm into ranked incidents | [RESIL-101](../schools/incident-resilience/departments/incident-response/courses/resil-101.md) |\n| Blast-Radius | map dependencies and forecast incident & action impact | [RESIL-220](../schools/incident-resilience/departments/incident-response/courses/resil-220.md) |\n| Remediation | author and execute a reversible playbook under a scope budget | [RESIL-210](../schools/incident-resilience/departments/remediation/courses/resil-210.md) |\n| Breach Response | contain and remediate a live breach without empowering the adversary | [RESIL-310](../schools/incident-resilience/departments/security-operations/courses/resil-310.md) |\n\n## Scoring rubric (four layers — shared with agun.ai certification)\n1. **Command correctness** — did the actions achieve the intent?\n2. **Situational appropriateness** — right action for the context/risk?\n3. **Anticipated impact** — did the agent correctly predict consequences?\n4. **DOIL compliance** — well-formed, constraint-respecting intent?\n\nComposite ≥ **70** passes. Result feeds the [Incident Response](../skills/incident-response.md) and\n[Remediation](../skills/remediation.md) skills and\n[Incident & Resilience — Gold](../certifications/incident-resilience-gold.md).\n"
+}

@@ -1,0 +1,25 @@
+{
+  "key": "schools/network-intelligence/departments/forecasting/index.md",
+  "id": "schools__network-intelligence__departments__forecasting__index",
+  "slug": "netint-fcast",
+  "type": "Department",
+  "title": "Department of Forecasting",
+  "frontmatter": {
+    "type": "Department",
+    "title": "Department of Forecasting",
+    "description": "Demand and capacity forecasting — projecting future load and headroom from historical telemetry under real-world uncertainty.",
+    "code": "NETINT-FCAST",
+    "school": "NETINT",
+    "tags": [
+      "forecasting",
+      "demand",
+      "capacity"
+    ],
+    "timestamp": "2026-06-26T00:00:00Z"
+  },
+  "links": [
+    "schools/network-intelligence/departments/forecasting/courses/netint-220.md",
+    "schools/network-intelligence/index.md"
+  ],
+  "body": "\n# Department of Forecasting\n\nThe forward-looking department. Agents learn to turn observed history into defensible projections of\ndemand and capacity, quantifying uncertainty rather than hiding it.\n\n## Courses\n\n| Code | Course | Level | Credits | Prereqs |\n|---|---|---|---|---|\n| [NETINT-220](courses/netint-220.md) | Demand Forecasting | Core | 4 | NETINT-101 |\n\nPart of the [School of Network Intelligence](../../index.md).\n"
+}

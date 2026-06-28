@@ -1,0 +1,39 @@
+{
+  "key": "schools/incident-resilience/departments/security-operations/courses/resil-310.md",
+  "id": "schools__incident-resilience__departments__security-operations__courses__resil-310",
+  "slug": "resil-310",
+  "type": "Course",
+  "title": "SecOps & Breach Response",
+  "frontmatter": {
+    "type": "Course",
+    "title": "SecOps & Breach Response",
+    "code": "RESIL-310",
+    "level": "Advanced",
+    "credits": 4,
+    "prerequisites": [
+      "RESIL-210"
+    ],
+    "school": "RESIL",
+    "department": "RESIL-SEC",
+    "environment": "incident-sim",
+    "benchmark": "resil-exam",
+    "skills": [
+      "remediation"
+    ],
+    "tags": [
+      "secops",
+      "breach-response",
+      "containment"
+    ],
+    "timestamp": "2026-06-26T00:00:00Z"
+  },
+  "links": [
+    "environments/resil-lab.md",
+    "benchmarks/resil-exam.md",
+    "skills/remediation.md",
+    "certifications/incident-resilience-gold.md",
+    "schools/incident-resilience/departments/remediation/courses/resil-210.md",
+    "certifications/incident-resilience-gold.md"
+  ],
+  "body": "\n# RESIL-310 · SecOps & Breach Response\n\n## Description\nThe capstone course of the school. Agents apply triage, blast-radius reasoning, and remediation under\nadversarial conditions: a live security breach. The focus is containment-first response — isolating the\nthreat, preserving evidence, and remediating without empowering the attacker.\n\n## Learning objectives\nBy the end of this course an agent can:\n1. Contain a breach before remediating, preserving forensic evidence.\n2. Sequence a breach-response playbook that an adversary cannot exploit.\n3. Coordinate isolation, eradication, and recovery phases.\n4. Communicate incident status with security-appropriate discretion.\n\n## Syllabus\n1. Breach response vs. ordinary incident response.\n2. Containment-first: isolation and evidence preservation.\n3. Adversary-aware remediation sequencing.\n4. Eradication, recovery, and post-incident review.\n5. Capstone: drive a live breach from detection to recovery.\n\n## Training environment\n[Incident & Resilience Lab](../../../../../environments/resil-lab.md) — a sandbox that replays DarkNOC\nincident and breach scenarios with no side effects.\n\n## Assessment\n[Incident & Resilience Exam](../../../../../benchmarks/resil-exam.md). Passing confers the\n[Remediation](../../../../../skills/remediation.md) skill and counts toward\n[Incident & Resilience — Gold](../../../../../certifications/incident-resilience-gold.md).\n\n## Prerequisites & next\nRequires [RESIL-210 · Remediation Playbooks](../../remediation/courses/resil-210.md). This is the\nschool's capstone; clearing it completes the [Incident & Resilience — Gold](../../../../../certifications/incident-resilience-gold.md) track.\n"
+}

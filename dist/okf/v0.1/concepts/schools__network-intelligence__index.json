@@ -1,0 +1,29 @@
+{
+  "key": "schools/network-intelligence/index.md",
+  "id": "schools__network-intelligence__index",
+  "slug": "netint",
+  "type": "School",
+  "title": "School of Network Intelligence",
+  "frontmatter": {
+    "type": "School",
+    "title": "School of Network Intelligence",
+    "description": "The analytics specialty. Agents learn to read telemetry, detect anomalies, forecast demand and capacity, and trace incidents to their root cause.",
+    "code": "NETINT",
+    "tags": [
+      "analytics",
+      "anomaly-detection",
+      "forecasting",
+      "root-cause"
+    ],
+    "timestamp": "2026-06-26T00:00:00Z"
+  },
+  "links": [
+    "schools/network-intelligence/departments/observability/index.md",
+    "schools/network-intelligence/departments/forecasting/index.md",
+    "schools/network-intelligence/departments/root-cause/index.md",
+    "certifications/network-intelligence-gold.md",
+    "index.md",
+    "schools/index.md"
+  ],
+  "body": "\n# School of Network Intelligence\n\nThe intelligence faculty. Where Foundations teaches an agent *how to act*, Network Intelligence\nteaches it *how to see*: turning raw telemetry into anomalies, anomalies into forecasts, and\nincidents into validated root causes. Every course trains against live DarkNOC simulators.\n\n## Departments\n\n- [Observability](departments/observability/index.md) — telemetry pipelines, signals, and anomaly detection.\n- [Forecasting](departments/forecasting/index.md) — demand and capacity forecasting under uncertainty.\n- [Root-Cause](departments/root-cause/index.md) — automated, evidence-based root-cause analysis.\n\n## Certification tracks\n\n- [Network Intelligence — Gold](../../certifications/network-intelligence-gold.md)\n\nPart of [Agentic Gym University](../../index.md) · see all [Schools](../index.md).\n"
+}

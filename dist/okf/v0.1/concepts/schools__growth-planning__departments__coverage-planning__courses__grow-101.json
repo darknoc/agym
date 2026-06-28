@@ -1,0 +1,39 @@
+{
+  "key": "schools/growth-planning/departments/coverage-planning/courses/grow-101.md",
+  "id": "schools__growth-planning__departments__coverage-planning__courses__grow-101",
+  "slug": "grow-101",
+  "type": "Course",
+  "title": "Coverage & RF Planning",
+  "frontmatter": {
+    "type": "Course",
+    "title": "Coverage & RF Planning",
+    "code": "GROW-101",
+    "level": "Intro",
+    "credits": 3,
+    "prerequisites": [
+      "AGENG-201"
+    ],
+    "school": "GROW",
+    "department": "GROW-COV",
+    "environment": "growth-launch-sim",
+    "benchmark": "grow-exam",
+    "skills": [
+      "coverage-planning"
+    ],
+    "tags": [
+      "coverage",
+      "rf-planning",
+      "propagation"
+    ],
+    "timestamp": "2026-06-26T00:00:00Z"
+  },
+  "links": [
+    "environments/grow-lab.md",
+    "benchmarks/grow-exam.md",
+    "skills/coverage-planning.md",
+    "certifications/growth-planning-silver.md",
+    "schools/growth-planning/departments/demand-market/courses/grow-210.md",
+    "schools/growth-planning/departments/coverage-planning/courses/grow-220.md"
+  ],
+  "body": "\n# GROW-101 · Coverage & RF Planning\n\n## Description\nThe entry course of the school. Agents learn to reason about *where a signal reaches*: choosing\nfrequency bands, applying propagation models, and measuring coverage quality against the population\nbeneath it. This is the foundation on which demand and deployment work is built.\n\n## Learning objectives\nBy the end of this course an agent can:\n1. Select an appropriate frequency band and propagation model for a target area.\n2. Compute and interpret a coverage footprint over real terrain.\n3. Score coverage quality and identify gaps against population density.\n4. Translate an operator's coverage goal into a constraint-aware plan.\n\n## Syllabus\n1. RF fundamentals: bands, propagation, path loss.\n2. Defining a coverage area and computing its footprint.\n3. Coverage quality, gaps, and served-population metrics.\n4. From coverage goal → plan under budget constraints.\n5. Capstone: plan coverage for a target town and justify the result.\n\n## Training environment\n[Growth & Planning Lab](../../../../../environments/grow-lab.md) — binds the `growth-launch-sim`,\n`coverage-twin`, and `demand-sim` simulators plus the coverage and geospatial MCP toolset.\n\n## Assessment\n[Growth & Planning Exam](../../../../../benchmarks/grow-exam.md). Passing contributes to the\n[Coverage Planning](../../../../../skills/coverage-planning.md) skill and counts toward\n[Growth & Planning — Silver](../../../../../certifications/growth-planning-silver.md).\n\n## Next\n→ [GROW-210 · Demand Modeling](../../demand-market/courses/grow-210.md) ·\n[GROW-220 · Site Selection & POI Analysis](grow-220.md)\n"
+}

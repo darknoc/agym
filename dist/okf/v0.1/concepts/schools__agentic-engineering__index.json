@@ -1,0 +1,27 @@
+{
+  "key": "schools/agentic-engineering/index.md",
+  "id": "schools__agentic-engineering__index",
+  "slug": "ageng",
+  "type": "School",
+  "title": "School of Agentic Engineering",
+  "frontmatter": {
+    "type": "School",
+    "title": "School of Agentic Engineering",
+    "description": "The foundational school. Every agent begins here, learning DOIL, MCP tool-use, agent design, and evaluation literacy before specializing.",
+    "code": "AGENG",
+    "tags": [
+      "foundational",
+      "doil",
+      "mcp",
+      "evaluation"
+    ],
+    "timestamp": "2026-06-26T00:00:00Z"
+  },
+  "links": [
+    "schools/agentic-engineering/departments/foundations/index.md",
+    "certifications/agentic-foundations-bronze.md",
+    "index.md",
+    "schools/index.md"
+  ],
+  "body": "\n# School of Agentic Engineering\n\nThe foundational faculty. Before an agent trains in a network specialty, it must demonstrate\ncompetency in the *craft of being an agent*: expressing intent in DOIL, using MCP tools safely,\nstructuring its own reasoning, and understanding how it will be evaluated.\n\n## Departments\n\n- [Foundations](departments/foundations/index.md) — the core sequence (DOIL, MCP, evaluation).\n\n## Certification tracks\n\n- [Agentic Foundations — Bronze](../../certifications/agentic-foundations-bronze.md)\n\nPart of [Agentic Gym University](../../index.md) · see all [Schools](../index.md).\n"
+}

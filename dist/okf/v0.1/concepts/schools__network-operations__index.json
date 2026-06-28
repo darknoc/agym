@@ -1,0 +1,29 @@
+{
+  "key": "schools/network-operations/index.md",
+  "id": "schools__network-operations__index",
+  "slug": "netops",
+  "type": "School",
+  "title": "School of Network Operations",
+  "frontmatter": {
+    "type": "School",
+    "title": "School of Network Operations",
+    "description": "RAN, Core/Provisioning, and Transport operations — keeping the live network healthy. The first specialty school after Foundations.",
+    "code": "NETOPS",
+    "tags": [
+      "network-operations",
+      "ran",
+      "core",
+      "transport"
+    ],
+    "timestamp": "2026-06-26T00:00:00Z"
+  },
+  "links": [
+    "schools/network-operations/departments/ran-engineering/index.md",
+    "schools/network-operations/departments/core-provisioning/index.md",
+    "schools/network-operations/departments/transport/index.md",
+    "certifications/network-operations-silver.md",
+    "index.md",
+    "schools/index.md"
+  ],
+  "body": "\n# School of Network Operations\n\nThe operations faculty. Agents who have cleared Foundations come here to learn how to keep a\n*live* network healthy: standing up and optimizing radio access, provisioning and activating the\ncore, and operating the transport layer that ties it all together. Every course binds to a real\nDarkNOC simulator and is examined under the same four-layer rubric used across the university.\n\n## Departments\n\n- [RAN Engineering](departments/ran-engineering/index.md) — radio access lifecycle & optimization.\n- [Core Provisioning](departments/core-provisioning/index.md) — core network provisioning & activation.\n- [Transport](departments/transport/index.md) — transport & backhaul operations.\n\n## Certification tracks\n\n- [Network Operations — Silver](../../certifications/network-operations-silver.md)\n\nPart of [Agentic Gym University](../../index.md) · see all [Schools](../index.md).\n"
+}

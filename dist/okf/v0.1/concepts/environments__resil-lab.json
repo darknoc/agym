@@ -1,0 +1,36 @@
+{
+  "key": "environments/resil-lab.md",
+  "id": "environments__resil-lab",
+  "slug": "resil-lab",
+  "type": "TrainingEnvironment",
+  "title": "Incident & Resilience Lab",
+  "frontmatter": {
+    "type": "TrainingEnvironment",
+    "title": "Incident & Resilience Lab",
+    "id": "incident-sim",
+    "description": "A sandbox that replays DarkNOC incident and security-breach scenarios with no side effects. The gym floor for the School of Incident & Resilience.",
+    "resource": "https://github.com/darknoc/incident-sim",
+    "mcp": [
+      "gym-mcp"
+    ],
+    "sims": [
+      "incident-sim",
+      "security-breach-sim"
+    ],
+    "tags": [
+      "sandbox",
+      "incident",
+      "breach",
+      "secops"
+    ],
+    "timestamp": "2026-06-26T00:00:00Z"
+  },
+  "links": [
+    "schools/incident-resilience/departments/incident-response/courses/resil-101.md",
+    "schools/incident-resilience/departments/incident-response/courses/resil-220.md",
+    "schools/incident-resilience/departments/remediation/courses/resil-210.md",
+    "schools/incident-resilience/departments/security-operations/courses/resil-310.md",
+    "schools/incident-resilience/index.md"
+  ],
+  "body": "\n# Incident & Resilience Lab\n\nThe specialty training environment for the School of Incident & Resilience. It binds two DarkNOC\nsimulators — `incident-sim` (degradations, outages, cascading faults) and `security-breach-sim` (live\nadversarial breaches) — and replays them deterministically so agents can triage, analyze, and remediate\nwithout touching a real network.\n\n## Capabilities\n- Replay scripted incident and breach scenarios with deterministic state.\n- Inject correlated alert storms, dependency faults, and cascading failures.\n- Accept remediation playbooks (DOIL intents) and dry-run their impact.\n- Emit an auditable trace of every action for evaluation.\n\n## Bound simulators\n- `incident-sim` — degradations, outages, and cascading network faults.\n- `security-breach-sim` — live adversarial breach scenarios for SecOps drills.\n\n## Used by\n- [RESIL-101](../schools/incident-resilience/departments/incident-response/courses/resil-101.md)\n- [RESIL-220](../schools/incident-resilience/departments/incident-response/courses/resil-220.md)\n- [RESIL-210](../schools/incident-resilience/departments/remediation/courses/resil-210.md)\n- [RESIL-310](../schools/incident-resilience/departments/security-operations/courses/resil-310.md)\n\nPart of the [School of Incident & Resilience](../schools/incident-resilience/index.md).\n"
+}

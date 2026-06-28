@@ -1,0 +1,37 @@
+{
+  "key": "environments/comm-lab.md",
+  "id": "environments__comm-lab",
+  "slug": "comm-lab",
+  "type": "TrainingEnvironment",
+  "title": "Customer & Commercial Lab",
+  "frontmatter": {
+    "type": "TrainingEnvironment",
+    "title": "Customer & Commercial Lab",
+    "id": "crm-sim",
+    "description": "The commercial gym floor. Binds the DarkNOC crm-sim and mcx-sim simulators and the TMF Open API MCPs (product catalog, loyalty, customer 360) for safe, sandboxed OSS/BSS training.",
+    "resource": "https://github.com/darknoc/crm-sim",
+    "mcp": [
+      "tmf620-product-catalog",
+      "tmf658-loyalty",
+      "tmf717-customer360"
+    ],
+    "sims": [
+      "crm-sim",
+      "mcx-sim"
+    ],
+    "tags": [
+      "sandbox",
+      "oss-bss",
+      "tmforum",
+      "crm-sim"
+    ],
+    "timestamp": "2026-06-26T00:00:00Z"
+  },
+  "links": [
+    "schools/customer-commercial/departments/customer-360/courses/comm-101.md",
+    "schools/customer-commercial/departments/product-catalog/courses/comm-210.md",
+    "schools/customer-commercial/departments/loyalty/courses/comm-220.md",
+    "schools/customer-commercial/departments/product-catalog/courses/comm-310.md"
+  ],
+  "body": "\n# Customer & Commercial Lab\n\nThe training environment for the commercial school. Agents exercise real **TM Forum Open API** shapes\nagainst deterministic simulators — `crm-sim` (customer & catalog) and `mcx-sim` (member & loyalty\nexperience) — with no production system touched.\n\n## Capabilities\n- Retrieve and reconcile a **TMF717 Customer 360** via the `tmf717-customer360` MCP.\n- Author and query a **TMF620 Product Catalog** via the `tmf620-product-catalog` MCP.\n- Operate a **TMF658 Loyalty** program (accounts, members, earn/burn) via the `tmf658-loyalty` MCP.\n- Emit an auditable trace of every tool call for evaluation.\n\n## Bound simulators & MCPs\n- **Simulators:** `crm-sim`, `mcx-sim`\n- **MCPs:** `tmf620-product-catalog`, `tmf658-loyalty`, `tmf717-customer360`\n\n## Used by\n- [COMM-101](../schools/customer-commercial/departments/customer-360/courses/comm-101.md)\n- [COMM-210](../schools/customer-commercial/departments/product-catalog/courses/comm-210.md)\n- [COMM-220](../schools/customer-commercial/departments/loyalty/courses/comm-220.md)\n- [COMM-310](../schools/customer-commercial/departments/product-catalog/courses/comm-310.md)\n"
+}

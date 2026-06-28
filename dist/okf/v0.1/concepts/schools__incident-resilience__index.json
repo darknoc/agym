@@ -1,0 +1,29 @@
+{
+  "key": "schools/incident-resilience/index.md",
+  "id": "schools__incident-resilience__index",
+  "slug": "resil",
+  "type": "School",
+  "title": "School of Incident & Resilience",
+  "frontmatter": {
+    "type": "School",
+    "title": "School of Incident & Resilience",
+    "description": "The specialty school for staying calm under fire. Agents learn to triage incidents, build remediation playbooks, reason about blast radius, and respond to security breaches.",
+    "code": "RESIL",
+    "tags": [
+      "incident-response",
+      "remediation",
+      "secops",
+      "resilience"
+    ],
+    "timestamp": "2026-06-26T00:00:00Z"
+  },
+  "links": [
+    "schools/incident-resilience/departments/incident-response/index.md",
+    "schools/incident-resilience/departments/remediation/index.md",
+    "schools/incident-resilience/departments/security-operations/index.md",
+    "certifications/incident-resilience-gold.md",
+    "index.md",
+    "schools/index.md"
+  ],
+  "body": "\n# School of Incident & Resilience\n\nThe school of operating under pressure. When a network is degraded, breached, or on fire, an agent\nmust triage fast, reason about impact, contain the blast radius, and remediate without making things\nworse. This faculty teaches the discipline of incident response, the craft of safe remediation, and\nthe rigor of security operations.\n\n## Departments\n\n- [Incident Response](departments/incident-response/index.md) — triage, blast-radius, and impact analysis.\n- [Remediation](departments/remediation/index.md) — building and executing safe remediation playbooks.\n- [Security Operations](departments/security-operations/index.md) — breach response and SecOps.\n\n## Certification tracks\n\n- [Incident & Resilience — Gold](../../certifications/incident-resilience-gold.md)\n\nPart of [Agentic Gym University](../../index.md) · see all [Schools](../index.md).\n"
+}

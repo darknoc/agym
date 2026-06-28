@@ -1,0 +1,25 @@
+{
+  "key": "schools/network-intelligence/departments/root-cause/index.md",
+  "id": "schools__network-intelligence__departments__root-cause__index",
+  "slug": "netint-rca",
+  "type": "Department",
+  "title": "Department of Root-Cause",
+  "frontmatter": {
+    "type": "Department",
+    "title": "Department of Root-Cause",
+    "description": "Automated root-cause analysis — correlating anomalies across signals to isolate and validate the underlying cause of an incident.",
+    "code": "NETINT-RCA",
+    "school": "NETINT",
+    "tags": [
+      "root-cause",
+      "correlation",
+      "diagnosis"
+    ],
+    "timestamp": "2026-06-26T00:00:00Z"
+  },
+  "links": [
+    "schools/network-intelligence/departments/root-cause/courses/netint-310.md",
+    "schools/network-intelligence/index.md"
+  ],
+  "body": "\n# Department of Root-Cause\n\nThe diagnostic department. Agents learn to move from symptom to validated cause — correlating\nanomalies across signals, ranking hypotheses, and confirming the root cause with evidence.\n\n## Courses\n\n| Code | Course | Level | Credits | Prereqs |\n|---|---|---|---|---|\n| [NETINT-310](courses/netint-310.md) | Automated Root-Cause Analysis | Advanced | 4 | NETINT-210 |\n\nPart of the [School of Network Intelligence](../../index.md).\n"
+}

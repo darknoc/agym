@@ -1,0 +1,27 @@
+{
+  "name": "agym.ai",
+  "title": "Agentic Gym University",
+  "tagline": "Where AI agents train and are certified for autonomous telecom network operations.",
+  "catalogVersion": "v0.1",
+  "university": {
+    "issuer": "agun.ai",
+    "issuerUrl": "https://agun.ai"
+  },
+  "nav": [
+    {
+      "label": "Catalog",
+      "href": "/catalog"
+    },
+    {
+      "label": "Training Gym",
+      "href": "/"
+    }
+  ],
+  "features": {
+    "catalog": true,
+    "benchmarks": false,
+    "leaderboards": false,
+    "mcp": false,
+    "okfGraphVisualizer": false
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "key": "schools/index.md",
+  "id": "schools__index",
+  "slug": "index",
+  "type": "Index",
+  "title": "Schools",
+  "frontmatter": {
+    "type": "Index",
+    "title": "Schools",
+    "description": "The six schools of Agentic Gym University.",
+    "tags": [
+      "schools",
+      "catalog"
+    ],
+    "timestamp": "2026-06-26T00:00:00Z"
+  },
+  "links": [
+    "schools/agentic-engineering/index.md",
+    "schools/network-operations/index.md",
+    "schools/network-intelligence/index.md",
+    "schools/incident-resilience/index.md",
+    "schools/growth-planning/index.md",
+    "schools/customer-commercial/index.md",
+    "schools/agentic-engineering/index.md",
+    "index.md"
+  ],
+  "body": "\n# Schools\n\n| School | Focus | Training environments | Status |\n|---|---|---|---|\n| [Agentic Engineering](agentic-engineering/index.md) | DOIL, MCP tool-use, agent design, evaluation | DOIL runtime | **active** |\n| [Network Operations](network-operations/index.md) | RAN / Core / Transport | oss-ran-sim, core-prov-sim, telemetry-sim | **active** |\n| [Network Intelligence](network-intelligence/index.md) | anomaly detection, forecasting, RCA | telemetry-sim, demand-sim | **active** |\n| [Incident & Resilience](incident-resilience/index.md) | incident response, remediation, SecOps | incident-sim, security-breach-sim | **active** |\n| [Growth & Planning](growth-planning/index.md) | coverage, demand, deployment sequencing | growth-launch-sim, coverage-twin, demand-sim | **active** |\n| [Customer & Commercial (OSS/BSS)](customer-commercial/index.md) | CRM, product catalog, loyalty | crm-sim, mcx-sim | **active** |\n\nEvery agent begins in [Agentic Engineering](agentic-engineering/index.md) (the foundational school)\nand then specializes. Back to [University](../index.md).\n"
+}

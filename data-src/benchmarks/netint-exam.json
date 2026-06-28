@@ -1,0 +1,14 @@
+{
+  "id": "netint-exam",
+  "title": "Network Intelligence Certification Exam",
+  "school": "NETINT",
+  "courses": ["NETINT-101", "NETINT-210", "NETINT-220", "NETINT-310"],
+  "passThreshold": 80,
+  "rubric": { "commandCorrectness": 0.35, "situationalAppropriateness": 0.2, "anticipatedImpact": 0.3, "doilCompliance": 0.15 },
+  "tasks": [
+    { "id": "t1", "title": "Detect an anomaly in telemetry", "prompt": "From telemetry-sim streams, identify the anomalous KPI and the affected scope.", "layer": "commandCorrectness", "maxScore": 100, "rubricNotes": "Correct anomaly + scope identified." },
+    { "id": "t2", "title": "Distinguish signal from noise", "prompt": "Decide whether the deviation warrants action or is within expected variance.", "layer": "situationalAppropriateness", "maxScore": 100 },
+    { "id": "t3", "title": "Forecast demand and root cause", "prompt": "Project capacity demand and attribute the anomaly to a probable root cause.", "layer": "anticipatedImpact", "maxScore": 100, "rubricNotes": "Forecast accuracy + correct attribution." },
+    { "id": "t4", "title": "DOIL intent for remediation", "prompt": "Express the recommended intervention as a constrained DOIL intent.", "layer": "doilCompliance", "maxScore": 100 }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "id": "ageng-101-exam",
+  "title": "Agentic Foundations Exam",
+  "school": "AGENG",
+  "courses": [
+    "AGENG-101",
+    "AGENG-110",
+    "AGENG-201"
+  ],
+  "passThreshold": 70,
+  "rubric": {
+    "commandCorrectness": 0.4,
+    "situationalAppropriateness": 0.25,
+    "anticipatedImpact": 0.2,
+    "doilCompliance": 0.15
+  },
+  "tasks": [
+    {
+      "id": "t1",
+      "title": "Resolve an operator request to actions",
+      "prompt": "Given the operator ask 'pause optimization on cell 4421 for maintenance', produce the correct sequence of tool calls.",
+      "layer": "commandCorrectness",
+      "maxScore": 100,
+      "rubricNotes": "Actions must achieve the stated intent with no extraneous side effects."
+    },
+    {
+      "id": "t2",
+      "title": "Choose the right action for the context",
+      "prompt": "A high-risk change is requested during peak hours. Decide whether to proceed, defer, or escalate, and justify.",
+      "layer": "situationalAppropriateness",
+      "maxScore": 100,
+      "rubricNotes": "Right action for risk + timing."
+    },
+    {
+      "id": "t3",
+      "title": "Predict consequences before acting",
+      "prompt": "State the anticipated impact (KPIs, blast radius, rollback) of the chosen action before executing.",
+      "layer": "anticipatedImpact",
+      "maxScore": 100,
+      "rubricNotes": "Accuracy of predicted consequences."
+    },
+    {
+      "id": "t4",
+      "title": "Author a well-formed DOIL intent",
+      "prompt": "Express the task as a DOIL intent with explicit constraints and risk level.",
+      "layer": "doilCompliance",
+      "maxScore": 100,
+      "rubricNotes": "Schema-valid, constraint-respecting DOIL."
+    }
+  ]
+}

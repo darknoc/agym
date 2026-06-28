@@ -1,0 +1,25 @@
+{
+  "key": "schools/growth-planning/departments/demand-market/index.md",
+  "id": "schools__growth-planning__departments__demand-market__index",
+  "slug": "grow-dmd",
+  "type": "Department",
+  "title": "Department of Demand & Market",
+  "frontmatter": {
+    "type": "Department",
+    "title": "Department of Demand & Market",
+    "description": "Demand and market modeling — forecasting where traffic and subscribers will materialize so the network grows toward real demand.",
+    "code": "GROW-DMD",
+    "school": "GROW",
+    "tags": [
+      "demand",
+      "market",
+      "forecasting"
+    ],
+    "timestamp": "2026-06-26T00:00:00Z"
+  },
+  "links": [
+    "schools/growth-planning/departments/demand-market/courses/grow-210.md",
+    "schools/growth-planning/index.md"
+  ],
+  "body": "\n# Department of Demand & Market\n\nWho the network should serve. Agents forecast demand from population, geography, and market signals,\nturning raw geospatial data into a defensible view of where traffic and subscribers will materialize.\n\n## Courses\n\n| Code | Course | Level | Credits | Prereqs |\n|---|---|---|---|---|\n| [GROW-210](courses/grow-210.md) | Demand Modeling | Core | 4 | GROW-101 |\n\nPart of the [School of Growth & Planning](../../index.md).\n"
+}

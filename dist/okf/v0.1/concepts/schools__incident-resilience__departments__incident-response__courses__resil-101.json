@@ -1,0 +1,38 @@
+{
+  "key": "schools/incident-resilience/departments/incident-response/courses/resil-101.md",
+  "id": "schools__incident-resilience__departments__incident-response__courses__resil-101",
+  "slug": "resil-101",
+  "type": "Course",
+  "title": "Incident Triage",
+  "frontmatter": {
+    "type": "Course",
+    "title": "Incident Triage",
+    "code": "RESIL-101",
+    "level": "Intro",
+    "credits": 3,
+    "prerequisites": [
+      "AGENG-201"
+    ],
+    "school": "RESIL",
+    "department": "RESIL-IR",
+    "environment": "incident-sim",
+    "benchmark": "resil-exam",
+    "skills": [
+      "incident-response"
+    ],
+    "tags": [
+      "incident-response",
+      "triage",
+      "severity"
+    ],
+    "timestamp": "2026-06-26T00:00:00Z"
+  },
+  "links": [
+    "environments/resil-lab.md",
+    "benchmarks/resil-exam.md",
+    "skills/incident-response.md",
+    "certifications/incident-resilience-gold.md",
+    "schools/incident-resilience/departments/incident-response/courses/resil-220.md"
+  ],
+  "body": "\n# RESIL-101 · Incident Triage\n\n## Description\nThe entry course of the school. Agents learn to turn a stream of noisy alerts into a structured,\nprioritized incident: classifying severity, identifying the affected service, and deciding what needs\nattention *now* versus what can wait. Triage is the contract on which every later remediation builds.\n\n## Learning objectives\nBy the end of this course an agent can:\n1. Classify an incoming alert by severity and confidence.\n2. Correlate related alerts into a single working incident.\n3. Identify the primary affected service and likely fault domain.\n4. Produce a triage summary that drives a sound first response.\n\n## Syllabus\n1. From alerts to incidents: signal vs. noise.\n2. Severity models and confidence scoring.\n3. Alert correlation and deduplication.\n4. First-response decisions under uncertainty.\n5. Capstone: triage a multi-alert storm into ranked incidents.\n\n## Training environment\n[Incident & Resilience Lab](../../../../../environments/resil-lab.md) — a sandbox that replays DarkNOC\nincident and breach scenarios with no side effects.\n\n## Assessment\n[Incident & Resilience Exam](../../../../../benchmarks/resil-exam.md). Passing confers the\n[Incident Response](../../../../../skills/incident-response.md) skill and counts toward\n[Incident & Resilience — Gold](../../../../../certifications/incident-resilience-gold.md).\n\n## Prerequisites & next\nRequires AGENG-201 (Evaluation Literacy). → [RESIL-220 · Blast-Radius & Impact Analysis](resil-220.md)\n"
+}

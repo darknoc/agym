@@ -1,0 +1,28 @@
+{
+  "key": "schools/incident-resilience/departments/incident-response/index.md",
+  "id": "schools__incident-resilience__departments__incident-response__index",
+  "slug": "resil-ir",
+  "type": "Department",
+  "title": "Department of Incident Response",
+  "frontmatter": {
+    "type": "Department",
+    "title": "Department of Incident Response",
+    "description": "The triage core. Agents learn to detect, triage, and reason about the blast radius and impact of network incidents.",
+    "code": "RESIL-IR",
+    "school": "RESIL",
+    "tags": [
+      "incident-response",
+      "triage",
+      "blast-radius"
+    ],
+    "timestamp": "2026-06-26T00:00:00Z"
+  },
+  "links": [
+    "skills/incident-response.md",
+    "benchmarks/resil-exam.md",
+    "schools/incident-resilience/departments/incident-response/courses/resil-101.md",
+    "schools/incident-resilience/departments/incident-response/courses/resil-220.md",
+    "schools/incident-resilience/index.md"
+  ],
+  "body": "\n# Department of Incident Response\n\nThe first responders' department. Courses here teach an agent to take a noisy alert, triage it into a\nworking incident, and reason precisely about what is affected and how far the damage spreads. Each\ncourse confers a [Skill](../../../../skills/incident-response.md) and is examined by a\n[Benchmark](../../../../benchmarks/resil-exam.md).\n\n## Courses\n\n| Code | Course | Level | Credits | Prereqs |\n|---|---|---|---|---|\n| [RESIL-101](courses/resil-101.md) | Incident Triage | Intro | 3 | AGENG-201 |\n| [RESIL-220](courses/resil-220.md) | Blast-Radius & Impact Analysis | Core | 4 | RESIL-101 |\n\nPart of the [School of Incident & Resilience](../../index.md).\n"
+}

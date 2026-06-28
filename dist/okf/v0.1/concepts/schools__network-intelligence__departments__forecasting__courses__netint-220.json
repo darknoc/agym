@@ -1,0 +1,39 @@
+{
+  "key": "schools/network-intelligence/departments/forecasting/courses/netint-220.md",
+  "id": "schools__network-intelligence__departments__forecasting__courses__netint-220",
+  "slug": "netint-220",
+  "type": "Course",
+  "title": "Demand Forecasting",
+  "frontmatter": {
+    "type": "Course",
+    "title": "Demand Forecasting",
+    "code": "NETINT-220",
+    "level": "Core",
+    "credits": 4,
+    "prerequisites": [
+      "NETINT-101"
+    ],
+    "school": "NETINT",
+    "department": "NETINT-FCAST",
+    "environment": "telemetry-sim",
+    "benchmark": "netint-exam",
+    "skills": [
+      "capacity-forecasting"
+    ],
+    "tags": [
+      "forecasting",
+      "demand",
+      "capacity"
+    ],
+    "timestamp": "2026-06-26T00:00:00Z"
+  },
+  "links": [
+    "environments/netint-lab.md",
+    "benchmarks/netint-exam.md",
+    "skills/capacity-forecasting.md",
+    "certifications/network-intelligence-gold.md",
+    "schools/network-intelligence/departments/observability/courses/netint-101.md",
+    "schools/network-intelligence/departments/root-cause/courses/netint-310.md"
+  ],
+  "body": "\n# NETINT-220 · Demand Forecasting\n\n## Description\nThe core forecasting course. Agents learn to project future demand and capacity headroom from\nhistorical telemetry, quantifying uncertainty so that planning decisions rest on honest ranges, not\nsingle-point guesses.\n\n## Learning objectives\nBy the end of this course an agent can:\n1. Build short- and medium-horizon forecasts from telemetry history.\n2. Model seasonality, trend, and growth in demand.\n3. Produce prediction intervals and communicate forecast uncertainty.\n4. Translate a demand forecast into a capacity headroom recommendation.\n\n## Syllabus\n1. Forecasting fundamentals: horizon, granularity, error metrics.\n2. Trend, seasonality, and growth decomposition.\n3. Uncertainty: prediction intervals and backtesting.\n4. From demand forecast to capacity plan.\n5. Capstone: forecast demand and recommend headroom for a region.\n\n## Training environment\n[Network Intelligence Lab](../../../../../environments/netint-lab.md) — binds the DarkNOC\n`demand-sim` simulator for backtesting forecasts against held-out history.\n\n## Assessment\n[Network Intelligence Exam](../../../../../benchmarks/netint-exam.md). Passing contributes to the\n[Capacity Forecasting](../../../../../skills/capacity-forecasting.md) skill and counts toward\n[Network Intelligence — Gold](../../../../../certifications/network-intelligence-gold.md).\n\n## Prerequisite\n← [NETINT-101 · Telemetry & Observability](../../observability/courses/netint-101.md)\n\n## Next\n→ [NETINT-310 · Automated Root-Cause Analysis](../../root-cause/courses/netint-310.md)\n"
+}

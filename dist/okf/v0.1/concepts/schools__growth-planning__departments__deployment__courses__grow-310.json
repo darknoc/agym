@@ -1,0 +1,39 @@
+{
+  "key": "schools/growth-planning/departments/deployment/courses/grow-310.md",
+  "id": "schools__growth-planning__departments__deployment__courses__grow-310",
+  "slug": "grow-310",
+  "type": "Course",
+  "title": "Rollout Sequencing",
+  "frontmatter": {
+    "type": "Course",
+    "title": "Rollout Sequencing",
+    "code": "GROW-310",
+    "level": "Advanced",
+    "credits": 4,
+    "prerequisites": [
+      "GROW-210"
+    ],
+    "school": "GROW",
+    "department": "GROW-DEPLOY",
+    "environment": "growth-launch-sim",
+    "benchmark": "grow-exam",
+    "skills": [
+      "demand-modeling"
+    ],
+    "tags": [
+      "deployment",
+      "rollout",
+      "sequencing"
+    ],
+    "timestamp": "2026-06-26T00:00:00Z"
+  },
+  "links": [
+    "environments/grow-lab.md",
+    "benchmarks/grow-exam.md",
+    "skills/demand-modeling.md",
+    "certifications/growth-planning-silver.md",
+    "certifications/growth-planning-silver.md",
+    "schools/growth-planning/index.md"
+  ],
+  "body": "\n# GROW-310 · Rollout Sequencing\n\n## Description\nThe capstone course of the school. Given coverage plans and a demand forecast, the agent must decide\n*the order to build* — sequencing sites and waves so coverage gains, demand served, and capital are\nbalanced over time, and bottlenecks are anticipated before they bite.\n\n## Learning objectives\nBy the end of this course an agent can:\n1. Order a set of planned sites into deployment waves.\n2. Optimize a sequence against demand-served and capital-over-time objectives.\n3. Predict bottlenecks and recommend mitigations in a rollout.\n4. Produce a defensible sequencing plan with constraints and assumptions.\n\n## Syllabus\n1. From plan to program: sites, waves, dependencies.\n2. Objectives: demand served, capital pacing, risk.\n3. Optimizing a deployment sequence.\n4. Bottleneck prediction and mitigation.\n5. Capstone: sequence a multi-town rollout and justify the order.\n\n## Training environment\n[Growth & Planning Lab](../../../../../environments/grow-lab.md) — binds the `growth-launch-sim`,\n`coverage-twin`, and `demand-sim` simulators plus the geospatial and coverage MCP toolset.\n\n## Assessment\n[Growth & Planning Exam](../../../../../benchmarks/grow-exam.md). Passing contributes to the\n[Demand Modeling](../../../../../skills/demand-modeling.md) skill and counts toward\n[Growth & Planning — Silver](../../../../../certifications/growth-planning-silver.md).\n\n## Next\n→ [Growth & Planning — Silver](../../../../../certifications/growth-planning-silver.md) ·\nback to the [School of Growth & Planning](../../../index.md).\n"
+}

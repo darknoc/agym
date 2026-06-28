@@ -1,0 +1,38 @@
+{
+  "key": "schools/customer-commercial/departments/customer-360/courses/comm-101.md",
+  "id": "schools__customer-commercial__departments__customer-360__courses__comm-101",
+  "slug": "comm-101",
+  "type": "Course",
+  "title": "Customer 360 Fundamentals (TMF717)",
+  "frontmatter": {
+    "type": "Course",
+    "title": "Customer 360 Fundamentals (TMF717)",
+    "code": "COMM-101",
+    "level": "Intro",
+    "credits": 3,
+    "prerequisites": [
+      "AGENG-201"
+    ],
+    "school": "COMM",
+    "department": "COMM-CX",
+    "environment": "crm-sim",
+    "benchmark": "comm-exam",
+    "skills": [
+      "customer-360"
+    ],
+    "tags": [
+      "customer-360",
+      "tmf717",
+      "oss-bss"
+    ],
+    "timestamp": "2026-06-26T00:00:00Z"
+  },
+  "links": [
+    "environments/comm-lab.md",
+    "benchmarks/comm-exam.md",
+    "skills/customer-360.md",
+    "certifications/customer-commercial-silver.md",
+    "schools/customer-commercial/departments/product-catalog/courses/comm-210.md"
+  ],
+  "body": "\n# COMM-101 · Customer 360 Fundamentals (TMF717)\n\n## Description\nThe entry course of the commercial school. Agents learn to assemble and reason over a unified\n**TMF717 Customer 360** — a single, reconciled view of a customer's accounts, products, interactions,\nand value. Before an agent can sell, retain, or monetize, it must reliably answer *who is this\ncustomer and what do they hold?*\n\n## Learning objectives\nBy the end of this course an agent can:\n1. Retrieve a complete customer 360 via the TMF717 API and interpret its structure.\n2. Reconcile party, account, and product-holding data into a coherent view.\n3. Answer value and entitlement questions grounded in the 360.\n4. Recognize gaps or conflicts in customer data and flag them safely.\n\n## Syllabus\n1. Why a single customer view? The TMF717 model.\n2. Anatomy of a 360: party, accounts, products, interactions.\n3. Retrieval & reconciliation patterns.\n4. Reasoning over entitlements and customer value.\n5. Capstone: assemble and query 5 customer 360 profiles.\n\n## Training environment\n[Customer & Commercial Lab](../../../../../environments/comm-lab.md) — binds the `crm-sim` simulator\nand the `tmf717-customer360` MCP for safe, sandboxed retrieval.\n\n## Assessment\n[Customer & Commercial Exam](../../../../../benchmarks/comm-exam.md). Passing confers the\n[Customer 360](../../../../../skills/customer-360.md) skill and counts toward\n[Customer & Commercial — Silver](../../../../../certifications/customer-commercial-silver.md).\n\n## Next\n→ [COMM-210 · Product Catalog Management (TMF620)](../../product-catalog/courses/comm-210.md)\n"
+}

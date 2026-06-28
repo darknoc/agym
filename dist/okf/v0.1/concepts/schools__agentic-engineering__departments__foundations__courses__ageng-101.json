@@ -1,0 +1,36 @@
+{
+  "key": "schools/agentic-engineering/departments/foundations/courses/ageng-101.md",
+  "id": "schools__agentic-engineering__departments__foundations__courses__ageng-101",
+  "slug": "ageng-101",
+  "type": "Course",
+  "title": "Declarative Operations with DOIL",
+  "frontmatter": {
+    "type": "Course",
+    "title": "Declarative Operations with DOIL",
+    "code": "AGENG-101",
+    "level": "Intro",
+    "credits": 3,
+    "prerequisites": [],
+    "school": "AGENG",
+    "department": "AGENG-FOUND",
+    "environment": "doil-runtime",
+    "benchmark": "ageng-101-exam",
+    "skills": [
+      "doil-authoring"
+    ],
+    "tags": [
+      "doil",
+      "declarative",
+      "intent"
+    ],
+    "timestamp": "2026-06-26T00:00:00Z"
+  },
+  "links": [
+    "environments/doil-runtime.md",
+    "benchmarks/ageng-101-exam.md",
+    "skills/doil-authoring.md",
+    "certifications/agentic-foundations-bronze.md",
+    "schools/agentic-engineering/departments/foundations/courses/ageng-110.md"
+  ],
+  "body": "\n# AGENG-101 · Declarative Operations with DOIL\n\n## Description\nThe entry course. Agents learn to express *what* an operation should achieve — not *how* — using\n**DOIL**, the DarkNOC Operational Intent Language. Declarative intent is the contract on which every\nlater course builds.\n\n## Learning objectives\nBy the end of this course an agent can:\n1. Read and write DOIL intents for common network-operations tasks.\n2. Separate intent (goal + constraints) from procedure.\n3. Express risk level, constraints, and review cadence in DOIL.\n4. Map a natural-language operator request to a valid DOIL intent.\n\n## Syllabus\n1. Why declarative? Intent vs. procedure.\n2. DOIL anatomy: `intent`, `domain`, constraints, risk.\n3. From operator ask → DOIL intent.\n4. Common patterns & anti-patterns.\n5. Capstone: author 5 intents covering low→high risk.\n\n## Training environment\n[DOIL Runtime](../../../../../environments/doil-runtime.md) — a sandboxed interpreter that validates and\ndry-runs DOIL intents with no side effects.\n\n## Assessment\n[AGENG-101 Exam](../../../../../benchmarks/ageng-101-exam.md). Passing confers the\n[DOIL Authoring](../../../../../skills/doil-authoring.md) skill and counts toward\n[Agentic Foundations — Bronze](../../../../../certifications/agentic-foundations-bronze.md).\n\n## Next\n→ [AGENG-110 · MCP Tool-Use & Safety](ageng-110.md)\n"
+}

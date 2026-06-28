@@ -1,0 +1,15 @@
+{
+  "_comment": "Registry of the real DarkNOC simulators (04-simulators/*) the gym trains against. url is null until a deployment is configured (override per-env via NEXT_PUBLIC_SIM_<ID>_URL at build).",
+  "sims": {
+    "oss-ran-sim": { "name": "OSS / RAN Simulator", "blurb": "RAN configuration, optimization and KPI behavior.", "repo": "04-simulators/oss-ran-sim", "url": null },
+    "core-prov-sim": { "name": "Core Provisioning Simulator", "blurb": "Core network provisioning & service activation.", "repo": "04-simulators/core-prov-sim", "url": null },
+    "telemetry-sim": { "name": "Telemetry Simulator", "blurb": "Streaming KPI/alarm telemetry & anomaly injection.", "repo": "04-simulators/telemetry-sim", "url": null },
+    "demand-sim": { "name": "Demand Simulator", "blurb": "Traffic demand & capacity modeling.", "repo": "04-simulators/demand-sim", "url": null },
+    "coverage-twin": { "name": "Coverage Twin", "blurb": "RF coverage digital twin & planning.", "repo": "04-simulators/coverage-twin", "url": null },
+    "growth-launch-sim": { "name": "Growth & Launch Simulator", "blurb": "Market growth, site rollout & launch sequencing.", "repo": "04-simulators/growth-launch-sim", "url": null },
+    "incident-sim": { "name": "Incident Simulator", "blurb": "Network incident impact & remediation.", "repo": "04-simulators/incident-sim", "url": null },
+    "security-breach-sim": { "name": "Security Breach Simulator", "blurb": "SecOps breach scenarios & response.", "repo": "04-simulators/security-breach-sim", "url": null },
+    "crm-sim": { "name": "CRM Simulator", "blurb": "Customer relationship & care workflows.", "repo": "04-simulators/crm-sim", "url": null },
+    "mcx-sim": { "name": "MCX Simulator", "blurb": "Monetization & commercial experience.", "repo": "04-simulators/mcx-sim", "url": null }
+  }
+}

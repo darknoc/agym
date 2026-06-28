@@ -1,0 +1,17 @@
+{
+  "okfVersion": "0.1",
+  "catalogVersion": "v0.1",
+  "generatedAt": "2026-06-28T09:13:15.659Z",
+  "conceptCount": 76,
+  "counts": {
+    "Benchmark": 6,
+    "Certification": 6,
+    "TrainingEnvironment": 6,
+    "University": 1,
+    "Course": 23,
+    "Department": 16,
+    "School": 6,
+    "Index": 1,
+    "Skill": 11
+  }
+}

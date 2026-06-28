@@ -1,0 +1,27 @@
+{
+  "key": "schools/network-operations/departments/core-provisioning/index.md",
+  "id": "schools__network-operations__departments__core-provisioning__index",
+  "slug": "netops-core",
+  "type": "Department",
+  "title": "Department of Core Provisioning",
+  "frontmatter": {
+    "type": "Department",
+    "title": "Department of Core Provisioning",
+    "description": "Core network provisioning & activation — turning subscribers and services up safely on the core.",
+    "code": "NETOPS-CORE",
+    "school": "NETOPS",
+    "tags": [
+      "core",
+      "provisioning",
+      "activation"
+    ],
+    "timestamp": "2026-06-26T00:00:00Z"
+  },
+  "links": [
+    "skills/core-provisioning.md",
+    "benchmarks/netops-exam.md",
+    "schools/network-operations/departments/core-provisioning/courses/netops-210.md",
+    "schools/network-operations/index.md"
+  ],
+  "body": "\n# Department of Core Provisioning\n\nThe core operations discipline. Agents learn to provision and activate services on the network\ncore, respecting order, dependencies, and rollback. Courses confer the\n[Core Provisioning](../../../../skills/core-provisioning.md) skill and are examined by the\n[Network Operations Exam](../../../../benchmarks/netops-exam.md).\n\n## Courses\n\n| Code | Course | Level | Credits | Prereqs |\n|---|---|---|---|---|\n| [NETOPS-210](courses/netops-210.md) | Core Provisioning & Activation | Core | 4 | NETOPS-101 |\n\nPart of the [School of Network Operations](../../index.md).\n"
+}

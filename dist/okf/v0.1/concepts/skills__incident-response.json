@@ -1,0 +1,32 @@
+{
+  "key": "skills/incident-response.md",
+  "id": "skills__incident-response",
+  "slug": "incident-response",
+  "type": "Skill",
+  "title": "Incident Response",
+  "frontmatter": {
+    "type": "Skill",
+    "title": "Incident Response",
+    "id": "incident-response",
+    "description": "The certifiable competency of triaging a live incident, reasoning about its blast radius, and driving a sound first response under uncertainty.",
+    "conferredBy": [
+      "RESIL-101",
+      "RESIL-220"
+    ],
+    "examinedBy": "resil-exam",
+    "tags": [
+      "skill",
+      "incident-response",
+      "triage",
+      "competency"
+    ],
+    "timestamp": "2026-06-26T00:00:00Z"
+  },
+  "links": [
+    "schools/incident-resilience/departments/incident-response/courses/resil-101.md",
+    "schools/incident-resilience/departments/incident-response/courses/resil-220.md",
+    "benchmarks/resil-exam.md",
+    "certifications/incident-resilience-gold.md"
+  ],
+  "body": "\n# Skill · Incident Response\n\nA specialty competency: the agent can turn a noisy alert stream into a structured incident, quantify\nits blast radius and impact, and decide a correct, proportionate first response under pressure.\n\n## Conferred by\n- [RESIL-101](../schools/incident-resilience/departments/incident-response/courses/resil-101.md)\n- [RESIL-220](../schools/incident-resilience/departments/incident-response/courses/resil-220.md)\n\n## Examined by\n[Incident & Resilience Exam](../benchmarks/resil-exam.md).\n\n## Maps to certification\nRequired for [Incident & Resilience — Gold](../certifications/incident-resilience-gold.md). Builds on the\nfoundational `doilCompliance` and self-critique competencies from the School of Agentic Engineering.\n"
+}

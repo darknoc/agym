@@ -1,0 +1,39 @@
+{
+  "key": "schools/network-intelligence/departments/observability/courses/netint-210.md",
+  "id": "schools__network-intelligence__departments__observability__courses__netint-210",
+  "slug": "netint-210",
+  "type": "Course",
+  "title": "Anomaly Detection",
+  "frontmatter": {
+    "type": "Course",
+    "title": "Anomaly Detection",
+    "code": "NETINT-210",
+    "level": "Core",
+    "credits": 4,
+    "prerequisites": [
+      "NETINT-101"
+    ],
+    "school": "NETINT",
+    "department": "NETINT-OBS",
+    "environment": "telemetry-sim",
+    "benchmark": "netint-exam",
+    "skills": [
+      "anomaly-detection"
+    ],
+    "tags": [
+      "anomaly-detection",
+      "statistics",
+      "signals"
+    ],
+    "timestamp": "2026-06-26T00:00:00Z"
+  },
+  "links": [
+    "environments/netint-lab.md",
+    "benchmarks/netint-exam.md",
+    "skills/anomaly-detection.md",
+    "certifications/network-intelligence-gold.md",
+    "schools/network-intelligence/departments/observability/courses/netint-101.md",
+    "schools/network-intelligence/departments/root-cause/courses/netint-310.md"
+  ],
+  "body": "\n# NETINT-210 · Anomaly Detection\n\n## Description\nThe core observability course. Agents move from *seeing* telemetry to *judging* it — applying\nstatistical and contextual methods to decide when a deviation is a real anomaly worth acting on, and\nwhen it is noise to be suppressed.\n\n## Learning objectives\nBy the end of this course an agent can:\n1. Apply threshold, statistical, and seasonal methods to detect anomalies.\n2. Tune sensitivity to balance false positives against missed events.\n3. Correlate anomalies across multiple signals to reduce alert fatigue.\n4. Justify each detection with evidence and a confidence estimate.\n\n## Syllabus\n1. Detection families: thresholds, z-scores, seasonal decomposition.\n2. Precision vs. recall: the cost of false alarms.\n3. Multi-signal correlation and deduplication.\n4. Confidence, evidence, and explainability.\n5. Capstone: build a tuned detector and defend its trade-offs.\n\n## Training environment\n[Network Intelligence Lab](../../../../../environments/netint-lab.md) — exercises detectors against\nthe `telemetry-sim` simulator with injected anomalies of known ground truth.\n\n## Assessment\n[Network Intelligence Exam](../../../../../benchmarks/netint-exam.md). Passing contributes to the\n[Anomaly Detection](../../../../../skills/anomaly-detection.md) skill and counts toward\n[Network Intelligence — Gold](../../../../../certifications/network-intelligence-gold.md).\n\n## Prerequisite\n← [NETINT-101 · Telemetry & Observability](netint-101.md)\n\n## Next\n→ [NETINT-310 · Automated Root-Cause Analysis](../../root-cause/courses/netint-310.md)\n"
+}

@@ -1,0 +1,33 @@
+{
+  "key": "skills/product-catalog.md",
+  "id": "skills__product-catalog",
+  "slug": "product-catalog",
+  "type": "Skill",
+  "title": "Product Catalog",
+  "frontmatter": {
+    "type": "Skill",
+    "title": "Product Catalog",
+    "id": "product-catalog",
+    "description": "The certifiable competency of authoring, validating, and operating commercial offerings — TMF620 product catalog and TMF658 loyalty — as the monetization layer of the telco stack.",
+    "conferredBy": [
+      "COMM-210",
+      "COMM-220"
+    ],
+    "examinedBy": "comm-exam",
+    "tags": [
+      "skill",
+      "product-catalog",
+      "tmf620",
+      "tmf658",
+      "competency"
+    ],
+    "timestamp": "2026-06-26T00:00:00Z"
+  },
+  "links": [
+    "schools/customer-commercial/departments/product-catalog/courses/comm-210.md",
+    "schools/customer-commercial/departments/loyalty/courses/comm-220.md",
+    "benchmarks/comm-exam.md",
+    "certifications/customer-commercial-silver.md"
+  ],
+  "body": "\n# Skill · Product Catalog\n\nA commercial competency: the agent can author and validate a **TMF620 Product Catalog**, operate a\n**TMF658 Loyalty** program, and reason about how offerings, pricing, and earn/burn mechanics drive\nmonetization.\n\n## Conferred by\n- [COMM-210](../schools/customer-commercial/departments/product-catalog/courses/comm-210.md)\n- [COMM-220](../schools/customer-commercial/departments/loyalty/courses/comm-220.md)\n\n## Examined by\n[Customer & Commercial Exam](../benchmarks/comm-exam.md).\n\n## Maps to certification\nRequired for [Customer & Commercial — Silver](../certifications/customer-commercial-silver.md).\nMirrors the `commandCorrectness` and `anticipatedImpact` dimensions of the agun.ai\n`EvaluationScores` as applied to catalog and loyalty operations.\n"
+}

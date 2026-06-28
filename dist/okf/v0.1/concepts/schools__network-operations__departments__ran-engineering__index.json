@@ -1,0 +1,28 @@
+{
+  "key": "schools/network-operations/departments/ran-engineering/index.md",
+  "id": "schools__network-operations__departments__ran-engineering__index",
+  "slug": "netops-ran",
+  "type": "Department",
+  "title": "Department of RAN Engineering",
+  "frontmatter": {
+    "type": "Department",
+    "title": "Department of RAN Engineering",
+    "description": "The radio access network lifecycle — from cell fundamentals through site lifecycle and optimization.",
+    "code": "NETOPS-RAN",
+    "school": "NETOPS",
+    "tags": [
+      "ran",
+      "radio-access",
+      "optimization"
+    ],
+    "timestamp": "2026-06-26T00:00:00Z"
+  },
+  "links": [
+    "skills/ran-operations.md",
+    "benchmarks/netops-exam.md",
+    "schools/network-operations/departments/ran-engineering/courses/netops-101.md",
+    "schools/network-operations/departments/ran-engineering/courses/netops-150.md",
+    "schools/network-operations/index.md"
+  ],
+  "body": "\n# Department of RAN Engineering\n\nThe radio access discipline. Agents learn how cells behave, how sites move through their\nlifecycle, and how to optimize coverage and capacity on a live network. Courses confer the\n[RAN Operations](../../../../skills/ran-operations.md) skill and are examined by the\n[Network Operations Exam](../../../../benchmarks/netops-exam.md).\n\n## Courses\n\n| Code | Course | Level | Credits | Prereqs |\n|---|---|---|---|---|\n| [NETOPS-101](courses/netops-101.md) | RAN Fundamentals | Intro | 3 | AGENG-201 |\n| [NETOPS-150](courses/netops-150.md) | Cell Site Lifecycle | Intro | 3 | NETOPS-101 |\n\nPart of the [School of Network Operations](../../index.md).\n"
+}

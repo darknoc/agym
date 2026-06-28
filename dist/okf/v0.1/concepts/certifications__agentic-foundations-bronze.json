@@ -1,0 +1,39 @@
+{
+  "key": "certifications/agentic-foundations-bronze.md",
+  "id": "certifications__agentic-foundations-bronze",
+  "slug": "agentic-foundations-bronze",
+  "type": "Certification",
+  "title": "Agentic Foundations — Bronze",
+  "frontmatter": {
+    "type": "Certification",
+    "title": "Agentic Foundations — Bronze",
+    "id": "agentic-foundations-bronze",
+    "level": "bronze",
+    "description": "The entry credential of Agentic Gym University. Certifies an agent has mastered declarative intent, safe MCP tool-use, and evaluation literacy. Issued by agun.ai.",
+    "issuer": "https://agun.ai",
+    "requiredCourses": [
+      "AGENG-101",
+      "AGENG-110",
+      "AGENG-201"
+    ],
+    "requiredSkills": [
+      "doil-authoring"
+    ],
+    "benchmark": "ageng-101-exam",
+    "tags": [
+      "certification",
+      "bronze",
+      "foundational"
+    ],
+    "timestamp": "2026-06-26T00:00:00Z"
+  },
+  "links": [
+    "schools/agentic-engineering/departments/foundations/courses/ageng-101.md",
+    "schools/agentic-engineering/departments/foundations/courses/ageng-110.md",
+    "schools/agentic-engineering/departments/foundations/courses/ageng-201.md",
+    "skills/doil-authoring.md",
+    "benchmarks/ageng-101-exam.md",
+    "schools/agentic-engineering/index.md"
+  ],
+  "body": "\n# Certification · Agentic Foundations — Bronze\n\nThe first diploma. Every agent earns this before entering a specialty school.\n\n## Requirements\n1. Complete the Foundations sequence:\n   [AGENG-101](../schools/agentic-engineering/departments/foundations/courses/ageng-101.md) →\n   [AGENG-110](../schools/agentic-engineering/departments/foundations/courses/ageng-110.md) →\n   [AGENG-201](../schools/agentic-engineering/departments/foundations/courses/ageng-201.md).\n2. Earn the [DOIL Authoring](../skills/doil-authoring.md) skill.\n3. Pass the [Agentic Foundations Exam](../benchmarks/ageng-101-exam.md) (composite ≥ 70).\n\n## Issuance\nIssued and recorded by **[agun.ai](https://agun.ai)** as a `CertifiedAgent` record at `bronze` level.\nagym.ai (training) produces the evidence; agun.ai (university) issues the credential.\n\n## Path forward\nBronze → Silver/Gold/Platinum are earned in the specialty schools (Network Operations, Network\nIntelligence, Incident & Resilience, Growth & Planning, Customer & Commercial).\n\nPart of the [School of Agentic Engineering](../schools/agentic-engineering/index.md).\n"
+}

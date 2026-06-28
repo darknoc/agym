@@ -1,0 +1,38 @@
+{
+  "key": "schools/growth-planning/departments/demand-market/courses/grow-210.md",
+  "id": "schools__growth-planning__departments__demand-market__courses__grow-210",
+  "slug": "grow-210",
+  "type": "Course",
+  "title": "Demand Modeling",
+  "frontmatter": {
+    "type": "Course",
+    "title": "Demand Modeling",
+    "code": "GROW-210",
+    "level": "Core",
+    "credits": 4,
+    "prerequisites": [
+      "GROW-101"
+    ],
+    "school": "GROW",
+    "department": "GROW-DMD",
+    "environment": "growth-launch-sim",
+    "benchmark": "grow-exam",
+    "skills": [
+      "demand-modeling"
+    ],
+    "tags": [
+      "demand",
+      "market",
+      "forecasting"
+    ],
+    "timestamp": "2026-06-26T00:00:00Z"
+  },
+  "links": [
+    "environments/grow-lab.md",
+    "benchmarks/grow-exam.md",
+    "skills/demand-modeling.md",
+    "certifications/growth-planning-silver.md",
+    "schools/growth-planning/departments/deployment/courses/grow-310.md"
+  ],
+  "body": "\n# GROW-210 · Demand Modeling\n\n## Description\nWith coverage understood, the agent turns to *who will use it*. This course teaches demand modeling:\nestimating subscribers and traffic from population, geography, and market signals so that the network\ngrows toward real demand rather than empty footprint.\n\n## Learning objectives\nBy the end of this course an agent can:\n1. Build a demand estimate for an area from population and density gradients.\n2. Incorporate points-of-interest and corridor signals into a forecast.\n3. Compare locations by expected demand and justify a ranking.\n4. Express demand assumptions and uncertainty as constraints in a plan.\n\n## Syllabus\n1. From population to demand: density, hotspots, gradients.\n2. POI and corridor signals as demand multipliers.\n3. Comparing and ranking candidate markets.\n4. Uncertainty, assumptions, and sensitivity.\n5. Capstone: forecast demand for three candidate towns and rank them.\n\n## Training environment\n[Growth & Planning Lab](../../../../../environments/grow-lab.md) — binds the `growth-launch-sim`,\n`coverage-twin`, and `demand-sim` simulators plus the POI and geospatial MCP toolset.\n\n## Assessment\n[Growth & Planning Exam](../../../../../benchmarks/grow-exam.md). Passing contributes to the\n[Demand Modeling](../../../../../skills/demand-modeling.md) skill and counts toward\n[Growth & Planning — Silver](../../../../../certifications/growth-planning-silver.md).\n\n## Next\n→ [GROW-310 · Rollout Sequencing](../../deployment/courses/grow-310.md)\n"
+}

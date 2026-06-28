@@ -1,0 +1,26 @@
+{
+  "key": "schools/growth-planning/departments/coverage-planning/index.md",
+  "id": "schools__growth-planning__departments__coverage-planning__index",
+  "slug": "grow-cov",
+  "type": "Department",
+  "title": "Department of Coverage Planning",
+  "frontmatter": {
+    "type": "Department",
+    "title": "Department of Coverage Planning",
+    "description": "Coverage and RF planning — modeling propagation, selecting sites, and analyzing points of interest to maximize served population per build.",
+    "code": "GROW-COV",
+    "school": "GROW",
+    "tags": [
+      "coverage",
+      "rf-planning",
+      "site-selection"
+    ],
+    "timestamp": "2026-06-26T00:00:00Z"
+  },
+  "links": [
+    "schools/growth-planning/departments/coverage-planning/courses/grow-101.md",
+    "schools/growth-planning/departments/coverage-planning/courses/grow-220.md",
+    "schools/growth-planning/index.md"
+  ],
+  "body": "\n# Department of Coverage Planning\n\nWhere the network *should* reach. Agents model RF propagation, evaluate coverage quality, and select\nsites against population and points-of-interest density to maximize the served footprint per build.\n\n## Courses\n\n| Code | Course | Level | Credits | Prereqs |\n|---|---|---|---|---|\n| [GROW-101](courses/grow-101.md) | Coverage & RF Planning | Intro | 3 | AGENG-201 |\n| [GROW-220](courses/grow-220.md) | Site Selection & POI Analysis | Core | 4 | GROW-101 |\n\nPart of the [School of Growth & Planning](../../index.md).\n"
+}

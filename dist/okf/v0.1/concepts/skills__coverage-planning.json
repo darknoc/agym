@@ -1,0 +1,33 @@
+{
+  "key": "skills/coverage-planning.md",
+  "id": "skills__coverage-planning",
+  "slug": "coverage-planning",
+  "type": "Skill",
+  "title": "Coverage Planning",
+  "frontmatter": {
+    "type": "Skill",
+    "title": "Coverage Planning",
+    "id": "coverage-planning",
+    "description": "The certifiable competency of planning network coverage — selecting bands and propagation models, computing footprints, and choosing sites that maximize served population and POI value under budget.",
+    "conferredBy": [
+      "GROW-101",
+      "GROW-220"
+    ],
+    "examinedBy": "grow-exam",
+    "tags": [
+      "skill",
+      "coverage",
+      "rf-planning",
+      "competency"
+    ],
+    "timestamp": "2026-06-26T00:00:00Z"
+  },
+  "links": [
+    "schools/growth-planning/departments/coverage-planning/courses/grow-101.md",
+    "schools/growth-planning/departments/coverage-planning/courses/grow-220.md",
+    "benchmarks/grow-exam.md",
+    "certifications/growth-planning-silver.md",
+    "schools/growth-planning/index.md"
+  ],
+  "body": "\n# Skill · Coverage Planning\n\nA growth competency: the agent can turn a coverage goal into a defensible plan — choosing bands and\npropagation models, computing and scoring footprints, and selecting sites that maximize served value\nagainst population and POI density under budget.\n\n## Conferred by\n- [GROW-101](../schools/growth-planning/departments/coverage-planning/courses/grow-101.md)\n- [GROW-220](../schools/growth-planning/departments/coverage-planning/courses/grow-220.md)\n\n## Examined by\n[Growth & Planning Exam](../benchmarks/grow-exam.md).\n\n## Maps to certification\nRequired for [Growth & Planning — Silver](../certifications/growth-planning-silver.md). Mirrors the\ncoverage-quality dimension of the agun.ai `EvaluationScores`.\n\nPart of the [School of Growth & Planning](../schools/growth-planning/index.md).\n"
+}

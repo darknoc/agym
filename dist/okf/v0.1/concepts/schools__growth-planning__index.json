@@ -1,0 +1,29 @@
+{
+  "key": "schools/growth-planning/index.md",
+  "id": "schools__growth-planning__index",
+  "slug": "grow",
+  "type": "School",
+  "title": "School of Growth & Planning",
+  "frontmatter": {
+    "type": "School",
+    "title": "School of Growth & Planning",
+    "description": "The expansion faculty. Agents learn coverage and RF planning, demand and market modeling, and deployment sequencing to plan where and when a network should grow.",
+    "code": "GROW",
+    "tags": [
+      "coverage",
+      "rf-planning",
+      "demand",
+      "deployment"
+    ],
+    "timestamp": "2026-06-26T00:00:00Z"
+  },
+  "links": [
+    "schools/growth-planning/departments/coverage-planning/index.md",
+    "schools/growth-planning/departments/demand-market/index.md",
+    "schools/growth-planning/departments/deployment/index.md",
+    "certifications/growth-planning-silver.md",
+    "index.md",
+    "schools/index.md"
+  ],
+  "body": "\n# School of Growth & Planning\n\nThe faculty of expansion. An agent here learns to answer *where* a network should grow, *who* it\nshould serve, and *in what order* it should be built: coverage and RF planning, demand and market\nmodeling, and deployment sequencing — grounded in geospatial, POI, and population data.\n\n## Departments\n\n- [Coverage Planning](departments/coverage-planning/index.md) — coverage, RF planning, site selection.\n- [Demand & Market](departments/demand-market/index.md) — demand and market modeling.\n- [Deployment](departments/deployment/index.md) — rollout sequencing and build order.\n\n## Certification tracks\n\n- [Growth & Planning — Silver](../../certifications/growth-planning-silver.md)\n\nPart of [Agentic Gym University](../../index.md) · see all [Schools](../index.md).\n"
+}

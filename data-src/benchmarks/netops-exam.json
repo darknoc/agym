@@ -1,0 +1,14 @@
+{
+  "id": "netops-exam",
+  "title": "Network Operations Certification Exam",
+  "school": "NETOPS",
+  "courses": ["NETOPS-101", "NETOPS-150", "NETOPS-210", "NETOPS-220"],
+  "passThreshold": 75,
+  "rubric": { "commandCorrectness": 0.4, "situationalAppropriateness": 0.25, "anticipatedImpact": 0.2, "doilCompliance": 0.15 },
+  "tasks": [
+    { "id": "t1", "title": "Provision and activate a cell site", "prompt": "Drive oss-ran-sim/core-prov-sim to provision and activate a new cell site; verify it carries traffic.", "layer": "commandCorrectness", "maxScore": 100, "rubricNotes": "Site activates and serves traffic." },
+    { "id": "t2", "title": "Sequence work around live traffic", "prompt": "Order RAN/transport changes to avoid degrading active subscribers during a maintenance window.", "layer": "situationalAppropriateness", "maxScore": 100 },
+    { "id": "t3", "title": "Predict coverage/capacity impact", "prompt": "Estimate the coverage and capacity change from the proposed transport reconfiguration.", "layer": "anticipatedImpact", "maxScore": 100 },
+    { "id": "t4", "title": "DOIL intent for the change", "prompt": "Encode the activation as a DOIL intent with rollback constraints.", "layer": "doilCompliance", "maxScore": 100 }
+  ]
+}

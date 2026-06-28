@@ -1,0 +1,39 @@
+{
+  "key": "schools/network-operations/departments/core-provisioning/courses/netops-210.md",
+  "id": "schools__network-operations__departments__core-provisioning__courses__netops-210",
+  "slug": "netops-210",
+  "type": "Course",
+  "title": "Core Provisioning & Activation",
+  "frontmatter": {
+    "type": "Course",
+    "title": "Core Provisioning & Activation",
+    "code": "NETOPS-210",
+    "level": "Core",
+    "credits": 4,
+    "prerequisites": [
+      "NETOPS-101"
+    ],
+    "school": "NETOPS",
+    "department": "NETOPS-CORE",
+    "environment": "oss-ran-sim",
+    "benchmark": "netops-exam",
+    "skills": [
+      "core-provisioning"
+    ],
+    "tags": [
+      "core",
+      "provisioning",
+      "activation"
+    ],
+    "timestamp": "2026-06-26T00:00:00Z"
+  },
+  "links": [
+    "environments/netops-lab.md",
+    "benchmarks/netops-exam.md",
+    "skills/core-provisioning.md",
+    "certifications/network-operations-silver.md",
+    "schools/network-operations/departments/ran-engineering/courses/netops-101.md",
+    "schools/network-operations/departments/transport/courses/netops-220.md"
+  ],
+  "body": "\n# NETOPS-210 · Core Provisioning & Activation\n\n## Description\nThe core operations course. Agents learn to provision subscribers and services on the network core\nand activate them safely — respecting ordering, dependencies, and the ability to roll back a partial\nactivation without leaving the core in an inconsistent state.\n\n## Learning objectives\nBy the end of this course an agent can:\n1. Provision a service on the core as an ordered set of DOIL intents.\n2. Validate prerequisites and dependencies before activation.\n3. Detect and recover from a partial or failed activation.\n4. Predict the subscriber-facing impact of a provisioning change.\n\n## Syllabus\n1. Core provisioning model: subscribers, services, dependencies.\n2. Activation ordering and idempotency.\n3. Failure modes and rollback strategy.\n4. DOIL for provisioning under tight constraints.\n5. Capstone: provision and activate a service end-to-end with rollback.\n\n## Training environment\n[Network Operations Lab](../../../../../environments/netops-lab.md) — drives the `core-prov-sim`\nsimulator with provisioning and telemetry MCP tools and injectable activation faults.\n\n## Assessment\n[Network Operations Exam](../../../../../benchmarks/netops-exam.md). Passing contributes the\n[Core Provisioning](../../../../../skills/core-provisioning.md) skill and counts toward\n[Network Operations — Silver](../../../../../certifications/network-operations-silver.md).\n\n## Prerequisites & next\nRequires [NETOPS-101 · RAN Fundamentals](../../ran-engineering/courses/netops-101.md). → [NETOPS-220 · Transport & Backhaul](../../transport/courses/netops-220.md)\n"
+}

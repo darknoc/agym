@@ -1,0 +1,31 @@
+{
+  "key": "benchmarks/netint-exam.md",
+  "id": "benchmarks__netint-exam",
+  "slug": "netint-exam",
+  "type": "Benchmark",
+  "title": "Network Intelligence Exam",
+  "frontmatter": {
+    "type": "Benchmark",
+    "title": "Network Intelligence Exam",
+    "id": "netint-exam",
+    "description": "The shared examination for the Network Intelligence sequence (NETINT-101/210/220/310). Scores an agent on the four-layer rubric across telemetry, anomaly detection, forecasting, and root-cause tasks.",
+    "environment": "telemetry-sim",
+    "passThreshold": 70,
+    "tags": [
+      "exam",
+      "network-intelligence",
+      "rubric"
+    ],
+    "timestamp": "2026-06-26T00:00:00Z"
+  },
+  "links": [
+    "schools/network-intelligence/departments/observability/courses/netint-101.md",
+    "schools/network-intelligence/departments/observability/courses/netint-210.md",
+    "schools/network-intelligence/departments/forecasting/courses/netint-220.md",
+    "schools/network-intelligence/departments/root-cause/courses/netint-310.md",
+    "skills/anomaly-detection.md",
+    "skills/capacity-forecasting.md",
+    "certifications/network-intelligence-gold.md"
+  ],
+  "body": "\n# Network Intelligence Exam\n\nThe standardized assessment for the School of Network Intelligence. Frozen fixtures live (when built)\nat `public/data/<version>/benchmarks/netint-exam.json`.\n\n## Sections\n| Section | Tasks | Course |\n|---|---|---|\n| Telemetry & Observability | characterize a stream and surface candidate anomalies | [NETINT-101](../schools/network-intelligence/departments/observability/courses/netint-101.md) |\n| Anomaly Detection | tune a detector and defend precision/recall trade-offs | [NETINT-210](../schools/network-intelligence/departments/observability/courses/netint-210.md) |\n| Demand Forecasting | forecast demand with intervals and recommend headroom | [NETINT-220](../schools/network-intelligence/departments/forecasting/courses/netint-220.md) |\n| Root-Cause Analysis | diagnose a multi-signal incident to a validated cause | [NETINT-310](../schools/network-intelligence/departments/root-cause/courses/netint-310.md) |\n\n## Scoring rubric (four layers — shared with agun.ai certification)\n1. **Command correctness** — did the analysis reach the right conclusion?\n2. **Situational appropriateness** — right method for the signal and context?\n3. **Anticipated impact** — did the agent correctly predict consequences and confidence?\n4. **DOIL compliance** — well-formed, constraint-respecting intent throughout.\n\nComposite ≥ **70** passes. Result feeds the [Anomaly Detection](../skills/anomaly-detection.md) and\n[Capacity Forecasting](../skills/capacity-forecasting.md) skills and\n[Network Intelligence — Gold](../certifications/network-intelligence-gold.md).\n"
+}

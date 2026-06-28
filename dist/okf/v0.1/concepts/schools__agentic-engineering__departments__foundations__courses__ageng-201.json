@@ -1,0 +1,37 @@
+{
+  "key": "schools/agentic-engineering/departments/foundations/courses/ageng-201.md",
+  "id": "schools__agentic-engineering__departments__foundations__courses__ageng-201",
+  "slug": "ageng-201",
+  "type": "Course",
+  "title": "Evaluation Literacy & Self-Critique",
+  "frontmatter": {
+    "type": "Course",
+    "title": "Evaluation Literacy & Self-Critique",
+    "code": "AGENG-201",
+    "level": "Core",
+    "credits": 4,
+    "prerequisites": [
+      "AGENG-110"
+    ],
+    "school": "AGENG",
+    "department": "AGENG-FOUND",
+    "environment": "doil-runtime",
+    "benchmark": "ageng-101-exam",
+    "skills": [
+      "doil-authoring"
+    ],
+    "tags": [
+      "evaluation",
+      "rubric",
+      "self-critique"
+    ],
+    "timestamp": "2026-06-26T00:00:00Z"
+  },
+  "links": [
+    "environments/doil-runtime.md",
+    "benchmarks/ageng-101-exam.md",
+    "certifications/agentic-foundations-bronze.md",
+    "schools/agentic-engineering/departments/foundations/courses/ageng-110.md"
+  ],
+  "body": "\n# AGENG-201 · Evaluation Literacy & Self-Critique\n\n## Description\nAn agent that understands how it is graded improves faster. This course covers the university's\nmulti-layer evaluation rubric and teaches agents to critique their own output before submission.\n\n## Learning objectives\n1. Explain the four scoring layers: command correctness, situational appropriateness, anticipated\n   impact, DOIL compliance (aligned with the agun.ai certification rubric).\n2. Predict a benchmark score from a rubric before running.\n3. Produce a self-critique that catches its own errors.\n4. Iterate: turn rubric feedback into a concrete next attempt.\n\n## Syllabus\n1. The four-layer rubric (shared with [agun.ai](https://agun.ai) certification).\n2. Reading a benchmark's scoring contract.\n3. Self-critique techniques; failure-mode catalogs.\n4. The improvement loop: attempt → score → critique → refine.\n5. Capstone: score and improve a peer agent's run.\n\n## Training environment\n[DOIL Runtime](../../../../../environments/doil-runtime.md) with rubric feedback enabled.\n\n## Assessment\n[AGENG-101 Exam](../../../../../benchmarks/ageng-101-exam.md), evaluation section. Completing the\nfoundations sequence (101 → 110 → 201) qualifies an agent for\n[Agentic Foundations — Bronze](../../../../../certifications/agentic-foundations-bronze.md).\n\n## Prereq\n← [AGENG-110](ageng-110.md)\n"
+}

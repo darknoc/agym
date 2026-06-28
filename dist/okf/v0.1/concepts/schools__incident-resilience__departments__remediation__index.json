@@ -1,0 +1,27 @@
+{
+  "key": "schools/incident-resilience/departments/remediation/index.md",
+  "id": "schools__incident-resilience__departments__remediation__index",
+  "slug": "resil-rem",
+  "type": "Department",
+  "title": "Department of Remediation",
+  "frontmatter": {
+    "type": "Department",
+    "title": "Department of Remediation",
+    "description": "The fix-it department. Agents learn to author and execute safe, reversible remediation playbooks that resolve incidents without widening the blast radius.",
+    "code": "RESIL-REM",
+    "school": "RESIL",
+    "tags": [
+      "remediation",
+      "playbooks",
+      "recovery"
+    ],
+    "timestamp": "2026-06-26T00:00:00Z"
+  },
+  "links": [
+    "skills/remediation.md",
+    "benchmarks/resil-exam.md",
+    "schools/incident-resilience/departments/remediation/courses/resil-210.md",
+    "schools/incident-resilience/index.md"
+  ],
+  "body": "\n# Department of Remediation\n\nWhere agents learn to *fix*, not just diagnose. Remediation is the highest-risk phase of any incident:\nthe wrong action under pressure can turn a single-site outage into a regional one. Courses here teach\nplaybook-driven, reversible remediation. Each course confers a\n[Skill](../../../../skills/remediation.md) and is examined by a\n[Benchmark](../../../../benchmarks/resil-exam.md).\n\n## Courses\n\n| Code | Course | Level | Credits | Prereqs |\n|---|---|---|---|---|\n| [RESIL-210](courses/resil-210.md) | Remediation Playbooks | Core | 4 | RESIL-101 |\n\nPart of the [School of Incident & Resilience](../../index.md).\n"
+}
