@@ -1,12 +1,13 @@
 {
   "version": "v0.1",
   "okfVersion": "0.1",
-  "generatedAt": "2026-06-28T09:13:55.743Z",
+  "generatedAt": "2026-06-28T13:27:02.661Z",
   "totals": {
     "Benchmark": 6,
     "Certification": 6,
     "TrainingEnvironment": 6,
     "University": 1,
+    "Lesson": 8,
     "Course": 23,
     "Department": 16,
     "School": 6,

@@ -1,0 +1,32 @@
+{
+  "key": "lessons/customer-360-needs-network-context.md",
+  "id": "lessons__customer-360-needs-network-context",
+  "slug": "customer-360-needs-network-context",
+  "type": "Lesson",
+  "title": "A churn-risk customer is often a network problem wearing a billing mask",
+  "frontmatter": {
+    "type": "Lesson",
+    "id": "customer-360-needs-network-context",
+    "code": "customer-360-needs-network-context",
+    "title": "A churn-risk customer is often a network problem wearing a billing mask",
+    "domain": "commercial",
+    "insight": "Before acting on a customer's commercial profile, know that a large share of 'commercial' dissatisfaction traces to network experience on that customer's specific serving cells, not to price or product.",
+    "evidence": "Joining Customer-360 churn flags to serving-cell experience showed 43% of high-churn-risk consumer accounts were served by cells in the worst experience decile; remediating those cells reduced 90-day churn-intent score by 2.4x more than the best-performing retention offer in the same cohort.",
+    "source": "Customer-360 x RAN experience correlation, retention cohort, 2025-H2",
+    "confidence": "medium",
+    "appliesTo": [
+      "customer-360",
+      "COMM-101",
+      "COMM-220",
+      "NETOPS-220",
+      "comm-exam"
+    ],
+    "applyCount": 0,
+    "tags": [
+      "lesson",
+      "commercial"
+    ]
+  },
+  "links": [],
+  "body": "\nCommercial systems describe a customer in commercial terms — plan, tenure, ARPU, support tickets, churn score — and the instinct is to respond commercially with a discount or a retention call. But the lived experience that drives loyalty happens on the radio. A customer whose home and commute cells drop calls and throttle at busy hour will churn regardless of the offer, and a discount just trains them to threaten leaving.\n\nAn agent working a customer account should pull the experience of that customer's serving cells (home, work, commute corridor) before recommending a commercial action. If the cells sit in the poor-experience tail, the right fix is a network ticket, not a credit — and the commercial action should acknowledge the real cause. This connects the customer-360 view to the netops view that actually explains the behavior.\n\nCaveat: the join requires resolving a customer to their habitual cells, which is privacy-sensitive and approximate; use aggregate serving-cell experience rather than tracking individuals, and treat the network hypothesis as one input alongside genuine pricing and competitive factors.\n"
+}

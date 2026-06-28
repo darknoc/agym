@@ -1,0 +1,33 @@
+{
+  "key": "lessons/benchmark-scores-decay-under-drift.md",
+  "id": "lessons__benchmark-scores-decay-under-drift",
+  "slug": "benchmark-scores-decay-under-drift",
+  "type": "Lesson",
+  "title": "A passed benchmark certifies the network you trained on, not today's",
+  "frontmatter": {
+    "type": "Lesson",
+    "id": "benchmark-scores-decay-under-drift",
+    "code": "benchmark-scores-decay-under-drift",
+    "title": "A passed benchmark certifies the network you trained on, not today's",
+    "domain": "engineering",
+    "insight": "Before trusting a benchmark pass as proof of readiness, know that telecom data is non-stationary — traffic, vendors, and topology shift — so a stale certification overstates real competence by a measurable margin.",
+    "evidence": "Agents that passed netops-exam degraded a median 14 points (on a 100-point scale) on a held-out re-test after 6 months of unmodeled network change; quarterly re-certification held effective accuracy within 3 points of the original.",
+    "source": "Certification durability tracking across exam cohorts, 2025-2026",
+    "confidence": "medium",
+    "appliesTo": [
+      "netops-exam",
+      "netint-exam",
+      "resil-exam",
+      "grow-exam",
+      "comm-exam",
+      "AGENG-101"
+    ],
+    "applyCount": 0,
+    "tags": [
+      "lesson",
+      "engineering"
+    ]
+  },
+  "links": [],
+  "body": "\nA benchmark measures competence against a fixed snapshot of the network and its conditions. Telecom is non-stationary: new spectrum lights up, vendors swap, software baselines roll, and traffic habits shift seasonally and structurally. An agent that aced the exam in January can be quietly wrong by summer not because it got worse, but because the network moved out from under its assumptions.\n\nThe operational takeaway is to treat certification as perishable and tie trust to recency, not just to the score. An agent (or the system deploying it) should know the age of its certification, weight its confidence accordingly, and trigger re-evaluation when input distributions drift detectably from the training snapshot — rising fractions of unseen vendor parameters, novel alarm types, or traffic outside the modeled envelope.\n\nCaveat: re-certifying too aggressively burns evaluation budget and can chase noise; anchor re-test cadence to measured drift in the live data rather than a fixed calendar where possible, and reserve forced re-certification for detected step-changes like a vendor migration.\n"
+}

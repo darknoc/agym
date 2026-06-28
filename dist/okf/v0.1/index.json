@@ -569,6 +569,142 @@
     }
   },
   {
+    "key": "lessons/alarms-lag-the-fault.md",
+    "id": "lessons__alarms-lag-the-fault",
+    "slug": "alarms-lag-the-fault",
+    "type": "Lesson",
+    "title": "The first alarm is usually a victim, not the root cause",
+    "description": "",
+    "links": [],
+    "fm": {
+      "code": "alarms-lag-the-fault",
+      "id": "alarms-lag-the-fault",
+      "tags": [
+        "lesson",
+        "intelligence"
+      ]
+    }
+  },
+  {
+    "key": "lessons/benchmark-scores-decay-under-drift.md",
+    "id": "lessons__benchmark-scores-decay-under-drift",
+    "slug": "benchmark-scores-decay-under-drift",
+    "type": "Lesson",
+    "title": "A passed benchmark certifies the network you trained on, not today's",
+    "description": "",
+    "links": [],
+    "fm": {
+      "code": "benchmark-scores-decay-under-drift",
+      "id": "benchmark-scores-decay-under-drift",
+      "tags": [
+        "lesson",
+        "engineering"
+      ]
+    }
+  },
+  {
+    "key": "lessons/coverage-gaps-are-demand-weighted.md",
+    "id": "lessons__coverage-gaps-are-demand-weighted",
+    "slug": "coverage-gaps-are-demand-weighted",
+    "type": "Lesson",
+    "title": "A coverage gap only matters where people actually are",
+    "description": "",
+    "links": [],
+    "fm": {
+      "code": "coverage-gaps-are-demand-weighted",
+      "id": "coverage-gaps-are-demand-weighted",
+      "tags": [
+        "lesson",
+        "growth"
+      ]
+    }
+  },
+  {
+    "key": "lessons/customer-360-needs-network-context.md",
+    "id": "lessons__customer-360-needs-network-context",
+    "slug": "customer-360-needs-network-context",
+    "type": "Lesson",
+    "title": "A churn-risk customer is often a network problem wearing a billing mask",
+    "description": "",
+    "links": [],
+    "fm": {
+      "code": "customer-360-needs-network-context",
+      "id": "customer-360-needs-network-context",
+      "tags": [
+        "lesson",
+        "commercial"
+      ]
+    }
+  },
+  {
+    "key": "lessons/doil-must-be-executable-not-prose.md",
+    "id": "lessons__doil-must-be-executable-not-prose",
+    "slug": "doil-must-be-executable-not-prose",
+    "type": "Lesson",
+    "title": "A DOIL that reads well but can't be executed teaches the wrong reflexes",
+    "description": "",
+    "links": [],
+    "fm": {
+      "code": "doil-must-be-executable-not-prose",
+      "id": "doil-must-be-executable-not-prose",
+      "tags": [
+        "lesson",
+        "engineering"
+      ]
+    }
+  },
+  {
+    "key": "lessons/forecast-the-busy-hour-not-the-day.md",
+    "id": "lessons__forecast-the-busy-hour-not-the-day",
+    "slug": "forecast-the-busy-hour-not-the-day",
+    "type": "Lesson",
+    "title": "Capacity is exhausted at the busy hour, never at the daily mean",
+    "description": "",
+    "links": [],
+    "fm": {
+      "code": "forecast-the-busy-hour-not-the-day",
+      "id": "forecast-the-busy-hour-not-the-day",
+      "tags": [
+        "lesson",
+        "netops"
+      ]
+    }
+  },
+  {
+    "key": "lessons/ran-changes-follow-the-traffic-curve.md",
+    "id": "lessons__ran-changes-follow-the-traffic-curve",
+    "slug": "ran-changes-follow-the-traffic-curve",
+    "type": "Lesson",
+    "title": "Time RAN changes to the per-cell traffic trough, not the calendar window",
+    "description": "",
+    "links": [],
+    "fm": {
+      "code": "ran-changes-follow-the-traffic-curve",
+      "id": "ran-changes-follow-the-traffic-curve",
+      "tags": [
+        "lesson",
+        "netops"
+      ]
+    }
+  },
+  {
+    "key": "lessons/rollback-is-a-feature-design-it-first.md",
+    "id": "lessons__rollback-is-a-feature-design-it-first",
+    "slug": "rollback-is-a-feature-design-it-first",
+    "type": "Lesson",
+    "title": "A remediation without a tested rollback is a gamble, not a fix",
+    "description": "",
+    "links": [],
+    "fm": {
+      "code": "rollback-is-a-feature-design-it-first",
+      "id": "rollback-is-a-feature-design-it-first",
+      "tags": [
+        "lesson",
+        "resilience"
+      ]
+    }
+  },
+  {
     "key": "schools/agentic-engineering/departments/foundations/courses/ageng-101.md",
     "id": "schools__agentic-engineering__departments__foundations__courses__ageng-101",
     "slug": "ageng-101",
