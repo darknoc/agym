@@ -4,7 +4,7 @@
   "type": "module",
   "description": "The OKF record for agym.ai — the training catalog (schools, courses, benchmarks, environments). Edit knowledge/ + data-src/; CI compiles to dist/; agym.ai reads dist/ as the published overlay.",
   "scripts": {
-    "build": "node scripts/build-okf.mjs && node scripts/build-config.mjs && node scripts/build-benchmarks.mjs && npm run sync",
+    "build": "node scripts/build-okf.mjs && node scripts/build-reports.mjs && node scripts/build-config.mjs && node scripts/build-benchmarks.mjs && npm run sync",
     "sync": "rm -rf dist && mkdir -p dist && cp -r public/okf public/config public/data dist/ && cp public/llms.txt dist/ 2>/dev/null || true"
   }
 }
