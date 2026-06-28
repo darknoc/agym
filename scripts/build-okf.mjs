@@ -45,6 +45,7 @@ const INDEX_FIELDS = [
   'code', 'level', 'credits', 'prerequisites', 'school', 'department', 'id',
   'level', 'passThreshold', 'environment', 'benchmark', 'skills', 'requiredCourses',
   'requiredSkills', 'tags', 'catalogVersion', 'status',
+  'domain', 'insight', 'evidence', 'source', 'confidence', 'appliesTo', 'applyCount', 'avgValue', 'recentOutcomes',
 ];
 
 // ---------- parsing ----------
