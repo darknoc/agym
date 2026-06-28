@@ -1,0 +1,20 @@
+---
+type: Lesson
+id: alarms-lag-the-fault
+code: alarms-lag-the-fault
+title: The first alarm is usually a victim, not the root cause
+domain: intelligence
+insight: Before triaging an incident from alarms, know that fault propagation means the loudest, earliest alarm is usually a downstream symptom, so the alarm stream is evidence to correlate, not a priority queue.
+evidence: In 71% of multi-alarm RAN incidents the root-cause element raised its alarm 30-180s AFTER the first symptomatic alarm from a dependent element; triaging on alarm timestamp alone misdirected the first action in 64% of cases.
+source: NOC incident post-mortem corpus (n=540 P1/P2), 2025-2026
+confidence: high
+appliesTo: [anomaly-detection, incident-response, NETOPS-220, NETINT-210, RESIL-210, netint-exam]
+applyCount: 0
+tags: [lesson, intelligence]
+---
+
+Alarms are emitted by whichever element notices a problem first, which is frequently a victim rather than the culprit. A transport link degrading will make dozens of cells scream about backhaul before the link's own alarm clears its debounce timer. Ordering alarms by arrival time and acting on the top one is the classic trap that sends responders to the wrong site.
+
+An agent should group alarms by topology (shared transport, shared baseband, shared power), then look for the element whose failure would explain the largest fan-out of symptoms — often a single node low in the dependency tree. Correlate against change events too: a fault that begins minutes after a config push points at the change, not the elements complaining.
+
+Caveat: correlation by topology requires an accurate inventory/dependency map; when the topology data is stale, alarm-timestamp ordering is a weak but legitimate fallback — just flag the lower confidence in the incident record.

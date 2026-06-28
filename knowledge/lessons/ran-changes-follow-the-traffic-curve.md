@@ -1,0 +1,20 @@
+---
+type: Lesson
+id: ran-changes-follow-the-traffic-curve
+code: ran-changes-follow-the-traffic-curve
+title: Time RAN changes to the per-cell traffic trough, not the calendar window
+domain: netops
+insight: Before attempting any RAN reconfiguration, know that the calendar maintenance window and the actual per-cell low-traffic trough rarely coincide, and acting on the wrong one drives most self-inflicted outages.
+evidence: Changes executed inside the per-cell PRB-utilization trough (typically 02:00-04:00 local) saw 4.2x fewer customer-impacting reversions (1.9% vs 8.0% reversion rate) than changes run at the fixed 00:00 window across 1,800 change tickets.
+source: DOIL change-window telemetry rollup, 2026-Q1
+confidence: high
+appliesTo: [NETOPS-101, NETOPS-210, ran-operations, remediation, netops-exam]
+applyCount: 0
+tags: [lesson, netops]
+---
+
+RAN engineers inherit a 'maintenance window' from the OSS calendar and assume it is the safe time to act. It usually is not. The window is a contractual convenience; the real safety margin is the traffic trough for the specific cell or cluster you are touching, which drifts by timezone, by site type (residential vs. transit-corridor vs. stadium), and by day of week. A residential macro troughs around 03:00; a highway small cell may never trough below 40% PRB.
+
+The operational insight is to query per-cell utilization for the target sites and schedule against the measured trough, not the global window. An agent applying this pulls the last 7 days of PRB and RRC-connected-user counters, finds the per-site minimum, and stages the change list ordered by trough time so each cell is touched when it is genuinely quiet. A single batch may therefore span several sub-windows rather than firing all at once.
+
+Caveat: troughs collapse during events and holidays, and a cell freshly added to a cluster has no history to trough against — fall back to the conservative global window when the 7-day signal is missing or anomalous.

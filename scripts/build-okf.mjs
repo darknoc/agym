@@ -36,6 +36,7 @@ const TYPE_REGISTRY = {
   Skill: ['title', 'id'],
   Curriculum: ['title', 'id'],
   Certification: ['title', 'id', 'level'],
+  Lesson: ['title', 'id', 'domain', 'insight', 'evidence', 'source', 'confidence', 'appliesTo', 'applyCount'],
   Index: ['title'],
 };
 

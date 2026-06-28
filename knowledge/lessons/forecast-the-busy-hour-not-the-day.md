@@ -1,0 +1,20 @@
+---
+type: Lesson
+id: forecast-the-busy-hour-not-the-day
+code: forecast-the-busy-hour-not-the-day
+title: Capacity is exhausted at the busy hour, never at the daily mean
+domain: netops
+insight: Before forecasting capacity, know that averaging daily or weekly traffic hides the per-cell busy-hour peak that actually triggers congestion and SLA breaches.
+evidence: Cells provisioned to daily-mean forecasts breached the 80% PRB congestion threshold on 38% of days despite mean utilization near 45%; busy-hour-anchored forecasts cut surprise breaches to under 6% of days.
+source: Capacity planning model backtest, national macro layer, 2025-H2
+confidence: high
+appliesTo: [capacity-forecasting, NETOPS-150, NETOPS-210, GROW-210, netops-exam]
+applyCount: 0
+tags: [lesson, netops]
+---
+
+Traffic is bursty and diurnal. A cell can average a comfortable 45% utilization across 24 hours while spending its 19:00-22:00 busy hour pinned at 95% with users dropping. Capacity decisions made on the mean look fine and ship congestion to subscribers. The number that matters is the busy-hour load and its growth trend, not the daily or monthly average.
+
+An agent forecasting capacity should extract the per-cell busy hour (the consistent daily peak window, identified per cell because it varies), fit growth on that series, and compare the projected busy-hour load against the congestion threshold — adding headroom for variance, not just the trend line. Report the date a cell is projected to cross threshold at busy hour, which is the actionable signal for carrier-add or densification.
+
+Caveat: busy hour itself shifts — work-from-home moved many residential cells' peaks earlier and broadened them. Re-identify the busy hour each forecast cycle rather than caching last quarter's window.

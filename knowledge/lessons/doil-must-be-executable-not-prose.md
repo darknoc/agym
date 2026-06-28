@@ -1,0 +1,20 @@
+---
+type: Lesson
+id: doil-must-be-executable-not-prose
+code: doil-must-be-executable-not-prose
+title: A DOIL that reads well but can't be executed teaches the wrong reflexes
+domain: engineering
+insight: Before authoring operational instructions (DOIL), know that the value is in deterministic steps with machine-checkable pre/postconditions — narrative guidance silently fails when an agent has to act on it.
+evidence: DOIL procedures with explicit machine-checkable preconditions and verification steps were executed correctly by agents 92% of the time vs. 54% for prose-style runbooks describing the same task across a 120-procedure eval.
+source: DOIL authoring benchmark, ageng curriculum eval, 2026-Q1
+confidence: high
+appliesTo: [doil-authoring, AGENG-110, AGENG-201, ageng-101-exam]
+applyCount: 0
+tags: [lesson, engineering]
+---
+
+Human runbooks lean on prose: 'check that the link looks healthy, then carefully apply the change.' A human fills the gaps with judgment; an agent cannot. Words like 'healthy', 'carefully', and 'if needed' are unverifiable, so an agent either guesses or stalls. A DOIL is not documentation — it is a program the agent runs, and it needs the rigor of one.
+
+When authoring DOIL, every step should have a precondition that can be checked (a metric comparison, a state assertion), a single concrete action, and a postcondition that confirms the action took effect before the next step proceeds. Branches must be exhaustive — every checked condition needs a defined path, including the failure path. The goal is that two different agents executing the same DOIL on the same state take the same actions.
+
+Caveat: over-specification is its own failure — a DOIL hard-coded to one vendor's parameter names breaks on the next vendor. Parameterize the environment-specific bits and keep the control flow vendor-neutral so the procedure stays portable across the fleet.
